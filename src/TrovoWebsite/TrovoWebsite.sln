@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrovoWebsite", "TrovoWebsite\TrovoWebsite.csproj", "{420C7C76-B3E6-4DBE-8830-278BCC91FDBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrovoWebsite.Tests", "TrovoWebsite.Tests\TrovoWebsite.Tests.csproj", "{285DF57B-4028-4C87-A2BA-22D8DEF7EB08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{420C7C76-B3E6-4DBE-8830-278BCC91FDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420C7C76-B3E6-4DBE-8830-278BCC91FDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420C7C76-B3E6-4DBE-8830-278BCC91FDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420C7C76-B3E6-4DBE-8830-278BCC91FDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285DF57B-4028-4C87-A2BA-22D8DEF7EB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285DF57B-4028-4C87-A2BA-22D8DEF7EB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285DF57B-4028-4C87-A2BA-22D8DEF7EB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285DF57B-4028-4C87-A2BA-22D8DEF7EB08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50D854C8-FF6D-4841-86C9-4A303A283D81}
+	EndGlobalSection
+EndGlobal
