@@ -1,31 +1,11 @@
-## Welcome to the Trovo Website
+## Why hello there
 
-Let's begin with the story of how this markdown was rendered on the Home Page.
+This is the personal website of (Dr.) Dave Gerrard (of Philosophy, certainly not Medical).
 
-1. I setup the bare minimum MVC project in .Net 6.1 (because my web hosting is cheap / cheerful / old).
-2. I added the [Markdig](https://github.com/xoofx/markdig) Nuget package.
-3. I added the first test for a simple file accessor.
-4. I used that to return this very file in the HomeController, and add it to the ViewBag.
-5. Then I just tried to put the bare minimum [Bootstrap](https://getbootstrap.com) in to get a layout working
+There's not a _tremendous_ amount here at the moment, the site is basically a scratch-pad for all the various things I'm interested in.
 
-It wasn't rendering links properly because I wrote the Markdown wrong... :)
+To begin with, the main thing I'm putting on here is the continuing (hopefully long-running) story of [how I'm building this website](Articles/BuildingThisWebsite). (It's a bit "meta" innit?)
 
-### To do next
+The Domain __Trovo.co.uk__ used to point to the website of [my consultancy firm](https://find-and-update.company-information.service.gov.uk/company/06396653), but that's currently dormant while I do a permanent, full time day job ([vague details here](https://www.linkedin.com/in/dave-gerrard-a806411/)). But I ain't going to be blogging about work here...
 
-Deploy!
-
-Get the HomeController tests uncommented out and working OK - which might need Dependency Injection sorting out, or at least some chained constructors.
-
-Realise that I can't access the file because of how the permissions are set up on my web hosting!
-
-Refactor the Markdown generation away from the Controller, so that the Controller's only job is to chuff strings of HTML to the View. (Probably make it all static).
-
-Make it look nice. (There's all sorts of pipelines for rendering Markdown with Bootstrap etc etc.
-
-### To do eventually
-
-Oooh the possibilities! It'll need navigation, and a responsive design, and a search engine. 
-
-And lions, and tigers, and bears, oh my!
-
-Etc.
+If you're more into the academic side of things then here's my [ORCID profile](https://orcid.org/0000-0002-5659-4720).

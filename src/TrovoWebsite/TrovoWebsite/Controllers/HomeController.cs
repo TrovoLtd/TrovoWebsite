@@ -10,17 +10,30 @@ namespace TrovoWebsite.Controllers
 {
     public class HomeController : Controller
     {
+        private FileAccessor _fileAccessor = new FileAccessor();
+
         public ActionResult Index()
         {
-            string filePath = Server.MapPath(Url.Content("~/Content/Home.md"));
+            RenderMarkdownContent("Home");
 
-            FileAccessor fileAccessor = new FileAccessor();
-
-            string content = fileAccessor.Access(filePath);
-            
-            ViewBag.Content = Markdown.ToHtml(content);
-            
             return View();
+        }
+
+        [Route("Articles/{articleShortName}")]
+        public ActionResult Articles(string articleShortName)
+        {
+            RenderMarkdownContent(articleShortName);
+
+            return View("~/Views/Home/Index.cshtml");
+        }
+
+        private void RenderMarkdownContent(string articleShortName)
+        {
+            string filePath = Server.MapPath(Url.Content($"~/Content/{articleShortName}.md"));
+
+            string content = _fileAccessor.Access(filePath);
+
+            ViewBag.Content = Markdown.ToHtml(content);
         }
     }
 }
