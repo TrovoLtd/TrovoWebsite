@@ -10,7 +10,7 @@ Let's begin with the story of how this markdown was rendered on the Home Page.
 
 It's pretty much been the dictionary definition of JAFLOC (Just A Few Lines Of Code) to get the basics of a blog that I can  manage with a Markdown editor.
 
-You can [get into its innards](https://github.com/TrovoLtd/TrovoWebsite) on GitHub, with the added bonus that the Markdown that's rendered here gets version controlled over there... So I'll never be able get away with doing a Dominic Cummings and editing any of this after the fact to make myself look clever. 
+You can [get into its innards](https://github.com/TrovoLtd/TrovoWebsite) on GitHub, with the added bonus that the Markdown that's rendered here [gets version controlled over there](https://github.com/TrovoLtd/TrovoWebsite/tree/main/src/TrovoWebsite/TrovoWebsite/Content)... So I'll never be able get away with doing a Dominic Cummings and editing any of this after the fact to make myself look clever. 
 
 ### To do next
 
