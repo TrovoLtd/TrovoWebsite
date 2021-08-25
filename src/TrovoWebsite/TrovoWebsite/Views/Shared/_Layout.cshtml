@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet" />
 
     <title>Trovo: what are you looking at?</title>
 
@@ -14,26 +15,29 @@
 
 <body>
 
-    <div class="container body-content px-10">
+    <div class="container-fluid">
 
         <div class="row bg-primary text-white mb-4">
             <h1 class="display">Trovo</h1>
-            <h6 class="display">What are you looking at?</h6>
         </div>
 
         <div class="row">
 
-            <div class="col-2">
-                <ul>
-                    <li><a href="~/">Home</a></li>
-                    <li><a href="~/Articles/BuildingThisWebsite">Software Engineering</a></li>
-                    <li><a href="~/Articles/DigipresIdeas">Digital Preservation</a></li>
-                </ul>
+            <div class="col-sm-auto sticky-top bg-white pb-3">
 
-                
+                <div class="d-flex flex-sm-column flex-row flex-nowrap sticky-top">
+
+                    <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto justify-content-between w-100 px-3">
+                        <li><a class="text-decoration-none" href="~/"><i class="bi-house fs-3"></i> Home</a></li>
+                        <li><a class="text-decoration-none" href="~/Articles/BuildingThisWebsite"><i class="bi-tools fs-3"></i> Code</a></li>
+                        <li><a class="text-decoration-none" href="~/Articles/DigipresIdeas"><i class="bi-hourglass-split fs-3"></i> Digipres</a></li>
+                    </ul>
+
+                </div>
+
             </div>
 
-            <div class="col-9">
+            <div class="col-sm p-3 min-vh-100">
 
                 @RenderBody()
 
