@@ -14,7 +14,7 @@ Those who have been working in the web area for a long time will know that there
 
 
 
-![Solid - Top-Level Bounded Contexts](D:\MyFiles\Misc\GitHub\TrovoWebsite\src\TrovoWebsite\TrovoWebsite\Content\images\SolidPodContexts.png)
+![Solid - Top-Level Bounded Contexts](images/SolidPodContexts.png)
 
 
 
