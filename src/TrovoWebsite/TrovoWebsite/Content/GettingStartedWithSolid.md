@@ -4,9 +4,9 @@ My PhD research had quite a lot to do with Social Media. I started it in 2012, w
 
 However, it wasn't all doom and gloom: one the things I learned was that it's not Social Media per-se that's at fault for the way things have gone, it's *the business models of the industrial Social Media companies* that are the problem. Of course, those companies don't really have 'business models' in the traditional, fuddy-duddy sense of: "doing something valuable that people want to pay for"; they run on a "get plenty of eyeballs using your platform and try to convince investors you'll be able to monetise that one day" model... So they have a major focus on the "eyeballs" part of that equation - people have to pretty much get addicted to these big platforms, or the fountain of Investment Capital runs dry, as this [Guardian long-read by Richard Seymour](https://www.theguardian.com/technology/2019/aug/23/social-media-addiction-gambling) explains. 
 
-A crucial piece of the addiction puzzle is that nothing's going to guarantee "engagement" better than a good, old fashioned screaming match, at least in the way Social Media companies and their investors define "engagement". Genteel agreement, on the whole, results in one "yes you're right" type post per participant, but if we all want to have the last word, well... 
+A crucial part of the addiction game is that nothing's going to guarantee "engagement" better than a good, old fashioned screaming match, at least in the way Social Media companies and their investors define "engagement". Genteel agreement tends to result in one "yes you're right" type post per participant, but if we all want to have the last word, well, that's when the numbers start to ramp up... 
 
-Every post of Donald Trump's initiated a million "no you're the asshole, no you're the asshole" backs-and-forths that Twitter and Facebook could add to their "engagement" stats, to help put some "good" numbers in front of investors. Hence Trump being allowed to go all the way up to encouraging people to attack the Capitol Building before they switched him off. This situation of arguments and dissent producing "high engagement" is not what anyone sane would call healthy, is it?
+Every post of Donald Trump's initiated a million "... no you're the asshole! No, *you're* the asshole!" backs-and-forths that Twitter and Facebook could add to their "engagement" stats, to help put some "good" numbers in front of investors. Hence Trump being allowed to go all the way up to encouraging people to attack the Capitol Building before they switched him off. This situation of arguments and dissent producing "high engagement" is not what anyone sane would call healthy, is it?
 
 My research, therefore, concurred with many others... For Social Media to actually deliver upon early promises of "the wisdom of crowds" and "bottom-up democratic structures", it needs to be decentralised from big, industrial players. Just the concept of making an industry out of people's friendships seems wrong, doesn't it? 
 
@@ -29,3 +29,19 @@ Another thing that DDD tells us is that such first pass attempts at understandin
 Eric Evans's [original book about DDD](https://www.abebooks.co.uk/book-search/isbn/0321125215/?cm_mmc=ggl-_-UK_ETA_DSA-_-naa-_-naa&gclid=Cj0KCQiA15yNBhDTARIsAGnwe0Un_0rHUV-jIFMqSB1SUQ4gcyDnN3AoWXnfyR9IrsRbGdQ5hJp32NkaAjEnEALw_wcB) (so significant that he coloured it blue, too) is 20 years old, now, so it discusses the Domain Model's place in a "layered architecture" in a way that seems a little dated nowadays. However, a core DDD concept is that "the Domain" is intended to be a "representation of business information", which ought to be isolated from "Presentation", "Application" and "Infrastructure" layers. Even if the "layered" way of thinking about this seems a bit clunky these days, this need to isolate "a representation of business" from the other moving parts still definitely holds true if you want to be able to make quick and timely changes to your software as new opportunities come to light.
 
 Solid, then, looks to me like it's actually got its fingers more in the Application and Infrastructure parts of the pie, so the trick is probably going to be how to adapt it for each Domain we want to apply it to. It's highly likely that the People (i.e. Owners and Users) will have significantly different needs from Domain to Domain, too. So another question is probably:  "...how might we come up with processes to adapt Solid accordingly?" But I'm going to have to dive a lot more deeply into it before I can try to answer that.
+
+## My main problems with Solid (so far)
+
+The key issues I have with Solid relate to the early and copious use of the word "document" in its specification, e.g.:
+
+**data pod**
+
+*A data pod is a place for storing documents, with mechanisms for controlling who can access what.*
+
+... which is the fundamental piece of terminology at the top of the [main protocol spec](https://solidproject.org/TR/protocol). Those of you that have waded through my [positioning piece on Digital Preservation](/Articles/DigipresIdeas) will know that I have a bit of a problem with the concept of *documents* when it comes to Digital Stuff; documents are, IMHO, very much part of the "Paperdigm" and thinking in those old publishing terms is too fixed, inflexible and grounded in real physicality to do justice to what makes Digital Stuff different.
+
+Also, initially it feels as if Solid also depends too much upon ideas of *originality* that I also find problematic. Yes, you can theoretically own all the content in your Pod and control who accesses it with what applications, but at the end of the day, it's digital, so if someone can use it, then they can copy it. 
+
+However, it's definitely an interesting idea, particularly the way in which content and identity seem to be so closely related within its underlying model. That in particular feels like its at least getting closer to the root of something good. So I shall keep chipping away at trying to understand it better.
+
+As part of that, I've made some notes about [a couple of domains](/Articles/SolidDomains) that I think we could build a couple of good Solid applications in. 
