@@ -49,3 +49,13 @@ The Twelve Angry Snakes
 Deliver value *constantly*.
 
 Get better at doing it (also *constantly")
+
+## WTF is "value" exactly?
+
+Brace yourselves as I'm probably going to bang on about my PhD in this bit...
+
+### Bad news - value is subjective
+
+### Good news - it *can* be measured (at least roughly)
+
+Increased profit, reduced costs, reduced risks.
