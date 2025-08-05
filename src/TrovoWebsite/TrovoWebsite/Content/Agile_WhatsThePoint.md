@@ -14,6 +14,12 @@ This is the Mind Map of the article I'm writing.
 
 ### Univeral Machines and infinite spaces
 
+### Lack of friction
+
+Lots more uncertainty.
+
+Ripe for disruption - very low barriers to entry.
+
 ### Manufactured constraints
 
 ## Why information and knowledge work is so different
