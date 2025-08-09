@@ -1,6 +1,14 @@
 # We have forgotten the point of Agile
 
-This is the Mind Map of the article I'm writing.
+## TLDR of the whole series
+
+1. **Have we forgotten the point of "Agile"?** Yes! First and foremost, it was a defensive way of delivering work in a frictionless, unconstrained un-reality of infinite possibilities. Once we remember this, it all makes a lot more sense.
+2. **"Agile" Ant-Patterns:** when software engineers, product people and designers all work at loggerheads to each other, it all goes belly up. And even more so when the ways we strategise *aren't* agile.
+3. **Valuable agility:** conversely, when software, product and design collaborate beautifully, it's possible to navigate the "digital realm*" not only safely, but in ways that put you way ahead of the competition.
+
+\* Working in software production often feels like the Quantum Realm from Ant-Man but *a lot* weirder.
+
+This is the Mind Map of the "forgotten the point" article.
 
 ![Article Mind Map](./images/Agile_ForgettingThePoint_MindMap.png)
 
