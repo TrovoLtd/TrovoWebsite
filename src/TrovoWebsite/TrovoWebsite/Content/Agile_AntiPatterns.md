@@ -1,6 +1,10 @@
-# Agile Anti-Patterns \*
+# Agile\* Anti-Patterns
 
 \* Not only but mostly
+
+This is the Mind Map of the "Agile anti-patterns" article.
+
+![Article Mind Map](./images/Agile_AntiPatterns.png)
 
 ## TLDR
 
@@ -8,15 +12,15 @@ Because we're working in a frictionless universe of infinite possibilities, you 
 
 If you'd like to justify your professional salary while you're doing that, you can either card-carry your expertise around (in the case of disfunctional programmers and designers), or wave your capital A Agile certificates around and use big words from business school (in the case of disfunctional Product people).
 
-None of this is agile (lower case a), because it's highly unlikely to deliver any value, unless you get once-in-a-career lucky.
+None of this is agile (lower case a), because it's highly unlikely to deliver any value, unless you get at-best-once-in-a-career lucky.
 
-If you'd like to skip the detail and find out how to do a much better job, check out the next article, but you'll miss a lot of snarky fun.
+If you'd like to skip the detail and find out how to use the frictionlessness of the digital realm to actually play the percentages of success better, check out the next article. But you'll miss a lot of snarky fun if you do.
 
 ## Making stuff up as you go along and calling it "Agile"
 
 ### Not doing all the things
 
-Cherry picking "the bits of Agile that suit us". See article 1 and the 12 Angry Snakes - you have to do *all the things*, because each one stops at least one of the others from biting you in the arse. 
+Cherry picking "the bits of Agile that suit us". See article 1 and the 12 Angry Snakes - you have to do *all the things*, because each one stops at least one of the others from biting you in the arse.
 
 ### Doing too much in one go
 
@@ -31,6 +35,15 @@ Hey - there *will be a design*, but if you haven't worked on it explicitly, it'l
 ### Heroism
 
 Hero programmers who dive straight into code based upon half-muttered sentences that start "we want a...", proceed to tie themselves up in knots, but keep going anyway because they don't want to throw their valueless work away.
+
+Ditto heroic designers who dive straight into colour theory, typeface choices, mood-boards etc - because (just like code) "design is special and you need to be talented to do it".
+
+I'm **not** saying that neither of these endeavours require knowledge and talent. I **am** saying that all the talent in the world won't help if you don't attempt to understand the problems you're trying to solve. Indeed - amazing skill and talent makes things worse if you deploy it too early as it:
+
+* Takes you off in the wrong direction, *away* from the better solutions.
+* Sometimes makes you less objective about the facts of the case, particularly ones that contradict any hard-earned beliefs you might have built up over your glittering career.
+
+Here's a proposal for a simple definition of heroic behaviour: "not listening to the people with the problem because I already know the answer". 
 
 ## Staff working at cross-purposes
 
@@ -66,13 +79,17 @@ Who lack technical confidence, and so seek to justify their existences.
 
 ## Too many meetings about nothing in particular
 
-### Pointless cadence
+### Unproductive cadence
+
+A lot of capital-A-Agile teams insist upon "ceremonies" held at regular times throughout Sprint and release cycles. I've had t work in this way and in my experience it was unproductive because it forces engineers to demonstrate work when they're not ready, or on the flipside, to wait until the next "ceremony" to demonstrate and release work that *is* ready.
+
+Set times for demonstrations of work that isn't valuable can cause a vicious circle: customers come to a couple of demos but quickly decide they're not going to see anything useful, so stop coming. This results in less feedback to work with, resulting in even less valuable work to demonstrate next time. Pretty soon demos are being held between the team and engineers themselves, with never a customer in sight.
 
 ### Customers conspicuous by absence
 
 ### Continuous improvement as an abstract concept
 
-When you don't have measures of: 
+When you don't have measures of:
 
 * The value you're delivering
 * The quality of your work\*
@@ -111,9 +128,11 @@ A big part of this can be chalked down to "people not getting *all* of it. Case 
 
 A lot of engineers agree with the whole "I know what I'm doing and my design is solid, so why do I need to test it argument", and it is superficially reasonable up to a point. But where it falls over relates to:
 
-* Working software over comprehensive documentation
+* Working software over *comprehensive documentation*
 
 If you only conceive of Unit Tests as "proof my code worked when I pushed it" then you *really are missing the point*. Your tests aren't for you, today. They're for the poor bastard who, six months later, has to diagnose an issue related to the part of the codebase you changed. (**Note:** that poor bastard might also be you, though as an old boss liked to put it "it helps if you imagine they're a mad person with a pick-axe, who knows where you live").
+
+In other words, the proof that the software worked when you left it is also the documentation people will need in the future to work out WTF it does. (They won't read your comments - so why not use all the time it takes you to write them to write tests instead? One reason is often "because I don't know how to design my code to be testable".)
 
 If you think of Unit Tests just as "tests" and not as bits of **executable documentation** that let you step into an app with a debugger to find out how it hangs together, and how it behaves, without having to run the whole thing end-to-end, then you don't know as much about working on enterprise code-bases as you think you do.
 
@@ -123,12 +142,26 @@ That said - there **are** also a lot of pointless tests in the world, and measur
 
 There just aren't enough genuinely good software engineers in the world unfortunately.
 
-If you're at the top of the software engineering tree, working at enterprise scale with medium sized / lots of data (anything above four or five million data points a day, say) you need to *really* understand the languages you're working with. So, for example, if you're a C# engineer, and you want to get to the top of the ladder, you need to learn how to recite C# In Depth by John Skeet backwards. Not enough people can.
+If you're at the top of the software engineering tree, working at enterprise scale with medium sized / lots of data (anything above four or five million data points a day, say) you need to *really* understand the languages you're working with. So, for example, if you're a C# engineer, and you want to get to the top of the ladder, you need to learn how to recite C# In Depth by John Skeet, forwards and backwards. Not enough people can do this, but a lot of people do get paid *as if they can*.
 
-One person who loves this is Jeff Bezos, who charges for all the unnecessary compute that results from people not having what my old boss calls "mechanical sympathy" with what the systems they're abusing actually do. If you're pushing code to AWS without even knowing how to use a profiler, then it's partly your fault that we all had to sit through Katy Perry going to space (nearly).
+One person who loves this situation is Jeff Bezos, who charges for all the unnecessary compute that results from people not having what my old boss calls "mechanical sympathy" with what the systems they're abusing actually do. So if you're pushing code to AWS without even knowing how to soak test it with a profiler running, then it's partly your fault that we all had to sit through Katy Perry going to space (nearly).
 
 See also...
 
 ## Unknown (but spiralling) costs
 
+### Value = Benefits MINUS Costs
+
+Just like everything has a design, ditto with business models. You may not have thought about the costs and benefits of your endeavour explicitly, instead chosing to launch straight into coding and design, and make stuff up as you go.  But guess what? Your project / product is still going to make or lose money, regardless. However, if you *haven't* put any thought and effort into modelling the changes you make, then there's a much greater chance that it won't make money, or if to does, that margins will be slim.
+
+This can't ever just be a "Product thing", either. Yes, Product people are probably the best owners of business models, but Designers and (in particular) Engineers can't be let off the hook, for the costs if nothing else. As just mentioned above, in our cloud-computing world, runnng sub-optimal code eats into margins in the form of unnecessary operating costs.
+
 ## Is this all the fault of Scrum?
+
+### There's nothing too offensive in the Scrum Guide
+
+### It's just certification that's the issue
+
+Too many people in software who don't have the deeper understanding of it required to do it properly.
+
+I'm not saying this to exclude people - everyone can learn. But you do have to learn. Software engineering, production and design are professions, and as such they're well paid. But you have to earn that salary. If you're in those professions and you don't spend time and money on your own personal development, then you'll be actively doing harm to the organisations you work for and the people you work with.
