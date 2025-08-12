@@ -43,7 +43,7 @@ I'm **not** saying that neither of these endeavours require knowledge and talent
 * Takes you off in the wrong direction, *away* from the better solutions.
 * Sometimes makes you less objective about the facts of the case, particularly ones that contradict any hard-earned beliefs you might have built up over your glittering career.
 
-Here's a proposal for a simple definition of heroic behaviour: "not listening to the people with the problem because I already know the answer". 
+Here's a proposal for a simple definition of heroic behaviour: "not listening to the people with the problem because I already know the answer".
 
 ## Staff working at cross-purposes
 
@@ -146,7 +146,23 @@ If you're at the top of the software engineering tree, working at enterprise sca
 
 One person who loves this situation is Jeff Bezos, who charges for all the unnecessary compute that results from people not having what my old boss calls "mechanical sympathy" with what the systems they're abusing actually do. So if you're pushing code to AWS without even knowing how to soak test it with a profiler running, then it's partly your fault that we all had to sit through Katy Perry going to space (nearly).
 
-See also...
+## Is this all the fault of Scrum?
+
+### Superficial knowledge in everybody else, too
+
+Digital systems production is just hard. My old boss used to say "it's not a magic bullet" - just because it can be made to work, it doesn't make it easy. So it's not only the engineers that need to know their stuff, everybody does, including those in senior management.
+
+### There's nothing too offensive in the Scrum Guide
+
+Allen Holub says this. He also describes Scrum as "things that make 'Agile' palatable to management, without actually being agile".
+
+So the issue there is "management" - and that's how we end the final article.
+
+### It's just certification that's the issue
+
+Too many people in software who don't have the deeper understanding of it required to do it properly.
+
+I'm not saying this to exclude people - everyone can learn. But you do have to learn. Software engineering, production and design are professions, and as such they're well paid. But you have to earn that salary. If you're in those professions and you don't spend time and money on your own personal development, then you'll be actively doing harm to the organisations you work for and the people you work with.
 
 ## Unknown (but spiralling) costs
 
@@ -156,12 +172,6 @@ Just like everything has a design, ditto with business models. You may not have 
 
 This can't ever just be a "Product thing", either. Yes, Product people are probably the best owners of business models, but Designers and (in particular) Engineers can't be let off the hook, for the costs if nothing else. As just mentioned above, in our cloud-computing world, runnng sub-optimal code eats into margins in the form of unnecessary operating costs.
 
-## Is this all the fault of Scrum?
+## Agile engineering with waterfall product
 
-### There's nothing too offensive in the Scrum Guide
-
-### It's just certification that's the issue
-
-Too many people in software who don't have the deeper understanding of it required to do it properly.
-
-I'm not saying this to exclude people - everyone can learn. But you do have to learn. Software engineering, production and design are professions, and as such they're well paid. But you have to earn that salary. If you're in those professions and you don't spend time and money on your own personal development, then you'll be actively doing harm to the organisations you work for and the people you work with.
+Did I mention having to do *all the things*? I believe I did. That includes strategising, and getting tactical, in small-a-agile ways. This is what the next article is about, and there's a growing body of literature / help / advice about it.
