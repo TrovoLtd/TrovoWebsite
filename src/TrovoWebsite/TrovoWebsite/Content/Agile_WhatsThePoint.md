@@ -12,26 +12,26 @@ This is the Mind Map of the "forgotten the point" article.
 
 \* It's like the Quantum Realm from Ant-Man but with *a lot more meetings*.
 
-## Whose bandwagon am I shamelessly jumping onto?
+## Upon whose bandwagon am I jumping?
 
-Why - Dave Thomas's of course... He famously\* declared "[Agile is dead](https://youtu.be/a-BOSpxYJ9M?si=m5g_B7sa9_wK06cp)" in 2015, and that opened the door for a great many others to jump through. A large cohort of these folks seem to be computer programmers who don't like meetings (more in the next one), but it also struck a chord with Dave's fellow dignitaries of the agilista community - particularly the Scrummy ones, who walked out (Dave says).
+Why - Dave Thomas's of course... He famously\* declared "[Agile is dead](https://youtu.be/a-BOSpxYJ9M?si=m5g_B7sa9_wK06cp)" in 2015, and that opened a door that a great many others have jumped through. A large cohort of these folks seem to be computer programmers who don't like meetings (more in the [next one](./Agile_AntiPatterns.md)), but it also stirred up a good few of Dave's fellow manifesto signatories and fellow travellers.
 
-Dave's most elegant point concerns the difference between:
+\* Famously *for a computer programmer* - Dave's not Taylor Swift, exactly. Indeed he's not even Sue Pollard. But his talk has had 1.4 million views.
+
+Dave made an elegant point concerning the difference between:
 
 * **"Small-a-agility":** where agile remains an adjective, i.e. something describing behaviour.
 * **"Capital-A-Agile":** which is a noun, i.e. something you can package up into a certified training course and sell to people.
 
-I like this concept so I'm going to steal it for these articles. I'm also going to refer to the [update he's started giving](https://youtu.be/bEMg9XXIcew?si=WMmJucZFqZma3xt0) to the original talk, too.
-
-\* Famously *for a computer programmer* - Dave's not Taylor Swift, exactly. Indeed he's not even Sue Pollard. But his talk has had 1.4 million views.
+I like this distinction so I'm going to steal it for these articles. I'm also going to refer to the [update he's started giving](https://youtu.be/bEMg9XXIcew?si=WMmJucZFqZma3xt0) to the original talk, too.
 
 ## Does *anyone* remember the point?
 
-The OG agilistas Allen Holub and Dave Farley\* [get near to the point](https://youtu.be/hxXmTnb3mFU?t=665) - Dave talks about small-a-agility "opening up infinite possibilities" as opposed to being "fundamentally constrained" by big-design-up-front. But it's not the *agility* that opens-up infinite possibilities, and "waterfall approaches" can't and don't ever *actually* constrain you.
+The OG agilistas Allen Holub and Dave Farley\* [get not quite but near to the point](https://youtu.be/hxXmTnb3mFU?t=665) - Dave F talks about small-a-agility "opening up infinite possibilities" as opposed to being "fundamentally constrained" by big-design-up-front. But that's not quite it: it's not the *agility* that opens-up infinite possibilities, and "waterfall approaches" can't and don't ever *actually* constrain you.
 
-Working in the Digital Realm *causes* these endless, frictionless possibilities, which no amount of up-front-design can cope with. Designs and concepts in the Digital Realm refuse to remain fixed. Even the most detailed of design drawings will get diddled with as soon as you try and implement it, and even assuming you get close, it won't be long before you've tweaked the implementation out of step with the design; purely *because you can*, and you'll interpret it differently to the intention.
+Working in the Digital Realm *causes* these endless, frictionless possibilities, which no amount of up-front-design can cope with. Designs and concepts in the Digital Realm refuse to remain fixed. Even the clearest design drawing will get diddled with as soon as you try and implement it, and even assuming you get close, it won't be long before you've tweaked the implementation out of step with the design; *because you can*, and coding itself mediates your interpretation, and so there will always been at least some variation from the intention.
 
-Small-a-agility was originally conceived as a *defence mechanism to cope with all this*. This is what we have lost sight of, because once you *can* defend yourself against the chaos, you also gain loads of advantages. People focus on those because it's where the promise of money sits - but understanding how it helps with the pitfalls is an easier first step to take.
+Small-a-agility was originally conceived as a *defence mechanism to cope with all this*. This is what we have lost sight of, because once you *can* defend yourself against the chaos of infinite possibilities, you also gain loads of advantages from being able to ride it out. People focus on those advantages because it's where the promise of money sits - but understanding how an aile approach helps with the pitfalls is an easier first step to take.
 
 \* I'll probably refer to Dave Farley a lot in these articles. Just in case you don't know, Dave co-wrote [Continuous Delivery](https://martinfowler.com/books/continuousDelivery.html); a strong candidate for being **the** Bible of small-a-agile software engineering.
 
@@ -178,19 +178,23 @@ In 2012 I ~~committed career suicide~~\* paused my industrial career to go and d
 
 \*\* Heaven forbid I ever get confused for a real doctor - though that's highly unlikely.
 
-I spent about three months researching alternative ways of thinking about "value" rather than just counting shekels. I conducted this research in the museums, libraries and archives sector *specifically because* there's (supposedly) less of a focus on cash money in that sector. I did all this just after a decade or more of New Labour pretending (barely / badly) that there might be more to life than money.
+I spent about three months researching alternative ways of thinking about "value" rather than just counting shekels. I conducted this research in the museums, libraries and archives sector *specifically because* there's (supposedly) less of a focus on cash money in that sector. I did all this just after a decade or more of New Labour pretending (barely / badly) that there might be more to life than money, and engaging various consultants and spads to find out what such magic ingredients might be.
 
-Looking back on it, all this effort *might* actually have been some sort of quest to find out what "value" *actually is*, because The Manifesto for Agile Software Development sure as hell doesn't tell you. Remember, all the signatories to The Manifesto were *software engineers*. Some of them (possibly only one of them - Jim Highsmith - who features prominently in the [third article](./Agile_Value.md)) seemed to realise that, in the Digital Realm, we just can't rely upon business people to tell us what value is - they simply don't know and can't work it out without some help.
-
-Most of the rest come across as 'doing the engineer thing' - farming out the responsibility for defining value to the business people and trusting them to get it right. (Dave Thomas seems a prime example of this - see the part about "units of value" in his [second talk](https://youtu.be/bEMg9XXIcew?si=WMmJucZFqZma3xt0) - wtf is a "unit of value" exactly?) But absolving ourselves of the responsibility for defining value just doesn't cut it - for small-a-agility to work, we all have to be on the same team, and we're *all* on the hook. Engineers, especially, are on the hook for working out *the costs* of both delivering *and running / maintaining* the software...
-
-... because *value* = "benefits **MINUS** costs". It's what's left over after you've paid Bezos your compute bill, and the first and second-line support crew have claimed overtime for the incident where they all had to get out of bed at 2am because your thing didn't work, and you didn't give them any clues to find out what was wrong with it. Etc.
-
-Obviously there *is* more in this life than filthy lucre, but in a capitalist society, pounds, shillings and pence\* are *the SI unit of value*, to which all endeavours must be converted so we can make apples-to-apples comparisons. After all the reading I did about this, the only paper I can ever recall is [this one](https://ideas.repec.org/p/pra/mprapa/14902.html), which states (and I paraphrase greatly here): "... many people in the cultural sector insist that value isn't all about money, until the yearly budget cycle comes around again, when all of a sudden they can magically put a price on *everything*". To be honest I didn't really learn this lesson properly until the first job I did after getting my doctorate, when another patient individual took the time to explain business modelling to me once and for all.
+Obviously there *is* more in this life than filthy lucre, but in a capitalist society, pounds, shillings and pence\* are *the SI unit of value*, to which all endeavours must be converted so we can make apples-to-apples comparisons. After all the reading I did about this, the only paper I can ever recall is [this one](https://ideas.repec.org/p/pra/mprapa/14902.html), which states (and I paraphrase greatly here): "... many people in the cultural sector insist that 'value' isn't all about money, until the yearly budget cycle comes around again, when all of a sudden they can magically put a price on *everything*". To be honest I didn't really learn this lesson properly until the first job I did *after* getting my doctorate, when another patient individual took the time to explain business modelling to me once and for all.
 
 \* OK, USDs - at time of writing anyway.
 
-Those apples-to-apples comparisons are completely fundamental to small-a-agility. You can't "do the most valuable thing first" if you don't have a method of comparing the different values of things. Spoiler alert for the third article - there's usually only one or two genuinely valuable things to do, anyway - so do those. The rest is probably just bloat on your simple, elegant product.
+With hindsight, all this research of mine *might* actually have been some sort of quest to find out what "value" *actually is*, because The Manifesto for Agile Software Development sure as hell doesn't tell you. Remember, all the signatories to The Manifesto were *software engineers*. Some of them (possibly only one of them - Jim Highsmith - who features prominently in the [third article](./Agile_Value.md)) seemed to realise that, in the Digital Realm, we can't rely upon business people to tell us what "value" is - they don't know and can't work it out without some help.
+
+The other signatories often come across as 'doing the engineer thing' - farming out the responsibility for defining value to business people and trusting them to get it right. I'm afraid this is prime cake-and-eat-it: "... small-a-agility means you *don't get to tell us what to do!*... apart from when working out what to do gets difficult, in which case, please prioritise what the most valuable thing is for us and we'll do that. Though we reserve the right to moan like stink when it turns out you were wrong and nobody uses the thing we built, or loads of people do but the maintenance costs bankrupt the business...". Etc ad nauseum.
+
+I'm afraid Dave Thomas can come across as a prime example of this - see the part about "units of value" in his [second talk](https://youtu.be/bEMg9XXIcew?si=WMmJucZFqZma3xt0) - wtf is a "unit of value" exactly, if not an attempt to abstract the responsibility for finding value away from programmers?
+
+Absolving ourselves of the responsibility for defining value just doesn't cut it - for small-a-agility to work, we all have to be on the same team, and we're *all* on the hook for working out the right things to do, always. Engineers, especially, are on the hook for working out *the costs* of both delivering *and running / maintaining* the software...
+
+... because *value* = "benefits **MINUS** costs". It's what's left over after you've paid Bezos your compute bill, and the first and second-line support crew have claimed overtime for the incident where they all had to get out of bed at 2am because your thing didn't work, and you didn't give them any clues to find out what was wrong with it.
+
+Apples-to-apples comparisons of value are fundamental to small-a-agility - they're the basis of the prioritisation constraint. You can't "do the most valuable thing first" if you don't have a method for *comparing the different values of things*. Spoiler alert for the [third article](./Agile_Value.md) - there's usually only one or two genuinely valuable things to do, anyway - so do those. The rest is probably just bloat on your simple, elegant product.
 
 All software engineers should learn the basics of business modelling. Also (as [Marty Cagan says](https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/)) - all business people should learn how to write some code.
 

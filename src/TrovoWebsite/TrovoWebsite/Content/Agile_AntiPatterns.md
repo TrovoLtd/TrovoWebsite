@@ -1,22 +1,38 @@
 # Agile\* Anti-Patterns
 
-\* Not only but mostly
+\* I'll probably moan about things that aren't strictly Capital-A-Agile too,  but it's mostly that.
 
 This is the Mind Map of the "Agile anti-patterns" article.
 
 ![Article Mind Map](./images/Agile_AntiPatterns.png)
 
-## TLDR
+## TLDR of the whole series
 
-Because we're working in a frictionless universe of infinite possibilities, you can just make stuff up as you go along, while kidding yourselves that you're making progress towards some goal or other.
+This is part two of a set of three articles where I jump on the "Agile Is Dead, Long Live Agility" bandwagon:
 
-If you'd like to justify your professional salary while you're doing that, you can either card-carry your expertise around (in the case of disfunctional programmers and designers), or wave your capital A Agile certificates around and use big words from business school (in the case of disfunctional Product people).
+1. [The first article](./Agile_WhatsThePoint.md) asks if we've forgotten that agility in software engineering was originally a defence mechanism for working in a frictionless Digital Realm of infinite possibilities (i.e.: "the Quantum Realm but with more meetings"). It also upbraids some of the computer programming fraternity (the "we hate meetings" ones, mostly) for asking to be "left alone to get on with it", while handing off the the responsibility for defining "the value of the work" to everyone else.
+2. This article is going to get really snarky as I go into detail about things that are wrong with Capital-A-Agile. It's the fun article, in other words.
+3. [The third article](./Agile_Value.md) dives into the concept of value, reviews some of the approaches that attempt to square the circle of small-a-agility by defining value properly, and is probably going to get a bit political.
 
-None of this is agile (lower case a), because it's highly unlikely to deliver any value, unless you get at-best-once-in-a-career lucky.
+If you're a bit confused by the Capital-A-Agile / small-a-agility distinction then it's covered [in the first one](./Agile_WhatsThePoint.md), where I also explain that I've [stolen it from Dave Thomas](https://youtu.be/a-BOSpxYJ9M?si=m5g_B7sa9_wK06cp).
 
-If you'd like to skip the detail and find out how to use the frictionlessness of the digital realm to actually play the percentages of success better, check out the next article. But you'll miss a lot of snarky fun if you do.
+## TLDR of this article
 
-## Making stuff up as you go along and calling it "Agile"
+Working in a frictionless universe of infinite possibilities means we can, and often / usually do, just **make stuff up we go along**, while kidding ourselves that we're making progress towards some goal or other. Quite often we call doing this "being Agile", when in fact it's just pure chaos and time-wasting.
+
+We often like to justify our professional salaries while we're making stuff up, too, by card-carrying our expertise around (in the case of disfunctional programmers and designers), or waving Capital-A-Agile Scrum-Master / Product Owner certificates in people's faces and using big words from business school (in the case of disfunctional Business / Product people).
+
+None of this provides any lower-case-a-agility, because it's highly unlikely to deliver any value, unless we get at-best-once-in-a-career lucky.
+
+If you'd like to skip to some ways of using the frictionlessness of the Digital Realm to actually play the percentages of success better\*, check out [the next article](./Agile_Value.md). But you'll miss a lot of snarky fun if you do.
+
+\* Well, at least *in theory*, but some of the solutions have their own issues too.
+
+## Making stuff up as we go and calling it "Agile"
+
+This is the predominant approach everywhere I've worked. Because there's no friction in the Digital Realm, the knee-jerk reaction is always to take the path of least resistance. One common manifestation of this is for someone senior to say "yes" whenever someone marches into their office with a bright idea / terrible problem, then immediately drive-by some underling's desk and ruin their day with it. One way to measure how deeply into this culture you are is the length of the "equal first priority list" - there's usually a couple of GREAT-BIG-IMPORTANT-THINGS that cause everyone's minds to flex dangerously, but I've worked in places where the list has been in double figures, and: "...what will I be working on today?" has been a source of constant mystery.
+
+All the books on Agile (and small-a-agility, too, for that matter) seem to suggest the existence of organisations where this *never* happens... If so I suspect their company HQs to be nestled in the foothills of the Big Rock Candy Mountain.
 
 ### Not doing all the things
 
@@ -43,7 +59,7 @@ I'm **not** saying that neither of these endeavours require knowledge and talent
 * Takes you off in the wrong direction, *away* from the better solutions.
 * Sometimes makes you less objective about the facts of the case, particularly ones that contradict any hard-earned beliefs you might have built up over your glittering career.
 
-Here's a proposal for a simple definition of heroic behaviour: "not listening to the people with the problem because I already know the answer".
+Here's a proposal for a simple definition of heroic behaviour: "not listening to the people with the problem because I already know the answer", which extends to "bending the problem towards my solution because I've already built loads of stuff that doesn't help and I don't want to undo it". This still happens too much in software production, and its a key reason nobody uses a lot of the stuff we produce.
 
 ## Staff working at cross-purposes
 
@@ -100,9 +116,15 @@ When you don't have measures of:
 
 ## Being told what to do, how, and by when
 
-Tell the other "John" story here. And the Duncan one.
+I've been lucky to have been mentored by two people who *really knew what they were doing*, so here's a couple of stories about them.
 
-Basically, if you're hiring people who *can even cope with* being micro-managed, then your hiring policy is off. But to genuinely leave the solutions to talented people, you at least have to understand what it is they're doing, if not every detail of how they're doing it. 
+One of them went on holiday for a week (against his will), leaving us with a set of objectives. When he came back we'd achieved precisely zero of them. Putting on his best "I'm not angry, just disappointed" face, he gave us a choice. Option A - act like adults and work out how to get stuff done on our own - but **get it done**. Option B - give up all responsibility for progress and let him micro-manage us / treat us like children.
+
+We were never going to choose Option B, of course, so from that point we got more productive. But the cost of being given the responsibility of solving people's problems is that you *do have to solve them*.
+
+My other mentor watched me walk into a trap. I was a Lead Engineer at the time, so thought this gave me authority to tell people what to do. I insisted that my whole team drop what they were in the middle of and come to some *terribly important meeting or other*. To a woman / man they all told me to get stuffed. My mentor stood to one side and found the whole thing terribly amusing.
+
+Basically, if you're hiring people who *can even cope with* being micro-managed, then your hiring policy is off. But to genuinely leave the solutions to talented people, you at least have to understand what it is they're doing, though not necessarily every detail of how they're doing it.
 
 ### Expertise is hard won, unfortunately
 
