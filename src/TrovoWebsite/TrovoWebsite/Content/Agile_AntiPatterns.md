@@ -66,50 +66,67 @@ Hey - whether you do it conciously or not, there *will be a design*, but if you 
 
 Do you know anyone who:
 
-* Dives straight into code-only solutions? 
-* Bases these solutions on a few half-muttered sentences from one customer that start: "We want a..."?
+* Dives straight into code-only solutions?
+* Bases these solutions on a few half-muttered sentences from one customer that started: "We want a..."?
 * Ties themselves up in knots, but keeps going anyway because they don't want to admit they were wrong and throw their valueless work away?
 
-You've got a hero programmer on your hands. I.e. someone who makes a load of trouble for themselves (and everyone else), but then swoops in to "rescue" the situation, often at 2am. The CEO loves this dude (it's nearly always a dude). They know how to fix *everything* (because they broke it all in the first place). They know where all the bodies are buried (because they buried them).
+You've got a hero programmer on your hands. I.e. someone who makes a load of trouble for themselves (and everyone else), but then swoops in to "rescue" the situation, often at 2am in response to some crisis or other. The propensity to rise up on command whatever the hour to stamp out fires means that the CEO loves this dude (it's nearly always a dude). They know how to fix *everything* (because they broke it all in the first place). They know where all the bodies are buried (because they buried them).
 
-There's another form of the species - heroic designers. These are people who dive straight into colour theory, typeface choices, mood-boards etc - because (just like coding) "designing is special and you need to be talented to do it".
+There's another form of the species - heroic designers. These are people who dive straight into user journeys, colour theory, mood-boards, grids, typeface choices etc - also without *really* finding out what the problems they're solving are - because (just like coding) "design is special and you need to be talented to do it" . In design terms, they [live in the second diamond](https://www.designcouncil.org.uk/our-resources/the-double-diamond/).
 
 I'm **not** saying that complex, technical endeavours don't benefit from knowledge and talent. I **am** saying that all the talent in the world won't help if you don't attempt to understand the problems you're trying to solve. Indeed - amazing skill and talent makes things worse if you deploy it too early as it:
 
-* Takes you off in the wrong direction, *away* from the better solutions.
-* Often makes people less objective about the facts of the case, particularly ones that contradict any hard-earned beliefs built up over glittering careers. All situations are different - what you know already doesn't necessarily apply this time.
+* Takes you off in the wrong direction, *away* from the better solutions. At which point it's *worse* than being totally useless.
+* Often makes people less objective about the facts of the case, particularly ones that contradict any hard-earned beliefs built up over glittering careers. All situations are different - what you know already probably doesn't apply this time.
 
-Heroic behaviour can be defined as: "not listening to the people with the problem because I already know the answer", which extends to "bending the problem towards my solution because I've already built loads of stuff that doesn't help and I don't want to undo it". This still happens too much in software production, and its a key reason nobody uses a lot of the stuff we produce.
+Heroic behaviour can be summed-up as: "not listening to the people with the problem because I already know the answer", which extends to "bending the problem towards my solution because I've already built loads of stuff that doesn't help and I don't want to undo it". This still happens too much in software production, and it's a key reason nobody uses a lot of the stuff we produce.
+
+It's great to be talented and talented people are great to work with - provided they know how to deploy their talent properly.
 
 ## Disfunctional people and teams
+
+Full disclosure - I am of course at least as guilty of committing the crimes listed below as anyone else. It's almost as if the frictionlessness of the infinite Digital Realm makes it easy to act in the following shameful ways.
 
 ### Engineers
 
 * Who exist to solve abstract problems without thinking about concrete problems.
-* Who argue about "patterns" / talk endlessly about "aggregate roots", again without listening to the problem.
+* Who argue about "patterns" / talk endlessly about obscurities like "aggregate roots" or "hexagonal architectures"\*, again without listening to the problem.
 * With Marlene Dietrich syndrome: *"I want to be alone"*.
 * Who invent "requirements" and implement solutions without checking their value.
 * Who act heroically (see above).
+* Who simply don't know how to build code-bases that are easy to change in future (I've lost count of the numbers of highly-paid engineers I've worked with who *don't know what interfaces are for*).
+
+... will most likely march you away from anything good at a rapid pace. Eventually knowledge about the things you would have been better off doing in the first place will emerge, at which point they won't want to re-do all the stuff they've built so far. So they'll try and bend / break what they've done up to that point to better fit reality. This [causes more Technical Debt](https://youtu.be/d2Ddo8OV7ig?si=mp9oGFX-sCv4nwQ6) than any other factor.
+
+*\ There's nothing wrong per-se about either of these concepts but there's a time and a place, you know?
 
 ### Designers
 
 * Who also invent requirements.
 * And who also act heroically.
 * Who obsess over little details - e.g. moving things six pixels to the left - when they're yet to find out which market segment the product is being aimed at and what sort of customer relationships we're trying to build.
-* Who often don't even exist? Designers tend to be heavily outnumbered by engineers for some reason, when both jobs take a similar amount of effort to do properly... I've never understood why this is.
+* Who often don't even exist in the first place? Designers tend to be heavily outnumbered by engineers for some reason, when both jobs take a similar amount of effort to do properly... I've never understood why this is.
+
+Actually, while I'm ranting - what is it with UX designers and JavaScript frameworks? There's this big rabbit hole of design systems / "languages" that seems to have opened up, so now we have designers that take massive steps *away* from problems into an abstract world of components and widgets, that are intended to be all things to all product UIs. They're kind of like nuclear physicists trying to come up with a Unified Theory of Everything - only *slower*.
+
+I guess it's the same as computer programmers that don't really understand patterns but try and apply them everywhere regarless - we're diving into abstractions without bothering to understand the problems. It always comes back to that.
 
 ### Product people
 
 * Who "speak for the customer" without ever going to see what customers actually do.
-* ... and whenever they *do* go and see a customer, they go on their own, and then fail to report important details about the problem back to the people who can actually solve it.
+* ... and *should* they ever go and see a customer, they go on their own, and then return with a gift-wrapped solution for designers and engineers to "just build".
 * Who ask the customer "what they want" and take orders like waiters. This is where the [mis-attributed Henry Ford quote](https://medium.com/@adrianh/faster-horses-50ff8bb1bb62) about Faster Horses gets rolled out. Ask [the right question](./Agile_Value.md)!
-* Who lack technical confidence, and so seek to justify their existences by placing themselves between the customers and people who can solve their problems.
-* Who cling faithfully to their vision, ignoring the industry-wide odds that one-in-three to one-in-ten "great" ideas actually make no positive difference.
-* Who believe that it's possible to write a "detailed Road Map for the next 12 months". Sorry to burst your bubble but it's more than likely going to get completely ignored after about six weeks.
+* Who lack technical confidence, and so further seek to justify their existences by placing themselves between the customers and people who can solve their problems. Bring the technical / clever people to problem first, then at least have a vague idea what the solutions they're proposing are.
+* Who cling faithfully to **"their vision"**, ignoring the industry-wide odds that one-in-three to one-in-ten "great" ideas actually make no positive difference.
+* Who believe that it's possible to write a "detailed Road Map for the next 12 months". Sorry to burst your bubble but it's more than likely going to get blown out of the water by reality after about six weeks, max (though it can often only take days).
+
+To be honest these herberts are the worst of the lot.
+
+More than anything else, it's the Product person's job to bring the problem solvers to the problem, and help them understand it. When they interject themselves *between* problem and solvers, they do more damage than any of the other nere-do-wells I'm describing here.
 
 ### Project Managers
 
-* Who even exist in the first place. Managing adventures in the Digital Realm like bridge or house-building in the Real World is a sign that you've missed the point at a very fundamental level.
+* Who even exist in the first place. Managing adventures in the Digital Realm like you would bridge or house-building in the Real World is a sign that you've [missed the point](./Agile_WhatsThePoint.md) at a very fundamental level.
 
 ## Projects not Products
 
@@ -117,24 +134,30 @@ Refer to Jim Highsmith in this bit
 
 ## Too many meetings about nothing in particular
 
+This seems to be the thing that's really got under the skin of the programming fraternity when the phrase "Agile is Dead!" is bandied about. I believe there to be two main culprits: value-free demos and toothless retrospectives.
+
 ### Unproductive cadence
 
-A lot of capital-A-Agile teams insist upon "ceremonies" held at regular times throughout Sprint and release cycles. I've had t work in this way and in my experience it was unproductive because it forces engineers to demonstrate work when they're not ready, or on the flipside, to wait until the next "ceremony" to demonstrate and release work that *is* ready.
+A lot of capital-A-Agile teams insist upon "ceremonies" held at regular times throughout Sprint and release cycles. I too have been made to work in this way I agree that it's unproductive. It forces engineers to demonstrate work when they're not ready, or on the flipside, to wait until the next "ceremony" to demonstrate and release work that *is* ready.
 
-Set times for demonstrations of work that isn't valuable can cause a vicious circle: customers come to a couple of demos but quickly decide they're not going to see anything useful, so stop coming. This results in less feedback to work with, resulting in even less valuable work to demonstrate next time. Pretty soon demos are being held between the team and engineers themselves, with never a customer in sight.
+Demonstrations of work that the engineer doesn't think is ready, or that only shows a terribly important technical step towards some distant goal or other, cause a vicious circle. Customers come to a couple of demos but quickly decide they're not going to see anything that's valuable to them, so stop coming. This results in less feedback to work with, resulting in even less valuable work to demonstrate next time. Pretty soon demos are being held between the team and engineers themselves, with never a customer in sight.
 
 ### Customers conspicuous by absence
+
+There is no better smell that you're ideas aren't fitting well with the market / user-base than people not showing up to find out more about what you're up to. Believe me, if you've landed your solution anywhere near the thing that's causing people the most pain, they'll be interested. But you have to *listen to them* and find out what their "[struggles](https://www.demandsidesales.com/)" are for this to work.
 
 ### Continuous improvement as an abstract concept
 
 When you don't have measures of:
 
-* The value you're delivering
-* The quality of your work\*
+* The value you're delivering.
+* The quality of your work.
 
 ... then you'll never know whether any of the best-practices everyone encourages each other to adopt at your Sprint retrospective are *actually* helping.
 
-\* (The latter can be hard to measure but "number of bugs you released" and "length of time taken to change direction" might be good starters?)
+Quality can be hard to measure but "number of bugs you released" and "length of time taken to change direction" might be good starters? How about "average number of pull-request comments"? Though this can be skewed by the fella on the team who complains because Git-Commit messages don't have a full-stop on the end. (This actually happened).
+
+Worse than all of this is the talking-shop retrospective where everyone wastes an hour moaning about all the crazy bobbins that's happened in the last two weeks, without committing to anything that would make the world a better place. I'm all for continous improvement - it's one of the two bedrocks of small-a-agility after all - but you do *have to*, you know, **improve, continously**. If you don't, then you're just holding retrospectives because *Scrum says you have to*.
 
 ## Being told what to do, how, and by when
 
@@ -156,11 +179,15 @@ Bad smell - people beating everyone with the "story-points" stick. Really bad sm
 
 ## "Feature Factories"
 
-When you only do the "engineering" bits of capital A Agile in isolation of the "value bits", you get a Feature Factory.
+When you only do the "engineering" bits of capital-A-Agile without the value bits, you get a Feature Factory.
 
-Delivering "what the customer wants" quickly, and with high-quality code, and few mistakes, to a solid cadence. Everyone is jolly, busy and jolly busy. Story points get chewed through, and the burn-down burns down to ashes every sprint.
+Did I mention that [you have to do all the things](./Agile_WhatsThePoint.md)?
 
-Nobody important *actually* cares or uses the software you deliver.
+Feature Factories deliver "what the customer wants" quickly, and with high-quality code, and few mistakes, to a solid cadence. Everyone is jolly, busy and jolly busy. Story points get chewed through, and the burn-down burns down to ashes every sprint.
+
+Nobody important *actually* cares or uses the software you deliver. Your revenue dries up. Often your software costs more to run and maintain than people are willing to pay for it (remember, Value = Benefits **minus** Costs).
+
+Your runway shortens. Your company goes bust. In the good old days when Quantitative Easing meant there was a sturdy flow of freshly dreamt-up cash into Venture Capitalists pockets, you could always get another job, but I hear tell that its not so easy these days.
 
 ## Bad programming
 
@@ -168,27 +195,35 @@ Nobody important *actually* cares or uses the software you deliver.
 
 ### "Pointless tests"
 
-A big part of this can be chalked down to "people not getting *all* of it. Case in point, Dave Thomas himself, who in his original "Agile is dead" talk asked the Lord Almighty to strike him down for "not doing tests because **I** already understand **my** design".
+Yes there are a lot of badly-written, brittle tests out there, but to use this as an excuse not to write any because "I design brilliant code", well it's another example of "people not getting *all* of it". Case in point, Dave Thomas himself, who in his original [Agile is Dead talk](https://youtu.be/a-BOSpxYJ9M?si=m5g_B7sa9_wK06cp) asked the Lord Almighty to strike him down for "not doing tests because **I** already understand **my** design".
 
-A lot of engineers agree with the whole "I know what I'm doing and my design is solid, so why do I need to test it argument", and it is superficially reasonable up to a point. But where it falls over relates to:
+My YouTube feed seems to suggest that there are programmers out there who agree with the whole "I know what I'm doing and my design is solid, so why do I need to test it?" argument. [This chap](https://www.youtube.com/c/theprimeagen) and [this swashbuckling hero](https://www.youtube.com/@jblow888), for example. Their protests are superficially reasonable up to a point, if you don't really understand what tests are for. But consider this small-a-agile manifesto statement:
 
-* Working software over *comprehensive documentation*
+* Working software over *comprehensive documentation*. [My emphasis].
 
-If you only conceive of Unit Tests as "proof my code worked when I pushed it" then you *really are missing the point*. Your tests aren't for you, today. They're for the poor bastard who, six months later, has to diagnose an issue related to the part of the codebase you changed. (**Note:** that poor bastard might also be you, though as an old boss liked to put it "it helps if you imagine they're a mad person with a pick-axe, who knows where you live").
+If you *only* understand Unit Tests to be "proof my code worked when I pushed it" then you *really are missing the point*. **Your tests aren't for you, today**. They're for the poor bastard who, six months later, has to diagnose an issue related to the part of the codebase you changed. (**Note:** that poor bastard might also be you, though as an old boss liked to put it "it helps if you imagine they're a mad person with a pick-axe, who knows where you live").
 
-In other words, the proof that the software worked when you left it is also the documentation people will need in the future to work out WTF it does. (They won't read your comments - so why not use all the time it takes you to write them to write tests instead? One reason is often "because I don't know how to design my code to be testable".)
+In other words, the proof that the software worked when you left it is also the documentation people will need in the future to work out WTF it does. They won't read your comments - so why not use all the time it takes you to write them to write tests instead? One reason is often "because I don't know how to design my code to be testable" - in which case you should stop listening to Jonny Blow and jolly well learn.
 
-If you think of Unit Tests just as "tests" and not as bits of **executable documentation** that let you step into an app with a debugger to find out how it hangs together, and how it behaves, without having to run the whole thing end-to-end, then you don't know as much about working on enterprise code-bases as you think you do.
+If you think of Unit Tests just as "tests" and not as bits of **executable documentation** that let you step into an app with a debugger to find out how it hangs together, and how it behaves, without having to run the whole thing end-to-end, then you don't know as much about working in teams on enterprise code-bases as you think you do, Mr. Primeagan or whatever you're called.
 
-That said - there **are** also a lot of pointless tests in the world, and measuring "quality" purely by percentage of code-coverage is another one of those "too many people in the business who don't know enough about what they're doing" things I mentioned earlier.
+Unit Tests provide a way of *documenting code* that lines up with *how engineers learn about code* - by *running it and seeing what it does*. They provide hundreds of tailored opportunities to run the code in all sorts of relevant contexts, though of course it helps if they're well-written enough to make it clear what those contexts are, and that the contexts themselves make sense. That's why you're supposed to do the "refactor" part of "red-green-refactor".
+
+Remember - they've got a *pick-axe*, and **they know where you live**.
+
+But to reiterate, there **are** also a lot of pointless tests in the world, and measuring "quality" purely by percentage of code-coverage is another one of those "too many people in the business who don't know enough about what they're doing" things I mentioned earlier.
 
 ### Superficial knowledge in high-level engineers
 
 There just aren't enough genuinely good software engineers in the world unfortunately.
 
-If you're at the top of the software engineering tree, working at enterprise scale with medium sized / lots of data (anything above four or five million data points a day, say) you need to *really* understand the languages you're working with. So, for example, if you're a C# engineer, and you want to get to the top of the ladder, you need to learn how to recite C# In Depth by John Skeet, forwards and backwards. Not enough people can do this, but a lot of people do get paid *as if they can*.
+If you're at the top of the software engineering tree, working at enterprise scale with medium sized / lots of data (anything above four or five million data points a day, say) you need to *really* understand the languages you're working with. So, for example, if you're a C# engineer, and you want to get to the top of the ladder, you need to learn how to recite [C# In Depth](https://www.manning.com/books/c-sharp-in-depth-fourth-edition) by Jon Skeet, forwards and backwards. Not enough people can do this, but a lot of people do get paid *as if they can*. 
 
-One person who loves this situation is Jeff Bezos, who charges for all the unnecessary compute that results from people not having what my old boss calls "mechanical sympathy" with what the systems they're abusing actually do. So if you're pushing code to AWS without even knowing how to soak test it with a profiler running, then it's partly your fault that we all had to sit through Katy Perry going to space (nearly).
+See also [Learning Python](https://www.manning.com/books/c-sharp-in-depth-fourth-edition) by Mark Lutz. Yes it's over 1000 pages long, but if you're a Data Scientist, it's your damn job to know this stuff, so get it read. Python in particular suffers from people muddling-through, because that's how it was designed, intentionally. But your lack of basic understanding can get *very expensive*.
+
+Jeff Bezos loves engineers who build apps that look like they're working, but which contain fundamental, basic inefficiencies. That's because he charges real folding money for all the unnecessary compute resulting from people not having what my old boss calls "mechanical sympathy" with what the systems they're abusing *actually do*. So if you're pushing lamda code to AWS without even knowing how to soak test it with a profiler running, so you don't know how much data it's moving around and chewing through unnecessarily, and Amazon have to dim the lights to run it, then it's partly your fault that we all had to sit through Katy Perry going to space (nearly).
+
+Imagine if Jeff's minions (or Satya Nadella's) could tweak the "vibe-coding" algorithms so that even more expensive-to-run code was produced... Oh my! It would be a license to print money, wouldn't it? But I've promised myself not to go near AI in this article because that will be an even bigger rant than this one.
 
 ## Is this all the fault of Scrum?
 
