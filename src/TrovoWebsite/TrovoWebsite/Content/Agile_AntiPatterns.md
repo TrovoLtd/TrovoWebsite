@@ -32,7 +32,7 @@ If you'd like to skip to some ways of using the frictionlessness of the Digital 
 
 This is the predominant approach everywhere I've worked. Because there's no friction in the Digital Realm, the knee-jerk reaction is always to take the path of least resistance. One manifestation of this is for someone senior to say "yes" whenever someone marches into their office with a bright idea / terrible problem, then immediately drive-by some underling's desk and ruin their day with it. One way to measure how deeply into this culture you are is the length of the "equal first priority list" - there's usually a couple of GREAT-BIG-IMPORTANT-THINGS that cause everyone's minds to flex dangerously, but I've worked in places where the list has been in double figures, and: "...what will I be working on today?" has been a source of constant mystery.
 
-All the books on Agile (and small-a-agility, too, for that matter) seem to suggest the existence of organisations where this *never* happens... If so I suspect their company HQs to be nestled in the foothills of the Big Rock Candy Mountain.
+All the books on Agile (and small-a-agility, too, for that matter) seem to suggest the existence of organisations where this *never* happens... If so I imagine their corporate HQs are nestled in the foothills of the Big Rock Candy Mountain.
 
 ### Not doing all the things
 
@@ -81,7 +81,7 @@ I'm **not** saying that complex, technical endeavours don't benefit from knowled
 
 Heroic behaviour can be summed-up as: "not listening to the people with the problem because I already know the answer", which extends to "bending the problem towards my solution because I've already built loads of stuff that doesn't help and I don't want to undo it". This still happens too much in software production, and it's a key reason nobody uses a lot of the stuff we produce.
 
-It's great to be talented and talented people are great to work with - provided they know how to deploy their talent properly.
+I expect that it's lovely to be talented, and talented people are certainly great to work with. But its so much better if they're also humble about it and know how to deploy their talent properly by approaching each problem on its own merits.
 
 ## Disfunctional people and teams
 
@@ -89,14 +89,14 @@ Full disclosure - I am of course at least as guilty of committing the crimes lis
 
 ### Engineers
 
-* Who exist to solve abstract problems without thinking about concrete problems.
+* Who exist to solve abstract problems without thinking about concrete ones.
 * Who argue about "patterns" / talk endlessly about obscurities like "aggregate roots" or "hexagonal architectures"\*, again without listening to the problem.
 * With Marlene Dietrich syndrome: *"I want to be alone"*.
 * Who invent "requirements" and implement solutions without checking their value.
 * Who act heroically (see above).
 * Who simply don't know how to build code-bases that are easy to change in future (I've lost count of the numbers of highly-paid engineers I've worked with who *don't know what interfaces are for*).
 
-... will most likely march you away from anything good at a rapid pace. Eventually knowledge about the things you would have been better off doing in the first place will emerge, at which point they won't want to re-do all the stuff they've built so far. So they'll try and bend / break what they've done up to that point to better fit reality. This [causes more Technical Debt](https://youtu.be/d2Ddo8OV7ig?si=mp9oGFX-sCv4nwQ6) than any other factor.
+Such neerdowells will most likely march you away from anything good at a rapid pace. Knowledge about the things you would have been better off doing in the first place will emerge eventually though, at which point they won't want to re-do all the stuff they've built so far. So they'll try and bend / break what they've done up to that point to better fit reality. This [causes more Technical Debt](https://youtu.be/d2Ddo8OV7ig?si=mp9oGFX-sCv4nwQ6) than any other factor.
 
 \* There's nothing wrong per-se about either of these concepts but there's a time and a place, you know?
 
@@ -107,9 +107,9 @@ Full disclosure - I am of course at least as guilty of committing the crimes lis
 * Who obsess over little details - e.g. moving things six pixels to the left - when they're yet to find out which market segment the product is being aimed at and what sort of customer relationships we're trying to build.
 * Who often don't even exist in the first place? Designers tend to be heavily outnumbered by engineers for some reason, when both jobs take a similar amount of effort to do properly... I've never understood why this is.
 
-Actually, while I'm ranting - modern JavaScript is what happens when Graphic Designers kidnap a programming language. It was actually the first language I ever learned, but these days using it to learn programming would be like learning human anatomy by staring at a Picasso. If you ever see any code that ends in a brutal diagonal line of 25 closing braces, I advocate running screaming from the building. It's become this twisted, weird, semi-functional thing, so much so that people are having to resort to TypeScript to make any sense of it. (Hey, why "transpile" something once when you can do it twice?)
+Actually, while I'm ranting - modern JavaScript is what happens when Graphic Designers kidnap a programming language. It was actually the first language I ever learned, but these days using it to learn programming would be like learning about human anatomy by staring at a Picasso. If you ever see any code that ends in a brutal diagonal line of 25 closing braces, I advocate running screaming from the building. It's become this twisted, weird, semi-functional thing, so much so that people are having to resort to TypeScript to make any sense of it. (Hey, why "transpile" something once when you can do it twice?)
 
-There's also this big rabbit hole of design systems / "languages" that seems to have opened up, so now we have designers that take massive steps *away* from problems into an abstract world of components and widgets, that are intended to be all things to all UIs. They're kind of like nuclear physicists trying to come up with a Unified Theory of Everything - only *slower*. I was once told that I'd have to wait *three months* before the code to render a table was ready - I thought someone had spiked my drink.
+Also, a rabbit hole of design systems / "languages" seems to have opened up, so now designers take massive steps *away* from problems into an abstract world of components and widgets, that are intended to be all things to all UIs. They're kind of like nuclear physicists trying to come up with a Unified Theory of Everything, only *slower*. I was once told that I'd have to wait *three months* before the code to *render a table* was ready. A **table**; something that was in  HTML v0.0.1. I thought someone had spiked my drink.
 
 I guess it's the same as computer programmers that don't really understand patterns but try and apply them everywhere regardless - we're diving into abstractions without bothering to understand the problems. It always comes back to that.
 
@@ -124,7 +124,7 @@ I guess it's the same as computer programmers that don't really understand patte
 
 To be honest these herberts are the worst of the lot. (I have done all of these things and occasionally still do when I let my guard down).
 
-More than anything else, it's the Product person's job to bring the problem solvers to the problem, and help them understand it. When they interject themselves *between* problem and solvers, they do more damage than any of the other nere-do-wells I'm describing here.
+More than anything else, it's the Product person's job to bring the problem solvers to the problem, and help them understand it. When they interject themselves *between* problem and solvers, they do more damage than everyone else put together.
 
 ### Project Managers
 
@@ -138,7 +138,7 @@ Producing software with a *project* is a hold-over from the bridge-building days
 
 So why would you get to that point and say: "well, we've delivered all the features we set out to, so let's disband the team?" The fact is that this probably wouldn't happen - very few business people are that stupid, even the ones that are *really uncomfortable* in the Digital Realm. Some more money to keep going would fall from the magic tree.
 
-Oddly, though, even if you've got *nowhere near* fulfilling the promise of whatever grand idea the big boss had three years ago that kicked-off whatever death march you're on - you'll quite often be allowed to continue, even if under a cloud of intense grumpiness.
+Oddly, though, you'll quite often be allowed to continue even if you've got *nowhere near* fulfilling the promise of whatever grand idea the big boss had three years ago that kicked-off whatever death march you're on. "Failed projects" seem to be a fact of life these days: people just soldier on regardless, even if under clouds of pessimism and intense grumpiness.
 
 So why pretend projects make sense? It all comes down to a need to *feel* in command and control, despite the fact that all the up-front planning, business-case creation, budgeting etc tend to have completely the opposite effect. The plan goes off the rails pretty much from day one, it becomes obvious to the team that they're marching in the wrong direction, but that's the way the plan says we all have to go, the Project Manager is ticking off our "deliverables" and so on we all march (slowly) towards the delivery of nothing useful.
 
@@ -222,11 +222,31 @@ Your runway shortens. Your company goes bust. In the good old days when Quantita
 
 ## Bad programming
 
-### Inflexibility
+Once again. look at this Agile Manifesto principle, and then weep:
 
-### "Pointless tests"
+* Continuous attention to technical excellence and good design enhances agility.
 
-Yes there are a lot of badly-written, brittle tests out there, but to use this as an excuse not to write any because "I create brilliant code", well it's another example of "people not getting *all* of it". Case in point, Dave Thomas himself, who in his original [Agile is Dead talk](https://youtu.be/a-BOSpxYJ9M?si=m5g_B7sa9_wK06cp) asked the Lord Almighty to strike him down for "not doing tests because **I** already understand **my** design".
+Far be it for the Manifesto to actually suggest what those things might be: that's up to you - good luck! Here's some things that definitely aren't either of them, though.
+
+### "Were locked-into this solution because changing it will be a nightmare"
+
+Breaking news! You probably haven't picked the right solution - you get to luck-out on a good answer once or twice per career. If it's not one of those times, the twisted spaghetti you've produced, with the 800-line methods, that all do 12 obscure things, and that only you can work out, is going to make life miserable for all concerned.
+
+Back to Dave Thomas again. He suggests this nice rule of thumb:
+
+* If you have to choose between two pieces of work of similar value, choose the one that's easiest to change in future.
+
+Fine if the programmers you're working with know how to write code that's easy to change, but doing that is a bit above the basics. You have to know what interfaces are, for a start (or if you write Python, you have understand that *everything is an interface*, but if you *don't* know that, they'll all be rubbish ones). You'll also need to properly understand all the other bits of loose coupling - encapsulation, single responsibilities... I could go on.
+
+The problem is that there aren't enough people out there who really get this stuff. Instead we have "rock stars" banging on about bubble-sort algorithms as if any of that really matters. (There are a couple of occasions per career when it might do, I suppose). You can spot these people because they mutter things like "I wish users would stop changing their minds all the time" (translation - "I naively believed them when they said they definitely wanted a flying submarine, and started building them that, when a self-driving teapot would have been a much closer fit with their actual problem...")
+
+One of the basic principles of producing a flexible solution is to base it on the reality of the situation. So, once again, you have to make friends with the people with the problem. Experience their struggle, feel their pain, and only *then* code a solution using the their language, that maps onto their reality. Only do it properly - so you can change it when you realise you haven't quite got it right the first few times.
+
+One of my mentors told me that you'll know when you've hit the right model because "all the doors that were closed up to that point start flying open". Alberto Brandolini calls this [the Bruce Lee state](https://youtu.be/mLXQIYEwK24?t=1901). I've never had the privilege of getting to this point because most of senior engineers I've worked with have been heroes who have lept straight into coding solutions without getting close to the problem first. So the few that *did* know have had to spend their whole time arguing and being told to do their jobs wrong. This can occurs when interviewers don't know how to recruit so instead test candidates by, you guessed it, getting them to implement bubble-sort algorithms.
+
+### "Why should I waste time writing pointless tests?"
+
+Yes there are a lot of badly-written, brittle tests out there, but to use this as an excuse not to write any because "I create brilliant code", well it's another example of "people not getting *all* of it". Again, look no further than Dave Thomas himself, who in his original [Agile is Dead talk](https://youtu.be/a-BOSpxYJ9M?si=m5g_B7sa9_wK06cp) asked the Lord Almighty to strike him down for "not doing tests because **I** already understand **my** design".
 
 My YouTube feed seems to suggest that there are plenty of programmers out there who agree with the whole "I know what I'm doing and my design is solid, so why do I need to test it?" argument.  [Jonathan Blow: swashbuckling hero](https://www.youtube.com/@jblow888), for instance, or [this sprightly chap](https://www.youtube.com/c/theprimeagen). Their protests are superficially reasonable up to a point, if you don't really understand what tests are for. But consider this small-a-agile manifesto statement:
 
@@ -238,50 +258,64 @@ Unit Tests, the "proof that the software worked when you left it", are actually 
 
 If you think of Unit Tests just as "tests" and not as *executable documentation* that lets you step into an app with a debugger to find out how it hangs together, and how it behaves, without having to run the whole thing end-to-end while guessing where to put a break point, then you don't know as much about working in teams on enterprise code-bases as you think you do, Mr. Primeagan.
 
-Unit Tests provide a way of *documenting code* that lines up with *how engineers learn about code* - by *running it and seeing what it does*. They provide hundreds of tailored opportunities to run the code in all sorts of relevant contexts, though of course it helps if they're well-written enough to make it clear what those contexts are, and that the contexts themselves make sense. That's why you're supposed to do the "refactor" part of "red-green-refactor".
+Unit Tests provide a way of *documenting code* that lines up with *how engineers learn about code* - by running it and seeing what it does. They provide hundreds of tailored opportunities to run the code in all sorts of relevant contexts, though of course it helps if they're well-written enough to make it clear what those contexts are, and that the contexts themselves make sense. That's why you're supposed to do the "refactor" part of "red-green-refactor".
 
 Remember - they've got a *pick-axe*, and **they know where you live**.
 
 But to reiterate, there **are** also a lot of pointless tests in the world, and measuring "quality" purely by percentage of code-coverage is another one of those "too many people in the business who don't know enough about what they're doing" things I mentioned earlier.
 
-### Superficial knowledge in high-level engineers
+### "This is definitely done because it looks like it's working when I run it"
 
-There just aren't enough genuinely good software engineers in the world unfortunately.
+"It works on *my* machine" has rightly become a cliché of the programming world. There are a couple of technical reasons for this, related to how data behaves. E.g.:
 
-If you're at the top of the software engineering tree, working at enterprise scale with medium sized / lots of data (anything above four or five million data points a day, say) you *really* need to understand the languages you're working with. So, for example, if you're a C# engineer, and you want to get to the top of the ladder, you need to learn how to recite [C# In Depth](https://www.manning.com/books/c-sharp-in-depth-fourth-edition) by Jon Skeet, forwards and backwards. Not enough people can do this, but a lot of people do get paid *as if they can*. 
+* It can be technically difficult to generate representative volumes of test data, especially in ways that account for how the generation of the data might effect the tests themselves.
+* Development machines are extremely high-powered these days, so can chew through lots of data quickly, in ways that don't necessarily reflect the architecture of the production environment.
 
-See also [Learning Python](https://www.manning.com/books/c-sharp-in-depth-fourth-edition) by Mark Lutz. Yes it's over 1000 pages long, but if you're a Data Scientist, it's your damn job to know this stuff, so get it read. Python in particular suffers from people muddling-through, because that's "Pythonic" - it's supposed to be easy to pick up. But if you're only at the "well it *looks like it's working* level, your lack of fundamental understanding can get *very expensive*.
+To really be able to get to the bottom of these things, you have to be *good*, and there just aren't enough genuinely good software engineers in the world, unfortunately. And there are even fewer of them than there would be if the production enviroment wasn't some nebulous cloud or other that's going to be able to cope fine with whatever sub-optimal bobbins you throw at it, as long as someone pays the bills on time.
+
+If you're at the top of the software engineering tree, working at enterprise scale with medium sized / lots of data (anything above four or five million data points a day, say) you *really* need to understand the languages you're working with. So, for example, if you're a C# engineer, and you want to make sure you don't cost your employer a fortune in compute costs, you really do need to learn how to recite [C# In Depth](https://www.manning.com/books/c-sharp-in-depth-fourth-edition) by Jon Skeet, forwards and backwards. Not enough people can do this, but too many people get paid *as if they can*.
+
+See also [Learning Python](https://www.manning.com/books/c-sharp-in-depth-fourth-edition) by Mark Lutz. Yes it's over 1000 pages long, but if you're a Data Scientist, it's your damn job to know this stuff, so get it read. Don't just jump straight into Pandas without an understanding of the language first - though also, don't just jump into Pandas without reading [Wes McKinney's book about that](https://wesmckinney.com/book/), either. Python in particular suffers really badly from people muddling-through, because that's "Pythonic" - it's supposed to be easy to pick up. But if you're only at the "well it *looks like it's working*" level, your lack of fundamental understanding can get *very expensive*. And some of it is pretty complicated, too - for instance, you ought to brush up on anything you learned about the mathematics of matrices at school before you get too deeply into NumPy.
 
 Jeff Bezos loves engineers who build apps that look like they're working, but which contain fundamental, basic inefficiencies. That's because he charges real folding money for all the unnecessary compute resulting from people not having what my old boss calls "mechanical sympathy" with what the systems they're abusing *actually do*. So if you're pushing lamda code to AWS without even knowing how to load test it, hence you don't know how much data it's moving around and chewing through unnecessarily, and then Amazon have to dim the lights to run it, then it's partly *your fault* that we all had to sit through Katy Perry going to space (nearly).
 
-Imagine if Jeff's minions (or Satya Nadella's) could tweak the "vibe-coding" algorithms so that even more expensive-to-run code was produced... Oh my! It would be a license to print money, wouldn't it? But I've promised myself not to go near AI in this article because that will be an even bigger rant than this one.
-
-## Is this all the fault of Scrum?
-
-### Superficial knowledge in everybody else, too
-
-Digital systems production is just hard. My old boss used to say "it's not a magic bullet" - just because it can be made to work, it doesn't make it easy. So it's not only the engineers that need to know their stuff, everybody does, including those in senior management.
-
-### There's nothing too offensive in the Scrum Guide
-
-Allen Holub says this. He also describes Scrum as "things that make 'Agile' palatable to management, without actually being agile".
-
-So the issue there is "management" - and that's how we end the final article.
-
-### It's just certification that's the issue
-
-Too many people in software who don't have the deeper understanding of it required to do it properly.
-
-I'm not saying this to exclude people - everyone can learn. But you do have to learn. Software engineering, production and design are professions, and as such they're well paid. But you have to earn that salary. If you're in those professions and you don't spend time and money on your own personal development, then you'll be actively doing harm to the organisations you work for and the people you work with.
+Incidentally - what if Jeff's minions (or Satya Nadella's) could tweak the "vibe-coding" algorithms so that even more expensive-to-run code was produced..? Oh my! It would be a license to print money, wouldn't it? But I've promised myself not to go near AI in this article because that will be an even bigger rant than this one.
 
 ## Unknown (but spiralling) costs
 
+Costs in general are out of control in tech - evidenced by [the Silicon Valley car-crash that is OpenAI](https://theconversation.com/microsoft-cuts-data-centre-plans-and-hikes-prices-in-push-to-make-users-carry-ai-costs-250932), and that [bitcoin mining uses more energy than most countries](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023EF003871). It's not just these special cases, though: things we build in the Digital Realm are so abstracted from the Real World that it can be hard to work out how much they cost to run and maintain. Instead, it's often the case that all the cost-calculation focus is upon the build; the efforts of the engineering team in particular.
+
+This is, of course, a massive problem both for capital-A-Agile endeavours, and indeed small-a-agility, because *we're supposed to prioritise the most valuable thing*, and deliver *as much value as we can*, as quickly as we can. And, furthermore...
+
 ### Value = Benefits MINUS Costs
 
-Just like everything has a design, ditto with business models. You may not have thought about the costs and benefits of your endeavour explicitly, instead chosing to launch straight into coding and design, and make stuff up as you go.  But guess what? Your project / product is still going to make or lose money, regardless. However, if you *haven't* put any thought and effort into modelling the changes you make, then there's a much greater chance that it won't make money, or if to does, that margins will be slim.
+Just like everything has a design, ditto with business models. You may not have thought about the costs and benefits of your endeavour explicitly, instead chosing to launch straight into coding and design, and make stuff up as you go.  But guess what? Your project / product is still going to make or lose money, regardless. However, if you *haven't* put any thought and effort into modelling the changes you make, then there's a much greater chance that it won't make money, or if to does, that margins will be a lot slimmer than they could have been.
 
-This can't ever just be a "Product thing", either. Yes, Product people are probably the best owners of business models, but Designers and (in particular) Engineers can't be let off the hook, for the costs if nothing else. As just mentioned above, in our cloud-computing world, runnng sub-optimal code eats into margins in the form of unnecessary operating costs.
+This can't ever just be a "Product thing", either. Yes, Product people ought to *own* the business model, but Engineers can't be let off the hook, for the costs if nothing else. As mentioned above, in a cloud-computing world, sub-optimal code eats into margins due to unnecessary operating costs. But cloud or no cloud, running even good software costs money. Those that understand the technology best will have the best chance of working out how much.
 
-## Agile engineering with waterfall product
+Designers, too, have a responsibility here, as its their job to help ensure there's no unnecessary barriers to realising as much benefit as possible. You could be (digital) inches away from creating a lot more revenue, if only your user-base could fully understand how well your solution solves their problem, and it's the designers' job to remove all that friction.
 
-Did I mention having to do *all the things*? I believe I did. That includes strategising, and getting tactical, in small-a-agile ways. This is what the next article is about, and there's a growing body of literature / help / advice about it.
+## Agile engineering with waterfall Product Management
+
+Did I mention having to do *all the things*? [I believe I did](Agile_WhatsThePoint.md). That includes strategising, and getting tactical, in small-a-agile ways. This is what the [next article](Agile_Value.md) is about, and there's a growing body of literature / help / advice about it. There's a lot more about business modelling in that one, too, because *value* is such a key concept to small-a-agility.
+
+Instead of choosing agility, however, a lot of organisations can't let go of the habit of strategising in Real World ways: heavyweight up-front plans and business cases, tortuous roadmaps. The highest-paid people in the building sitting in smoke-filled back rooms, inventing plausible-sounding solutions to problems that aren't even remotely understood.
+
+Quite often these folks believe that what they're doing is "Agile" because "we'll realise some value on the way", but they:
+
+* Don't understand that small-a-agility means "realise as much value as possible *all the time*".
+* Don't even estimate what that value might be in the first place. They just wing it.
+
+Estimation, in particular, seems to be an "engineering only" activity: programmers are on the hook for "delivering on time" according to crazy estimates, but when they eventually do (*very* late), and nobody actually wants / uses the thing they've delivered, that's rarely the fault of the business people that asked for it in the first place.
+
+Just like there aren't many genuinely good software engineers around, there aren't many good business people, either, who actually understand the science of building profitable companies in the Digital Realm. Obviously we can point at some very prominent success stories, but that's because *we only know about the successful ones*.
+
+Luck is *always* a big part of success: hats-off to Eric Schmidt for [actually admitting it](https://www.cnbc.com/2018/12/14/google-billionaire-eric-schmidt-luck-is-a-big-part-of-success.html). Yes, all successful business people work very hard, but guess what? A much bigger number of unsuccessful ones do, too... Plus a large number of people having to do two or three jobs to feed their families, as well.
+
+Never mind Eric Schmidt, anyway: it's Sergey Brin and Larry Page that get all the credit for Google's success. But by a lot of accounts, they just grabbed the eyeballs - it was Marissa Mayer who worked out how to make all the money. And then to reinforce my point about luck, *she* seems to be [struggling to re-bottle the lightning](https://www.platformer.news/marissa-mayer-sunshine-shine-app-design-cofounder-quits/?ref=platformer-newsletter), too.
+
+And on it all goes... When I look at, say, Mark Zuckerberg - with his nonsensical [Metaverse](https://medium.com/@sthomason/from-hype-to-hindsight-5-brutal-lessons-metas-metaverse-failure-taught-us-about-building-the-909cb20f9efd) stuff - my number one thought isn't ever: "...ooh what a brilliant business person". He's wasted *billions* on a 'groundbreaking new idea' that's actually been fundamental to the gaming industry - the world's [most popular form of media](https://www.accesscreative.ac.uk/blog/is-the-gaming-industry-bigger-than-films-and-music/) - for decades. And then in response Microsoft just doing what they always do and [bought someone else's company](https://www.bbc.co.uk/news/business-67080391) to counter Facebook's genius move - even though they were already in that sector anyway.
+
+None of this screams "talent", does it? We've all had bad days at the office. But if I lost my employer $70 Billion (and counting), I'd at least expect HR to put me on a performance plan.
+
+The best anyone can hope for when building in the Digital Realm is to tilt the odds towards them a bit. And if we truly understand what's meant by value, we can tilt them *quite a bit*. But they will still be stacked up against us, so we need to know, quickly, whether an idea is a good-un or a sick dog, and at least pull the plug before we lose, say, $35 Billion. The frictionless Digital Realm of infinite possibilities gives us a chance to do that, so that's what the [next article](Agile_Value.md) is about.
