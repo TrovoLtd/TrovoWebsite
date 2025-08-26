@@ -2,27 +2,61 @@
 
 ![Article Mind Map](./images/Agile_Value.png)
 
+## TLDR of the whole series
+
+This is the third and final part of a three article series:
+
+1. [The first part](Agile_WhatsThePoint.md) highlights the difference between capital-A-Agile and small-a-agility: a concept ~~stolen~~ [borrowed from Dave Thomas](https://youtu.be/a-BOSpxYJ9M?si=m5g_B7sa9_wK06cp). It also answers the question: "...does anyone remember what the original intent behind promoting agility in software engineering was?" ...with a resounding "no".
+2. [The second part](Agile_AntiPatterns.md) has a lot of snarky fun pointing out everything that everyone's doing wrong. It bemoans the fact that agility is supposed to be about delivering *value*, above all else. And hardly anyone knows what that's supposed to mean - including quite a few people that society has decreed "incredibly successful".
+3. This third and final part is where I finally roll up my sleeves and review some better ways of approaching agility with value at its core. Though it wouldn't be me without there being a bit of a moan at the end.
+
+Throughout all three articles I use the phrase "Digital Realm" a lot. The [first article](Agile_WhatsThePoint.md) describes it fully, but a quick definition is: "... the place of frictionless, infinite possibility afforded by working with digital technology". Working here is usually very dangerous and most-often goes horribly wrong, but if you get *good* at working here it starts to offer some serious advantages over working in Real World ways.
+
+## TLDR of this article
+
+Plenty of people in the big wide world have succeeded in engineering software in small-a-agile ways, resulting in profitable and useful products. They didn't all get lucky - or at least, some of them played the percentages and vastly increased their chances of success by using strategies and tactics that:
+
+* Used the lack of friction in the Digital Realm to their advantage, by enabling a degree of experimentation that's not possible with Real World things.
+* Modelled the financial impact of their ideas and resulting products *properly*, instead of just launching stuff on a wing and a prayer.
+* *Really* got to know their customers, and the things their customers go through.
+* Trusted their staff to act like grown-ups with brains.
+* Aligned their effort with *Products*, not *Projects*.
+
+However - as I'm writing this in the middle\* of *the **most severe** tech bubble I can remember* (and I can remember the DotCom one), this article ends by suggesting that there might not be quite as many genuinely successful implementations of these patterns as the gurus suggest. I'm just not sure that we define "success" the right way, still - and as such *value* is still a bit problematic.
+
+\* Actually it feels more like we're nearer the bit when it all bursts than the middle. Date of writing this: 26th August 2025 - let's see.
+
 ## Strategy and Tactics
 
 ### Viability, Feasibility and Desirability
 
-### Deliver Value Not Features 
+### Deliver Value Not Features
 
 Or outcomes not outputs.
 
 ### No (Heavy) Roadmaps
 
-ICE / GIST / LVTs
+GIST / LVTs - value delivery / objective centred roadmaps instead.
 
 ### Objectives and Key Results
 
 ### Business Modelling
 
-Business Model Canvas. Startup culture caveat.
+Business Model Canvas.
+
+Startup culture caveat.
 
 But the other thing that's undercooked in a lot of Product literature - COSTS!
 
 - Value is *actually* Benefits **-** Costs. Digital systems production really struggles with this!
+
+Need an example? How about the bubble I mentioned at the start? [Will this do](https://markets.businessinsider.com/news/stocks/ai-stocks-risk-nvidia-gpus-blackwell-tech-outlook-depreciation-accounting-2024-8)? (TLDR - if you buy $ Billions worth of GPUs in one go, when new / 'better' ones are being released all the time, then the value of your CapEx tanks a lot quicker than you're probably accounting for...)
+
+### Hardcore experimentation
+
+Confidence levels (ICE).
+
+Assumption mapping.
 
 ## Customer Discovery
 
