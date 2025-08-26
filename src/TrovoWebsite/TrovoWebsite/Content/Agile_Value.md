@@ -86,11 +86,15 @@ There's a major change in thinking required for senior execs to let go - to beco
 
 The answer is leadership - but that's fundamentally different from management:
 
-* **Management:** running the uber-strategy and plan, pushing big heavy rocks downhill, and keeping an eye on everyone because I don't trust them to do as good a job as I can.
+* **Management:** running the uber-strategy and plan, dropping big heavy rocks on the people below you, and keeping an eye on everyone because you don't trust them to do as good a job as you can.
 * **Leadership:** keeping everyone enthusiastic and on-message by inspiring them. Trusting everyone to have the intelligence to deliver the right thing, because I've pointed them at it with clarity.
 
 It takes a lot to step from one to the other. I quite possibly even requires people who are wired-up differently. But small-a-agile, and the ability to truly exploit the frictionless, infinite possibilities of the digital realm, only comes with the latter. As Allen Holub says, though: [this scares the pants off people](https://youtu.be/hxXmTnb3mFU?t=665).
 
-### Has the concept of value been polluted by Venture Capital?
+## Has the concept of value been polluted by Venture Capital?
 
 If the actual goal is to get to the next round of funding, or to put money in at an early stage with the aim of pulling out at a later round, but before the business has started making decent profits, well, where does this leave the concept of 'value', exactly? Small-a-agile is built upon solving the struggling moment for real customers, not telling tales of potential value - no matter how convincing they may be. When investors' cash is easy to come by, it appears that whatever passes for 'human nature' currently can tend towards the second of these, but the businesses we work for will be more sustainable, and we will better justify our salaries, by building digital products that add real value to real people, on the ground, today.
+
+## Finance and The Digital Realm just don't mix
+
+Computers make it far easier for people to make money by doing nothing of value at all. Evidence: 2008 - [Collatoralised Debt Obligations](https://www.investopedia.com/terms/c/cdo.asp) wouldn't exist without computers. Practices such as short-selling that completely undermine the original intention of having a stock market in the first place would arguably be a lot harder if those markets hadn't been digitised. And don't get me started on the Ponzi-scheme that is Bitcoin.
