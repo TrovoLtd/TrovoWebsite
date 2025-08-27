@@ -42,7 +42,17 @@ GIST / LVTs - value delivery / objective centred roadmaps instead.
 
 ### Business Modelling
 
-Business Model Canvas.
+My [PhD Literature Review](https://repository.lboro.ac.uk/articles/thesis/Does_the_way_museum_staff_define_inspiration_help_them_work_with_information_from_visitors_Social_Media_/9496598?file=17123216) suggested that epiphanies are a myth, but I came pretty close to having one of my own in 2018. I was working in Cambridge University Library at the time, and the research team I was part of had been tasked with writing a business case for two separate IT procurements. Pretty much everything we were doing was wrong - it was all very heavy on solution without having delved too much into the problems we were supposed to be solving; in fact everyone had decided what the solution was before we'd been hired, even.
+
+However, as part of the rigmarole of getting a system in place, we had to write a business case, to a strict template which also required a business model. As I'm really not scared of looking stupid, I put my hand up in front of the chief IT Programme Manager and out-and-out asked him to explain what one of those was (I think the sentence I used started with "I know I've been in the computer programming business for 20 years already, but...")
+
+He gave me a kind of chuckle that indicated I might not have been the first geek to have asked him this question, then showing tremendous patience, he sat me on his knee and walked me through it. This was when all sorts of things that had been brewing in my addled brain for the previous ten years or more (not least the damn PhD itself) finally clicked into place. Incidentally - this is what an "epiphany" is - there's not much mystical about it, its just the last couple of neurons between different parts of your brain making a key connection - but when it's one of those ones where the connection is *really* key, you can kind of feel it, physically.
+
+What Chris showed me that afternoon was that is was possible to estimate the relative values of bits of an Information System in order to prioritise which one to build first. This is, of course, *the* most fundamental part of being small-a-agile, but nobody ever tells you this - you have to work it out for yourself. And try though I might throughout the following decade or so, I haven't found many other people that have been through the same "epiphany", either.
+
+I was also shown a version of business modelling that was really, *really* slow, and based on special assumptions made by "experts" up-front. Chris did at least explain a technique where you had to note those assumptions up-front, make them easy to change, and even Monte Carlo them if necessary, but it was all very heavyweight and up-front. Chris told me that he loved small-a-agility but that the IT function at Cambridge had made so many bad fists of implementing capital-A-Agile in the past that it was practically a swear-word in his department, so he had to do it by stealth, and given that the institution is over 800 years old, taking six months to produce a huge up-front business case is kind of being agile, anyway.
+
+However, the insistence that we spend *so* long toiling away at it without, you know, *testing* any of the numerous assumptions we were working with rankled really badly with me, so I set out to find a more small-a-agile approach. Enter [the Business Model Canvas](https://www.strategyzer.com/library/the-business-model-canvas).
 
 Startup culture caveat.
 
@@ -57,6 +67,10 @@ Need an example? How about the bubble I mentioned at the start? [Will this do](h
 Confidence levels (ICE).
 
 Assumption mapping.
+
+Caveat of this bit: to experiment properly you *have to be good at experimenting*. I.e.: you should have at least an affinity with scientific methods. It's quite easy to conduct "experiments" that simply exist to confirm your biases, so an inability to at least try and remain objective about results, and failure to acknowledge that experiments that turn out exactly as expected are as rare as hens' teeth, put all the good intentions behind experimentation at risk.
+
+Never forget: a *successful* experiment is one that turns out unexpectedly.
 
 ## Customer Discovery
 
