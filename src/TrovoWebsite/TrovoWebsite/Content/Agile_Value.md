@@ -32,15 +32,38 @@ However - as I'm writing this in the middle\* of *the **most severe** tech bubbl
 
 ### Deliver Value Not Features
 
-Or outcomes not outputs.
+I've built so many things throughout my engineering career that just didn't get used much, if at all. Honestly: it's been enough to make me question why I bothered in the first place. Quick answer - the salary: so I've personally benefitted tremendously from delivering little of value. The people that *paid* my salary, though - not so much.
+
+This glorious situation is endemic within software engineering, and there's a whole cabal of gurus trying to stop it. "Deliver value, not features" is the cry, a concept which obviously ties in nicely with the [toppermost of the Agile Manifesto Principles](https://agilemanifesto.org/principles.html). These days, you may also hear the same concept described as "delivering outcomes not outputs".
+
+Whichever way it gets styled, though, I feel this concept gets a little confusing for the average software engineer, who's job is to *build things*. And you can't really *build an outcome*, can you? You have to build *the thing that causes the outcome to occur*. I'm splitting hairs a bit here, it's not *that* complicated a concept, but nevertheless the trap of defining the problem in terms of the solution we want to build is, as ever an easy one to fall into.
+
+So the trick is to set objectives that relate to measures of business performance, e.g.:
+
+| The old way (outputs)             | The new way (outcomes)    |
+| ----------------------------------| ------------------------- |
+| Build a better checkout process   | Reduce drop-outs from the checkout from 43% to 25% |
+| Create an installer               | Decrease downloads with no subsequent registration from 55% to 20% |
+
+This theory has a name, which is...
+
+### Objectives and Key Results (OKRs)
+
+Intel came up with OKRs in the 80s and 90s - their CEO Andy Grove based it on Peter Drucker's business philosophy. They're all the rage now. The intention is to empower your staff by leaving the "how" of delivering objectives up to them. In the frictionless Digital Realm, there's one major advantage to this: if you prescribe a solution to the team and tell them you're going to pat them on the back if they deliver that solution, they'll go ahead and deliver it even when it's clear it won't work.
+
+In case you missed it, "agility" means "the ability to change direction quickly". So reserving the pats and tickles for when an *outcome* is delivered encourages the team to switch tactics once it's clear the original ones aren't moving the needle. Working in the Digital Realm means there's nothing to stop you doing so, other than fear, and / or your clumsy ways of working.
+
+That's the *theory*, anyway, but empowering teams this much is a *big cultural shift*. Managers really are in the habit of telling people what to do; even the good ones. So it takes quite a lot of willpower to let go like that. The main place I've worked that tried it didn't really get it: "we're doing OKRs now" was announced with a bit of a fanfare, but before we knew it we'd fallen back into old habits of slogging through set plans and implementing a business cases that defined solutions for us to deliver.
+
+In other words, we weren't using the fact we were working in the Digital Realm to our advantage.
 
 ### No (Heavy) Roadmaps
 
 GIST / LVTs - value delivery / objective centred roadmaps instead.
 
-### Objectives and Key Results
 
-### Business Modelling
+
+## Estimating value with a business model
 
 My [PhD Literature Review](https://repository.lboro.ac.uk/articles/thesis/Does_the_way_museum_staff_define_inspiration_help_them_work_with_information_from_visitors_Social_Media_/9496598?file=17123216) suggested that epiphanies are a myth, but I came pretty close to having one of my own in 2018. I was working in Cambridge University Library at the time, and the research team I was part of had been tasked with writing a business case for two separate IT procurements. Pretty much everything we were doing was wrong - it was all very heavy on solution without having delved too much into the problems we were supposed to be solving; in fact everyone had decided what the solution was before we'd been hired, even.
 
@@ -50,9 +73,13 @@ He gave me a kind of chuckle that indicated I might not have been the first geek
 
 What Chris showed me that afternoon was that is was possible to estimate the relative values of bits of an Information System in order to prioritise which one to build first. This is, of course, *the* most fundamental part of being small-a-agile, but nobody ever tells you this - you have to work it out for yourself. And try though I might throughout the following decade or so, I haven't found many other people that have been through the same "epiphany", either.
 
-I was also shown a version of business modelling that was really, *really* slow, and based on special assumptions made by "experts" up-front. Chris did at least explain a technique where you had to note those assumptions up-front, make them easy to change, and even Monte Carlo them if necessary, but it was all very heavyweight and up-front. Chris told me that he loved small-a-agility but that the IT function at Cambridge had made so many bad fists of implementing capital-A-Agile in the past that it was practically a swear-word in his department, so he had to do it by stealth, and given that the institution is over 800 years old, taking six months to produce a huge up-front business case is kind of being agile, anyway.
+I was also shown a version of business modelling that was really, *really* slow, and based on special assumptions made by "experts" up-front. Chris did at least explain a technique where you had to note those assumptions explicitly, make them easy to change, and even Monte Carlo them if necessary, but it was all very heavyweight. Chris told me that he loved small-a-agility but that the IT function at Cambridge had made so many bad fists of implementing capital-A-Agile in the past that it was practically a swear-word in his department, so he had to do it by stealth, and given that the institution is over 800 years old, taking six months to produce a huge up-front business case is kind of being agile, anyway. But he definitely got the value bit - unlike most other people.
 
 However, the insistence that we spend *so* long toiling away at it without, you know, *testing* any of the numerous assumptions we were working with rankled really badly with me, so I set out to find a more small-a-agile approach. Enter [the Business Model Canvas](https://www.strategyzer.com/library/the-business-model-canvas).
+
+One thing that's always annoyed me about the Business Model Canvas is that it's not made clear enough that *you're supposed to run numbers through it*. The book Strategyzer wrote about it doesn't come out and say this outright - indeed you have to wait for Alex Osterwalder (its inventor) to get [twenty-five minutes into his key presentation about it](https://youtu.be/8GIbCg8NpBw?t=1510) before he reveals this vital point. I put this down to the barrier between business people and software engineers that I describe [in the first article](Agile_WhatsThePoint.md) - neither group understands how little the other group knows about what they do, and people with a foot in both camps are rare.
+
+For clarity's sake: **you're supposed to run numbers through it**. Most people from Osterwalder's side of the fence know this, because it's clear from the name - it's a *Business Model* Canvas. So the two boxes at the bottom - the Cost Model and the Revenue Model, form the Cost / Benefit Analysis you'd find in a more traditional model. Indeed, you'd probably want to start building out a more traditional model you can plug *real* numbers into once your Product takes off - but the key is to *not waste time at the start over-modelling things based on really wild assumptions*. Instead, you can explore costs, benefits and the other key parts of your model *within about an hour of starting to get your idea off the ground*, instead of, er... **never** (which is the approach taken by [95% of benighted attempts at getting profitable software into the world](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)).
 
 Startup culture caveat.
 
