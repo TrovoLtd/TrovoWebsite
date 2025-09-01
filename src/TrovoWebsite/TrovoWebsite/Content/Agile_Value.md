@@ -36,16 +36,19 @@ I've built so many things throughout my engineering career that just didn't get 
 
 This glorious situation is endemic within software engineering, and there's a whole cabal of gurus trying to stop it. "Deliver value, not features" is the cry, a concept which obviously ties in nicely with the [toppermost of the Agile Manifesto Principles](https://agilemanifesto.org/principles.html). These days, you may also hear the same concept described as "delivering outcomes not outputs".
 
-Whichever way it gets styled, though, I feel this concept gets a little confusing for the average software engineer, who's job is to *build things*. And you can't really *build an outcome*, can you? You have to build *the thing that causes the outcome to occur*. I'm splitting hairs a bit here, it's not *that* complicated a concept, but nevertheless the trap of defining the problem in terms of the solution we want to build is, as ever an easy one to fall into.
+Whichever way it gets styled, though, I feel this concept gets a little confusing for the average software engineer, whose job is to *build things*. And you can't really *build an outcome*, can you? You have to build *the thing that causes the outcome to occur*. I'm splitting hairs a bit here, it's not *that* complicated a concept, but nevertheless the trap of defining the problem in terms of the solution we want to build is, as ever an easy one to fall into.
 
 So the trick is to set objectives that relate to measures of business performance, e.g.:
 
 | The old way (outputs)             | The new way (outcomes)    |
 | ----------------------------------| ------------------------- |
 | Build a better checkout process   | Reduce drop-outs from the checkout from 43% to 25% |
-| Create an installer               | Decrease downloads with no subsequent registration from 55% to 20% |
+| Create an installer               | Decrease lead-in time from decision to buy to getting up and running from 32 days to 5 |
+| Make the recommendation system more accurate | Increase occurrences of cross-selling at the checkout from 12% of orders to 45% |  
 
-This theory has a name, which is...
+The whole idea is to give creative people problems to solve, without proscribing the solutions. Troubles occur because *Product people are also creative*, so we have a tendency to try and shrink-wrap solutions and hand them over. Computer programmers can then also enable this unhelpful tendency by asking the question: "... what are the requirements?". This is often shorthand for: "...tell me what to do, then I'll passive-aggressively tell you why that's a stupid idea, before suggesting my *own* stupid idea that's also not based on any understanding of the problem, either".
+
+Anyway, the theory of setting problems that have solutions with measurable outcomes has a name, which is...
 
 ### Objectives and Key Results (OKRs)
 
@@ -127,7 +130,19 @@ Bob's book describes what he did to fix the problem, and it's the one I'd recomm
 
 ### Jobs To Be Done
 
-### Value Propositions
+I'm not too well-read on [Clayton Christensen's underlying philosophy](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done) other than what Bob Moesta says about it (he was a big part of coming up with the underlying idea), but I believe there's a suggestion that it helps to think in terms of customers just "hiring" your product to do a job, and they'll keep hiring it until they find one that does the job better. There's an overlap with Product / Market fit here - your product doesn't necessarily have to have *perfect* fit, as long as it's better than the competition - but obviously the closer the fit, the harder it'll be for the competition to better it. The key thing is that we define the market, and the fit that the product has with it, in terms of the *jobs people are trying to do*, or in Bob's terms: *the struggles they are having*, and not *the people themselves*, which is the more traditional approach to marketing, and enshrined in things like Personas etc.
+
+Incidentally, it's this tweak to "struggle" rather than "job" that aligns Bob Moesta's ideas up better with Sales / Go-To-Market, because what he calls "the struggling moment" is the point a customer is most susceptible to the idea of switching to a better way of getting their job done. Thus the key to good product marketing is to find these moments and ensure your market are aware of your product when they occur, and also provide a satisfying solution to the struggle, of course.
+
+### The Value Proposition Canvas
+
+This is another Strategyzer artefact, that is literally central to the Business Model Canvas, and ties the whole business model to the value you're delivering. They realised they needed it when the "Value Proposition" boxes in the middle of everyone's canvases started overflowing in tsunamis of sticky notes.
+
+This idea is also based on the Jobs To Be Done approach, though it doesn't dwell on the "you're just renting the product" idea. Instead it formalises the process of defining the job that customers and users are trying to do, looking at the pain points around getting the job done, and how your shiny new technology can relieve them. But the Value Proposition Canvas also encourages you to focus upon the extra (often unexpected) gains that could be achieved by implementing the new technology in the form of "gains" and "gain-creators" - the aspects of the technology that (in Don Norman's terms) "afford" new opportunities that didn't exist before.
+
+This is the whole "disruption" thing (also a Clay Christensen idea) writ large, and is *very* aligned with the Digital Realm and the whole Silicon Valley philosophy which underpins lovely organisations such as Uber, Deliveroo / DoorDash, AirBnB etc. So at this point, I really, *really* get it, but start to get a bit sniffy about it all, too. There's just something *antisocial* about the idea of "disrupting" things that sticks in my throat a bit (see below)... Who do you think you are, Sham 69? (Yes, probably).
+
+But, as with everything I've put in these three articles, the Digital Realm helps you "disrupt" things (should you wish), because of the whole "infinite possibilities" and "lack of friction" things.
 
 ## Products Not Projects
 
