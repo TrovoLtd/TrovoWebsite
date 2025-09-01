@@ -49,13 +49,15 @@ This theory has a name, which is...
 
 ### Objectives and Key Results (OKRs)
 
-Intel came up with OKRs in the 80s and 90s - their CEO Andy Grove based it on Peter Drucker's business philosophy. They're all the rage now. The intention is to empower your staff by leaving the "how" of delivering objectives up to them. In the frictionless Digital Realm, there's one major advantage to this: if you prescribe a solution to the team and tell them you're going to pat them on the back if they deliver that solution, they'll go ahead and deliver it even when it's clear it won't work.
+Intel came up with OKRs in the 80s and 90s - their CEO Andy Grove based it on Peter Drucker's business philosophy. OKRs are all the rage now, though would you be surprised if I told you [a lot of people do it badly](https://medium.com/@kmackie4/why-most-okrs-fail-and-the-fix-that-actually-works-47c500c91a6f)? 
+
+The *intention* behind OKRs is to empower your staff by leaving the "how" of delivering objectives up to them. In the frictionless Digital Realm, there's one major advantage to this: if you prescribe a solution to the team and tell them you're going to pat them on the back if they deliver that solution, they'll go ahead and deliver it even when it's clear it won't work.
 
 In case you missed it, "agility" means "the ability to change direction quickly". So reserving the pats and tickles for when an *outcome* is delivered encourages the team to switch tactics once it's clear the original ones aren't moving the needle. Working in the Digital Realm means there's nothing to stop you doing so, other than fear, and / or your clumsy ways of working.
 
-That's the *theory*, anyway, but empowering teams this much is a *big cultural shift*. Managers really are in the habit of telling people what to do; even the good ones. So it takes quite a lot of willpower to let go like that. The main place I've worked that tried it didn't really get it: "we're doing OKRs now" was announced with a bit of a fanfare, but before we knew it we'd fallen back into old habits of slogging through set plans and implementing a business cases that defined solutions for us to deliver.
+That's the *theory*, anyway, but empowering teams this much is a *big cultural shift*. Managers really are in the habit of telling people what to do; even the good ones do so from time to time, *because they can*. So it takes quite a lot of willpower to let go like that. The main place I've worked that tried it didn't really get it: "we're doing OKRs now" was announced with a bit of a fanfare, but before we knew it we'd fallen back into old habits of slogging through set plans and implementing business cases that defined solutions for us to deliver.
 
-In other words, we weren't using the fact we were working in the Digital Realm to our advantage.
+In other words, we weren't using the fact we were working in the Digital Realm to our advantage. No fault of the theory - it wasn't really given a fair shake, because management didn't get why the Digital Realm is different.
 
 ### No (Heavy) Roadmaps
 
@@ -71,43 +73,57 @@ However, as part of the rigmarole of getting a system in place, we had to write 
 
 He gave me a kind of chuckle that indicated I might not have been the first geek to have asked him this question, then showing tremendous patience, he sat me on his knee and walked me through it. This was when all sorts of things that had been brewing in my addled brain for the previous ten years or more (not least the damn PhD itself) finally clicked into place. Incidentally - this is what an "epiphany" is - there's not much mystical about it, its just the last couple of neurons between different parts of your brain making a key connection - but when it's one of those ones where the connection is *really* key, you can kind of feel it, physically.
 
-What Chris showed me that afternoon was that is was possible to estimate the relative values of bits of an Information System in order to prioritise which one to build first. This is, of course, *the* most fundamental part of being small-a-agile, but nobody ever tells you this - you have to work it out for yourself. And try though I might throughout the following decade or so, I haven't found many other people that have been through the same "epiphany", either.
+What Chris showed me that afternoon was that is was possible to estimate the relative values of bits of an Information System in order to prioritise which one to build first. This is, of course, *the* most fundamental part of being small-a-agile, but I've not found a single book that tells you this (maybe "the Lean Enterprise"?). Instead I had to wait for 12 years after writing my first Unit Test for Chris to tell me. And try though I might throughout the following decade or so, I haven't found many other people that have been through the same "epiphany", either: it's like some sort of Magic Circle thing.
 
-I was also shown a version of business modelling that was really, *really* slow, and based on special assumptions made by "experts" up-front. Chris did at least explain a technique where you had to note those assumptions explicitly, make them easy to change, and even Monte Carlo them if necessary, but it was all very heavyweight. Chris told me that he loved small-a-agility but that the IT function at Cambridge had made so many bad fists of implementing capital-A-Agile in the past that it was practically a swear-word in his department, so he had to do it by stealth, and given that the institution is over 800 years old, taking six months to produce a huge up-front business case is kind of being agile, anyway. But he definitely got the value bit - unlike most other people.
+On the flip-side, the version of business modelling Chris taught me was really, *really* slow, and still based on special assumptions made by "experts" up-front. Chris did at least explain a technique where you had to note those assumptions explicitly, make the figures easy to change, and even Monte Carlo it all if necessary, but it was all very heavyweight and up-front. In his defence, Chris told me that he loved small-a-agility but that the IT function at Cambridge had made so many bad fists of implementing capital-A-Agile in the past that it was practically a swear-word in his department, so he had to do it by stealth, and given that the institution is over 800 years old, taking six months to produce a huge up-front business case is kind of being agile, anyway. But he *definitely* got the value bit - in particular the bit where you map benefits onto features of the system you're proposing so you can work out which ones are worth doing, and what order to do them in.
 
 However, the insistence that we spend *so* long toiling away at it without, you know, *testing* any of the numerous assumptions we were working with rankled really badly with me, so I set out to find a more small-a-agile approach. Enter [the Business Model Canvas](https://www.strategyzer.com/library/the-business-model-canvas).
 
-One thing that's always annoyed me about the Business Model Canvas is that it's not made clear enough that *you're supposed to run numbers through it*. The book Strategyzer wrote about it doesn't come out and say this outright - indeed you have to wait for Alex Osterwalder (its inventor) to get [twenty-five minutes into his key presentation about it](https://youtu.be/8GIbCg8NpBw?t=1510) before he reveals this vital point. I put this down to the barrier between business people and software engineers that I describe [in the first article](Agile_WhatsThePoint.md) - neither group understands how little the other group knows about what they do, and people with a foot in both camps are rare.
+### The Business Model Canvas
 
-For clarity's sake: **you're supposed to run numbers through it**. Most people from Osterwalder's side of the fence know this, because it's clear from the name - it's a *Business Model* Canvas. So the two boxes at the bottom - the Cost Model and the Revenue Model, form the Cost / Benefit Analysis you'd find in a more traditional model. Indeed, you'd probably want to start building out a more traditional model you can plug *real* numbers into once your Product takes off - but the key is to *not waste time at the start over-modelling things based on really wild assumptions*. Instead, you can explore costs, benefits and the other key parts of your model *within about an hour of starting to get your idea off the ground*, instead of, er... **never** (which is the approach taken by [95% of benighted attempts at getting profitable software into the world](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)).
+The Business Model Canvas is provided by a consultancy firm called [Strategyzer](https://www.strategyzer.com/) and at least in part came about as a result of PhD research by a chap called [Alex Osterwalder](https://alexosterwalder.com/). I landed on it after finishing my work at Cambridge, while I was searching for a small-a-agility business modelling method, and in that respect it really fits the bill. You can, and should, get a Business Model Canvas together within hours, or minutes, of working up your next brilliant new idea that's going to bring the Digital Realm to its knees.
 
-Startup culture caveat.
+Or, if, by some *miracle*, you've got twenty years into a successful product suite, without ever working up a business model of any kind, you should immediately drop whatever nonsense you're up to and start drawing one up. (Remember from [article one](Agile_WhatsThePoint.md), everything has a business model in the same way everything has a design - if you haven't thought about it explicitly, it'll almost certainly be a bad one).
 
-But the other thing that's undercooked in a lot of Product literature - COSTS!
+Rather than go into massive detail about it, I'd just recommend buying [the book about it](https://www.strategyzer.com/library/business-model-generation), as well as the two follow-up ones about Value Propositions and Testing Business Ideas, too (more about those later).
 
-- Value is *actually* Benefits **-** Costs. Digital systems production really struggles with this!
+The Business Model Canvas seems to be heavily associated with startup companies, though as I say, in IMHO there's no *real* reason why, the most likely is that a detailed method for using it in full start-up mode was published by [Steve Blank](https://steveblank.com/) in his book [The Startup Owner's Manual](https://steveblank.com/startup-owners-manual-1in/). This goes full-gas about how to use it to find product market fit and work the odds of success in your favour, and as such I think it can usefully be applied whenever you feel you need to change a product at any stage of their lifecycle. Should no business modelling work have been done on your products already, then following these processes to put one in after the fact is really going to help you manage the rest of its lifecycle, and get your products under control.
 
-Need an example? How about the bubble I mentioned at the start? [Will this do](https://markets.businessinsider.com/news/stocks/ai-stocks-risk-nvidia-gpus-blackwell-tech-outlook-depreciation-accounting-2024-8)? (TLDR - if you buy $ Billions worth of GPUs in one go, when new / 'better' ones are being released all the time, then the value of your CapEx tanks a lot quicker than you're probably accounting for...)
+Working out the value of your work methodically and scientifically is *not just for start-ups*, which is a good job, given how many serious problems there are with start-up culture (more later).
 
-### Hardcore experimentation
+The thing that most annoys me about the Business Model Canvas is that it's not made clear enough that *you're supposed to run numbers through it*. The book Strategyzer wrote about it doesn't come out and say this outright - indeed you have to wait for Alex Osterwalder to get [twenty-five minutes into this key presentation about it](https://youtu.be/8GIbCg8NpBw?t=1510) before he reveals this vital point. I put this down to the barrier between business people and software engineers that I describe [in the first article](Agile_WhatsThePoint.md) - neither group understands how little the other group knows about what they do, and people with a foot in both camps are rare.
 
-Confidence levels (ICE).
+For clarity's sake: **you're supposed to run numbers through it**. Most people from Osterwalder's side of the fence know this, because it's clear from the name - it's a *Business Model* Canvas. So the two boxes at the foot of the canvas - the Cost Model and the Revenue Model, form the Cost / Benefit Analysis you'd find in a more traditional model. Indeed, you'd probably want to start building out a more traditional model you can plug *real* numbers into once your Product takes off - but the key is to *not waste time at the start over-modelling things based on really wild assumptions*. Instead, you can explore costs, benefits and the other key parts of your model *within about an hour of starting to get your idea off the ground*, instead of, er... **never** (which is the approach taken by [95% of benighted attempts at getting profitable software into the world](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)).
 
-Assumption mapping.
+### Uncontrolled costs
 
-Caveat of this bit: to experiment properly you *have to be good at experimenting*. I.e.: you should have at least an affinity with scientific methods. It's quite easy to conduct "experiments" that simply exist to confirm your biases, so an inability to at least try and remain objective about results, and failure to acknowledge that experiments that turn out exactly as expected are as rare as hens' teeth, put all the good intentions behind experimentation at risk.
+I mentioned that costs in the Digital Realm are seriously out of control in [article two](Agile_AntiPatterns.md). I think the whole topic is seriously undercooked in the product world, too. I've done the foundation piece of [Pragmatic](https://www.pragmaticinstitute.com/product/) training, for example, and while it's really good and gets a lot of key things absolutely right, their [Framework](https://www.pragmaticinstitute.com/product/framework/) has *thirty-seven* boxes on it (gulp!) and "costs" is nowhere to be seen (I expect it falls in the "business" column somewhere but just should be more obvious). Similarly, Marty Cagan buries the concept of costs in his discussion of "Business Alignment" / "Viability" - so it *is* in there, but not as explicitly as it should be.
 
-Never forget: a *successful* experiment is one that turns out unexpectedly.
+Hence: *do a Business Model Canvas* - the whole left-hand-side is "costs", really - and getting it all understood and under your nose *from the very start* is why you need engineers / technicians to be at the table. Good technicians will have something useful to say about the whole model, but the costs side is where they really contribute.  
+
+To reiterate: value is *actually* **Benefits minus Costs**, and Digital Realm work *really* struggles with this. We don't have to look any further than [this utter car-crash](https://markets.businessinsider.com/news/stocks/ai-stocks-risk-nvidia-gpus-blackwell-tech-outlook-depreciation-accounting-2024-8) for evidence. (TLDR - if you buy $ Billions worth of GPUs in one go, when new / 'better' ones are being released all the time, then the value of your CapEx tanks a lot quicker than you're probably accounting for...)
 
 ## Customer Discovery
 
-NIHITO
+I mentioned Pragmatic above, and as I say, they nail the fundamentals when it comes to product - it's *problem, problem, problem* all the way with them - and more power to their elbow. They also have a great mnemonic: NIHITO - *Nothing Important Happens In The Office*, mirroring Steve Blank's chief slogan: *GET OUT OF THE BUILDING*.
 
-Problem first, then solution.
+However - to paraphrase [article two](Agile_AntiPatterns.md) - the biggest, stupidest anti-pattern in the whole of Product is people sitting around pretending they know what their customers / user base are like, or what they do, without ever spending any time at all anywhere near them. This still seems to go on all over the place and it's the absolute dark-heart of everything that's still wrong with the whole IT business. Just **STOP IT**!
 
-The first diamond.
+The second-most stupid anti-pattern is *asking people the wrong question* if / when you do go to see them. And that wrong question is: *"...what do you want?"*
 
-Investigate scenario timelines. "What do you want?" is a dangerous question, and the "Five Whys" are just rude.
+This question is a lot worse than useless, because 99 times out of 100 the person you're asking is crazy / misguided enough to think they know the answer. Indeed one of the main reasons people don't actually go out and see customers / users in the wild is because one of them has come into the office with "what they want" on the tip of their tongue. They're desperate to waste your time and money.
+
+Of course, even though it would often be a lot cheaper, we shouldn't hide when they do - time in the presence of customers is the most valuable and important thing (see Marty Cagan again - at least an hour every week with a different one, and *take an engineer with you when you go*). But if we want to get to the *actual problem* and avoid all the waste, we have to *reframe the question* from "...what do you want?" to: *"...what were you doing?"*
+
+People just can't answer "what do you want?" truthfully. If they genuinely knew what the solution to their problems were, they wouldn't need you, would they? They could solve it themselves. The issue is that they don't even know in enough detail what their *problems* are... But *everyone* can tell you *exactly* what they were going through when they suffered the problem, in extreme detail. Just ask the question people can answer easily, and truthfully.
+
+This clever re-framing idea has emerged in a few places. From the more technical end of things, it's at the core of [Event Storming](https://www.eventstorming.com/), for example, where you work through scenario timelines with the people that have the problem you believe you can solve. Strategyzer are all over it, too - it was always right in the middle of the Business Model Canvas, but took up so much room that they invented the [Value Proposition Canvas](https://www.strategyzer.com/library/value-proposition-design-2) to cope.
+
+The absolute best guide to asking the question properly, though, is Bob Moesta's [Demand Side Sales 101](https://www.demandsidesales.com/). The reason it wins is that is aligns the question with, er, *Sales*. And, well, perhaps I've just been unlucky, but wherever I've worked Sales have always been the biggest ~~pain in the arse~~ disruptive influence to the smooth running of things. Because they've *always* sold stuff that **wasn't actually the product**. Which from an engineering pov means *having to tweak the product to fit the sale* every time. Which, because it's the Digital Realm, is *always possible* but *never a good idea*. Such tweaks are [how all the Technical Debt gets into products](https://youtu.be/d2Ddo8OV7ig?si=aQmErwkglXuD-Qyx), meaning *each time it happens, it makes the next tweak harder to deliver*. Before you know it, everything's seized shut, and all Sales can do from then on is make your company look dumb.
+
+This is *not Sales' fault*, of course - it's a capitalist world (still, just about), and if they didn't sell you wouldn't get paid. The issue is that it's often not clear enough *why* the customer should buy the product, so Sales have to "elaborate" to a greater or lesser extent (always greater). Bob Moesta twigged this, then (as he's a proper engineer), he put his boots on the ground to find out the cause of the problem. He got himself a sales job, selling kitchen work-surfaces in a local hardware shop. And from day one got completely into the trap I've described above, and nearly brought the company that hired him to its knees, by promising customers undeliverable things in order to make sales.
+
+Bob's book describes what he did to fix the problem, and it's the one I'd recommend the most of all those I've mentioned in my mega-rants. It's pretty simple, and the core simplicity hangs on asking the easy-to-answer question. Which, in common with the Value Proposition Canvas, comes from...
 
 ### Jobs To Be Done
 
@@ -121,7 +137,13 @@ Double-check from EDGE on this one
 
 ### Hypotheses and Experimentation
 
-Assumption Mapping
+Confidence levels (ICE).
+
+Assumption mapping.
+
+Caveat of this bit: to experiment properly you *have to be good at experimenting*. I.e.: you should have at least an affinity with scientific methods. It's quite easy to conduct "experiments" that simply exist to confirm your biases, so an inability to at least try and remain objective about results, and failure to acknowledge that experiments that turn out exactly as expected are as rare as hens' teeth, put all the good intentions behind experimentation at risk.
+
+Never forget: a *successful* experiment is one that turns out unexpectedly.
 
 ### Product / Market Fit
 
