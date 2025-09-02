@@ -26,6 +26,24 @@ However - as I'm writing this in the middle\* of *the **most severe** tech bubbl
 
 \* Actually it feels more like we're nearer the bit when it all bursts than the middle. Date of writing this: 26th August 2025 - let's see.
 
+## Product / Market Fit
+
+This is a fundamental concept, so let's deal with it first. It describes the small-a-agile startup's equivalent of the Holy Grail - the point at which your Product has landed successfully upon an eager (and large-enough) cohort of users and customers. The value of using it is obvious to all and sundry. Once you find that fit, you can pull money down from the proverbial magic tree.
+
+I'm not sure the concept can be attributed to one person but [Marc Andreessen](https://pmarchive.com/guide_to_startups_part4.html) is one of the candidates. I particularly like how the article has aged since 2007, he cites "search keyword advertising" and "internet auctions" as examples of products with excellent fit, then contrasts those with "video-conferencing" and "micro-payments" as examples of failures. As mentioned in [article 2](./Agile_AntiPatterns.md), timing is everything, innit?
+
+This for me highlights something important - product / market fit is usually defined as the Holy Grail *of startups*, but the reality is that its like nailing jelly to a wall, you might get it balanced in place for a while, but this is the Digital Realm we're in; it's fluid and frictionless, and in the unlikely event that you ever achieve a perfect fit, you won't keep it for long without constant change.
+
+The canonical book about Product / Market fit is Eric Reis's [The Lean Startup](https://www.waterstones.com/book/the-lean-startup/eric-ries/9780670921607), which (clue in the title), firmly roots the concept of Product / Market fit in startup culture. One risk of Product / Market fit in an investment-heavy world is that "proof of fit" can become an end in itself, can get substituted for *actual value*, the result is "jam tomorrow", and [bright young things of the Forbes 30 under 30 ending up in prison](https://www.waterstones.com/book/the-lean-startup/eric-ries/9780670921607).
+
+But another thing I've personally lived through a couple of times is when companies find great Product / Market fit *by accident*. This isn't as unlikely as it sounds in the Digital Realm - a great technology just finds a market "organically" and delights everyone by affording opportunities they never had before. Companies like, I don't know, Nokia, for example, or Research In Motion. Or Sun Microsystems.
+
+If your company is making good money out of a ground-breaking technology, but nobody can put their finger on *why*, exactly - then you're in big trouble, even if you're pulling money out of people's wallets for the time being. Inability to articulate why the cool technology is so valuable other than "it's cool" leaves you wide open to customers' "great ideas" about your product, and you won't be able to argue the toss when they insist that you start to break it.
+
+But knowing why your product fits the market means being able to show and tell exactly how much extra your product is contributing to customers' bottom lines, or the extent to which it's easing their troubles. And it keeps everyone focused on constant delivery of value, and help you notice when that value starts to dip, too (which it will), and suggest ways of fixing it when that happens.
+
+So even if you're *not* a startup, and you have loads of customers, and robust revenue and earnings, and all that other good stuff - if you can't point at the quality of fit between your products and their market - if the only market segment you are sure you're selling to is "people who buy our products", for example, then you ought to define your fit, retrospectively (and quickly).
+
 ## Strategy and Tactics
 
 ### Viability, Feasibility and Desirability
@@ -52,9 +70,9 @@ Anyway, the theory of setting problems that have solutions with measurable outco
 
 ### Objectives and Key Results (OKRs)
 
-Intel came up with OKRs in the 80s and 90s - their CEO Andy Grove based it on Peter Drucker's business philosophy. OKRs are all the rage now, though would you be surprised if I told you [a lot of people do it badly](https://medium.com/@kmackie4/why-most-okrs-fail-and-the-fix-that-actually-works-47c500c91a6f)? 
+Intel came up with OKRs in the 80s and 90s - their CEO Andy Grove based it on Peter Drucker's business philosophy. OKRs are all the rage now, though would you be surprised if I told you [a lot of people do it badly](https://medium.com/@kmackie4/why-most-okrs-fail-and-the-fix-that-actually-works-47c500c91a6f)?
 
-The *intention* behind OKRs is to empower your staff by leaving the "how" of delivering objectives up to them. In the frictionless Digital Realm, there's one major advantage to this: if you prescribe a solution to the team and tell them you're going to pat them on the back if they deliver that solution, they'll go ahead and deliver it even when it's clear it won't work.
+The *intention* behind OKRs is to empower your staff by leaving the "how" of delivering objectives up to them. In the frictionless Digital Realm, there's one major advantage to this: if you proscribe a solution to the team and tell them you're going to pat them on the back if they deliver that solution, they'll go ahead and deliver it even when it's clear it won't work.
 
 In case you missed it, "agility" means "the ability to change direction quickly". So reserving the pats and tickles for when an *outcome* is delivered encourages the team to switch tactics once it's clear the original ones aren't moving the needle. Working in the Digital Realm means there's nothing to stop you doing so, other than fear, and / or your clumsy ways of working.
 
@@ -159,12 +177,6 @@ Assumption mapping.
 Caveat of this bit: to experiment properly you *have to be good at experimenting*. I.e.: you should have at least an affinity with scientific methods. It's quite easy to conduct "experiments" that simply exist to confirm your biases, so an inability to at least try and remain objective about results, and failure to acknowledge that experiments that turn out exactly as expected are as rare as hens' teeth, put all the good intentions behind experimentation at risk.
 
 Never forget: a *successful* experiment is one that turns out unexpectedly.
-
-### Product / Market Fit
-
-https://pmarchive.com/guide_to_startups_part4.html - but link this back to the startup culture caveat.
-
-What is a Pivot, exactly? (Go for the Blank / Osterwalder definition).
 
 ## Team Autonomy
 
