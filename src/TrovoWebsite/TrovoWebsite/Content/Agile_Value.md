@@ -12,15 +12,17 @@ This is the third and final part of a three article series:
 
 Throughout all three articles I use the phrase "Digital Realm" a lot. The [first article](Agile_WhatsThePoint.md) describes it fully, but a quick definition is: "... the place of frictionless, infinite possibility afforded by working with digital technology". Working here is usually very dangerous and most-often goes horribly wrong, but if you get *good* at working here it starts to offer some serious advantages over working in Real World ways.
 
+That's what this article is about, fundamentally, and it all hinges on the concept of *value*, a word that's prominent in the Manifesto for Agile Software Development, without *actually getting defined anywhere*. Handy, eh?
+
 ## TLDR of this article
 
 Plenty of people in the big wide world have succeeded in engineering software in small-a-agile ways, resulting in profitable and useful products. They didn't all get lucky - or at least, some of them played the percentages and vastly increased their chances of success by using strategies and tactics that:
 
 * Used the lack of friction in the Digital Realm to their advantage, by enabling a degree of experimentation that's not possible with Real World things.
-* Modelled the financial impact of their ideas and resulting products *properly*, instead of just launching stuff on a wing and a prayer.
-* *Really* got to know their customers, and the things their customers go through.
-* Trusted their staff to act like grown-ups with brains.
-* Aligned their effort with *Products*, not *Projects*.
+* Modelled the value of their ideas and resulting products *properly*, instead of just launching stuff on a wing and a prayer. And understood that *value* is what you have left over once customers have paid for the benefits of your product, and *you've paid* the cost of delivering it to them.
+* *Really* got to know their customers, and the struggles their customers go through.
+* Trusted their staff to act like grown-ups with, you know, actual brains and stuff.
+* Aligned all the delivery effort in terms of *Products* that continually add value, not *Projects* that you stop at some point once some value has been added (maybe, if you're really lucky).
 
 However - as I'm writing this in the middle\* of *the **most severe** tech bubble I can remember* (and I can remember the DotCom one), this article ends by suggesting that there might not be quite as many genuinely successful implementations of these patterns as the gurus suggest. I'm just not sure that we define "success" the right way, still - and as such *value* is still a bit problematic.
 
@@ -30,23 +32,47 @@ However - as I'm writing this in the middle\* of *the **most severe** tech bubbl
 
 This is a fundamental concept, so let's deal with it first. It describes the small-a-agile startup's equivalent of the Holy Grail - the point at which your Product has landed successfully upon an eager (and large-enough) cohort of users and customers. The value of using it is obvious to all and sundry. Once you find that fit, you can pull money down from the proverbial magic tree.
 
-I'm not sure the concept can be attributed to one person but [Marc Andreessen](https://pmarchive.com/guide_to_startups_part4.html) is one of the candidates. I particularly like how the article has aged since 2007, he cites "search keyword advertising" and "internet auctions" as examples of products with excellent fit, then contrasts those with "video-conferencing" and "micro-payments" as examples of failures. As mentioned in [article 2](./Agile_AntiPatterns.md), timing is everything, innit?
+I'm not sure the concept can be attributed to one person but [Marc Andreessen](https://pmarchive.com/guide_to_startups_part4.html) is one of the candidates. I particularly like how the article has aged since 2007: he cites "search keyword advertising" and "internet auctions" as examples of products with excellent market fit, then contrasts those with "video-conferencing" and "micro-payments" as examples of things that hadn't fulfilled their promise. As mentioned in [article 2](./Agile_AntiPatterns.md), timing is everything, innit? To be a venture capitalist is to be wrong, over and over, and yet somehow end up wealthier than God. Whodathunkit?
 
 This for me highlights something important - product / market fit is usually defined as the Holy Grail *of startups*, but the reality is that its like nailing jelly to a wall, you might get it balanced in place for a while, but this is the Digital Realm we're in; it's fluid and frictionless, and in the unlikely event that you ever achieve a perfect fit, you won't keep it for long without constant change.
 
-The canonical book about finding Product / Market fit is Eric Reis's [The Lean Startup](https://www.waterstones.com/book/the-lean-startup/eric-ries/9780670921607), which (clue in the title), firmly roots it all in startup culture. IIRC it's also where the benighted term "Minimum Viable Product" comes from (much more about that below). One risk of Product / Market fit in an investment-heavy world is that "proof of fit" can become an end in itself, can get substituted for *actual value*, the result is "jam tomorrow", and [bright young things of the Forbes 30 under 30 ending up in prison](https://www.waterstones.com/book/the-lean-startup/eric-ries/9780670921607).
+The canonical book about finding Product / Market fit is Eric Reis's [The Lean Startup](https://www.waterstones.com/book/the-lean-startup/eric-ries/9780670921607), which (clue in the title), firmly roots it all in startup culture. IIRC\* it's also where the benighted term "Minimum Viable Product" comes from (much more about that below). One risk of Product / Market fit in an investment-heavy world is that "proof of fit" can become an end in itself, can get substituted for *actual value*, the result is "jam tomorrow", faking it until you fail to make it, and [the bright young things of the Forbes 30 under 30 ending up in prison](https://medium.com/@patelmuqarrab./why-forbes-30-under-30-might-be-the-ultimate-curse-1111cfba747e).
 
-But another thing I've personally lived through a couple of times is when companies find great Product / Market fit *by accident*. This isn't as unlikely as it sounds in the Digital Realm - a great technology just finds a market "organically" and delights everyone by affording opportunities they never had before. Companies like, I don't know, Nokia, for example, or Research In Motion. Or Sun Microsystems.
+\* Turns out I don't RC at all - it was Frank Robinson, in 2001, apparently. 
+
+But another thing I've personally lived through a couple of times is when companies find great Product / Market fit *by accident*. This isn't as unlikely as it sounds in the Digital Realm - a great technology just finds a market "organically" and delights everyone by affording opportunities they never had before. Companies that did this include, I don't know, Nokia, for example, or Research In Motion. Or Sun Microsystems. Or Apple (nearly).
 
 If your company is making good money out of a ground-breaking technology, but nobody can put their finger on *why*, exactly - then you're in big trouble, even if you're pulling money out of people's wallets for the time being. Inability to articulate why the cool technology is so valuable other than "it's cool" leaves you wide open to customers' "great ideas" about your product, and you won't be able to argue the toss when they insist that you start to break it.
 
-But knowing why your product fits the market means being able to show and tell exactly how much extra your product is contributing to customers' bottom lines, or the extent to which it's easing their troubles. And it keeps everyone focused on constant delivery of value, and help you notice when that value starts to dip, too (which it will), and suggest ways of fixing it when that happens.
+But knowing *why* and *how* your product fits the market means being able to show and tell exactly how much extra value your product is contributing to customers' bottom lines, or the extent to which it's easing their troubles. It keeps everyone focused on constant delivery of value. It helps you notice when that value starts to dip, too (which it will), and suggests ways of fixing that when that happens.
 
-So even if you're *not* a startup, and you have loads of customers, and robust revenue and earnings, and all that other good stuff - if you can't point at the quality of fit between your products and their market - if the only market segment you are sure you're selling to is "people who buy our products", for example, then you ought to define your fit, retrospectively (and quickly).
+So even if you're *not* a startup, and you have loads of customers, and robust revenue and earnings, and all that other good stuff - if you don't comprehend the fit between your products and their market, in detail - if the only market segment you're sure you're selling to is "people who buy our products", then you really ought to define your fit retrospectively (and *soon*).
 
-## Strategy and Tactics
+## Strategy and Tactics for Delivering Value
 
-### Viability, Feasibility and Desirability
+To be small-a-agile you *have* to deliver value - it's in the first of the [12 manifesto principles](https://agilemanifesto.org/principles.html):
+
+* Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+
+But the definition of value is up to you, my friend. And as I've covered in [article 2](./Agile_AntiPatterns.md), as the manifesto was written by *software engineers*, it can often be the case that responsibility for defining value is left entirely to business people. They tell the engineers "what's valuable" (sort of, rarely in a very coherent way), the engineers deliver *something* (sort of - though because the value hasn't been properly defined, its rarely anything good, and it always takes ages, and who knows how much any of it costs, really?)... And then there's a lot of passive-aggressive resentment as the wheels fall off and everyone realises it's all been a waste of time, effort and money.
+
+It doesn't have to be this way, because the cavalry arrived a good while ago, in the form of [Marty Cagan](https://www.svpg.com/team/marty-cagan/). Marty is rightly held up one of the good Silicon Valley gurus, and his greatest contribution is to provide a snappy, workable definition of value, at long last. Hurrah for Marty!
+
+### Viability, Feasibility and Usability / Desirability
+
+Marty laid out his fundamental product development ideas in his first book, [Inspired](https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/), where he states that value delivery is the core factor upon which all products must be judged. However, he also suggests that delivery of value is the responsibility of the *whole team*, not just something that Product people tell the team how to deliver.
+
+He also breaks value delivery down into three sub-concepts, none of which deliver value on their own, but all of which can *prevent* value from being delivered if they're not properly attended to. They are:
+
+* **Feasibility** - the technical possibility of delivering a solution in a realistic time-frame, and defining the delivery costs.
+* **Usability** - whether the intended users are able to understand the product and use it easily-enough to solve their problems. This also gets styled as "desirability", too, as like it or not, there's an emotional aspect to people's decisions to use a product, though this *always* gets outweighed by how well the product eases their struggles, eventually.
+* **Viability** - how well the product aligns itself with the business that's delivering it. The obvious key one of these is "how much profit is there in it?", but there are other factors, too (e.g. "is the product actually *legal*, or will company Directors end up in court if we sell it?).
+
+These three factors can also be thought of in terms of "alignment with technology", "alignment with the market", and "alignment with the business". But the bottom-line is that all good products need to be well aligned in all three directions, all the time, and their natural tendency is to go out of whack, no matter how long they've been out in the big wide world for, and how successful they may have been in the past. The frictionless Digital Realm makes the process of coming unhinged a lot easier, too, of course.
+
+Sharp-eyed readers will have already noticed that the three sub-concepts also align to three key roles in a Product Team, the Software Engineer, the Product Designer and the Product Manager, and Marty suggests that all such teams should be led by these three amigos - with the set of three having shared responsibility for delivering value, by balancing all three things. He further suggests that these three people should be *the only* team members to begin with, until there's enough evidence of Product / Market Fit being established to warrant increasing headcount.
+
+He also hammers home the point that all three amigos should share a deep and meaningful understanding of *the problem the product is solving* - of which a lot more below. Indeed - pretty much everything in the rest of this article is covered by Marty Cagan somewhere or other, because he really does know his onions. Such as...
 
 ### Deliver Value Not Features
 
@@ -54,7 +80,7 @@ I've built so many things throughout my engineering career that just didn't get 
 
 This glorious situation is endemic within software engineering, and there's a whole cabal of gurus trying to stop it. "Deliver value, not features" is the cry, a concept which obviously ties in nicely with the [toppermost of the Agile Manifesto Principles](https://agilemanifesto.org/principles.html). These days, you may also hear the same concept described as "delivering outcomes not outputs".
 
-Whichever way it gets styled, though, I feel this concept gets a little confusing for the average software engineer, whose job is to *build things*. And you can't really *build an outcome*, can you? You have to build *the thing that causes the outcome to occur*. I'm splitting hairs a bit here, it's not *that* complicated a concept, but nevertheless the trap of defining the problem in terms of the solution we want to build is, as ever an easy one to fall into.
+Whichever way it gets styled, though, I feel this concept gets a little confusing for the average software engineer, whose job is to *build things*. And you can't really *build an outcome*, can you? You have to build *the thing that causes the outcome to occur*. I'm splitting hairs a bit here, it's not *that* complicated a concept, but nevertheless the trap of defining the problem in terms of the solution we want to build is, as ever, an easy one to fall into.
 
 So the trick is to set objectives that relate to measures of business performance, e.g.:
 
@@ -176,7 +202,7 @@ Never forget: a *successful* experiment is one that turns out unexpectedly. To k
 
 I scratched the surface of the Digital Realm's most poorly-understood-concept in [article 2](./Agile_AntiPatterns.md). To sum-up, I described them as Maximally-Non-Viable-Projects, which is what they usually revert to in the hands of people that don't get the point of them (i.e. practically everyone).
 
-My suggestion is to actually think of them as "Unit Tests of Value" (not my idea, wish I could find the person who said it first)... I.e. the (genuine) minimum amount of work you need to do to *disprove* something is going to work. The "MVP" equivalent of this is to look at your grand product idea, hypothesise a market segment that will have issues your product is going to solve, then try and list 20 people or organisations that are strong candidates for having that problem. If you get stuck around ten, your idea might not be as great as you thought. If you do this work *with an Engineer and a Designer* present, they'll be able to get creative with the new information you've gained from this market research and suggest ways of tweaking the idea (call this "pivoting" if you like) until you do have 20. (The engineer might want to call it "changing the first Unit Test of Value until it passes", if they know what they're doing.)
+My suggestion is to actually think of them as "Unit Tests of Value" (not my idea, wish I could find the person who said it first)... I.e. the (genuine) minimum amount of work you need to do to *disprove* something is going to work. The "MVP" equivalent of this is to look at your grand product idea, hypothesise a market segment that will have issues your product is going to solve, then try and list 20 people or organisations that are strong candidates for having that problem. If you get stuck around ten, your idea might not be as great as you thought. If you do this work *with an Engineer and a Designer* present, they'll be able to get creative with the new information you've gained from this market research and suggest ways of tweaking the idea until you do have 20. (Call this "pivoting" if you like. The Engineer might want to call it "changing the first Unit Test of Value until it passes", if they know what they're doing.)
 
 That's MVP one done, by lunchtime on the first day. It's also the first bad idea of the nine-out-of-ten bad ones put to bed, too. Well done! Have a guess what MVP two might be? That's right - coming up with an elevator-pitch-sized description of the *problem* you think your tweaked idea is going to solve, then calling the 20 people / companies you identified in test 1. Can't find six that are interested? (Or indeed, can't find one in the first three that doesn't immediately tell you to clear off?) Guess what - your idea still isn't right - *pivot again*.
 
@@ -184,11 +210,15 @@ Remember to ask the question right, though... So it's not: "...what do you think
 
 Anyway - that's two MVPs done by the end of day one, and a whole combo of Product Manager, Designer and Engineer that understand the customers' struggles about 5000% better than they did at the start of the day. If the idea's got legs then you should have also booked-in time with 6 people / organisations that struggle with the problem you think you can solve badly enough to be willing to talk to you about it. Walk through a timeline of the problem with these people - no solutions, just take them back to the time they last struggled and step through it.
 
-MVP #3 should emerge from the first three sessions of doing this. If you're doing it right, it'll be a product that frames the struggle in customers'language, not yours. But you should still only be talking to potential customers about *the problem* at this stage. Use the next three sessions you booked to validate the language you've reframed things in.
+MVP #3 should emerge from the first three sessions of doing this. If you're doing it right, it'll be a product that reframes the struggle in customers' language, not yours. But you should still only be talking to potential customers about *the problem* at this stage. Use the next three sessions you booked to validate the language you've reframed things in.
 
 If you've hit a really good idea then you ought to get through six sessions in a couple of weeks, and still have half-a-dozen people who are willing, nay eager, to see what you come up with in terms of a solution. Of course, it's unlikely to go this smoothly, and you'll have tweaked and pivoted a good few more times, or more likely you'll have disproved that your idea is going to work by now. But if its still got legs, and you've got "the struggle" mapped out and timelined in the customers' language, then you can start thinking about prototyping a solution (the designer and engineer will probably not have been able to stop themselves from doing this by now, anyway, if you really have landed on a genuine problem to solve).
 
 Then MVPs 10 - 30 are a case of taking the solutions back to the market again, once again walking through the timeline of the struggle, and testing how the solutions line up with it. In Dave Thomas's terms - these are the smallest steps you can take with an idea before you get feedback - and (important point), small-a-agility can simply mean "backing-up to the previous step if you find out you've done the last bit wrong". If you're ever doing so much work that you'd be upset to can it when it's wrong, then your steps are too big, and you've fallen too in love with a particular idea.
+
+You'll note that this is all very "start-uppy" so far - but this approach can (and should) be applied to any suggested change to a Product. The difference with existing products is that you should already have a market segment in mind, and a set of customer relationships in place, so finding people to test the problem your change is intended to solve ought to be easier. 
+
+If you *don't* have a well-understood set of market segments your Products are designed for, and no intimate understanding of the jobs your products support, and the struggles your customers suffer, then get those in place **NOW**, as your *business is a risk until you do*. Any changes you put in without that understanding are 90% likely to be bad ones, that'll disturb the delicate balance of the value your products are somehow delivering by accident.
 
 ### Confidence levels (ICE)
 
