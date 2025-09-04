@@ -48,6 +48,18 @@ Also, the only legitimate confirmation is in their *actions*, not what they actu
 
 So take the smallest possible step each time, then deploy the change somewhere you can get meaningful, measurable feedback. Chuffing your work out into some sort of demo that customers / stakeholders are forced to attend at knifepoint doesn't count. (See 'unproductive cadence' below).
 
+### Maximal Non-Viable Projects
+
+The concept of the "Minimal Viable Product" is a strong contender for "most-misunderstood in the whole of software engineering"(and it's a *very* big field). It's hard to know where to start with it, really - so there'll be a lot more about it in [article three](./Agile_Value.md), not least because it's the right idea at heart. But it's expressed very confusingly.
+
+The "viable" part *really* confuses software engineers, because in their eyes "viable" often means "fully-scalable, completely secure, 99-point-five-nines test coverage, fully-normalised relational data model, and with a disaster-proof build pipeline". Or in other words - "please wait for at least six-months'-worth of effort for a team of ten before we can test your vague business idea".
+
+That's obviously **not** what's meant by "minimal": at which point no finer example of the contradictory nature of small-a-agility exists. The otherwise really good book [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) by (original Manifesto signatory) Jim Highsmith, Linda Luu and David Robinson, gets itself in a right pickle with this concept, too - suggesting (like most software engineers) that "releasing an MVP" is something of a big milestone in the life of a Product, that occurs sometime towards the end of a huge amount around the time you're ready to formally go-to-market. The good news is that Edge also describes about a thousand ways to test the viability of your product ideas (and, presumably, can the 9 ones out of ten that *aren't* viable) *before* you get to MVP. Note to Highsmith et al - that's what an MVP *is actually supposed to be*.
+
+I wish I could find the place I saw MVPs described as "Unit Tests for Value" - because that's a much healthier description, particularly if you're trying to clarify the concept with Software Engineers. If they're any good then they'll get that "Unit Test" means "the minimum amount of work to dis-prove if something works or not".
+
+Much more about this in [article 3](./Agile_Value.md).
+
 ### Working "without a design"
 
 Confusing "Agile" vs "agility" alert. One of the 12 principles that says:
@@ -83,9 +95,9 @@ Heroic behaviour can be summed-up as: "not listening to the people with the prob
 
 I expect that it's lovely to be talented, and talented people are certainly great to work with. But its so much better if they're also humble about it and know how to deploy their talent properly by approaching each problem on its own merits.
 
-## Disfunctional people and teams
+## Dysfunctional people and teams
 
-Full disclosure - I am of course at least as guilty of committing the crimes listed below as anyone else. It's almost as if the frictionlessness of the infinite Digital Realm makes it easy to act in the following shameful ways.
+Full disclosure - I am of course at least as guilty of committing the crimes listed below as anyone else. It's almost as if the frictionless-ness of the infinite Digital Realm makes it easy to act in the following shameful ways.
 
 ### Engineers
 
@@ -96,7 +108,7 @@ Full disclosure - I am of course at least as guilty of committing the crimes lis
 * Who act heroically (see above).
 * Who simply don't know how to build code-bases that are easy to change in future (I've lost count of the numbers of highly-paid engineers I've worked with who *don't know what interfaces are for*).
 
-Such neerdowells will most likely march you away from anything good at a rapid pace. Knowledge about the things you would have been better off doing in the first place will emerge eventually though, at which point they won't want to re-do all the stuff they've built so far. So they'll try and bend / break what they've done up to that point to better fit reality. This [causes more Technical Debt](https://youtu.be/d2Ddo8OV7ig?si=mp9oGFX-sCv4nwQ6) than any other factor.
+Such ne'er-do-wells will most likely march you away from anything good at a rapid pace. Knowledge about the things you would have been better off doing in the first place will emerge eventually though, at which point they won't want to re-do all the stuff they've built so far. So they'll try and bend / break what they've done up to that point to better fit reality. This [causes more Technical Debt](https://youtu.be/d2Ddo8OV7ig?si=mp9oGFX-sCv4nwQ6) than any other factor.
 
 \* There's nothing wrong per-se about either of these concepts but there's a time and a place, you know?
 
@@ -173,7 +185,7 @@ When you don't have measures of:
 
 Quality can be hard to measure but "number of bugs you released" and "length of time taken to change direction" might be good starters? How about "average number of pull-request comments"? Though this can be skewed by the fella on the team who complains because Git-Commit messages don't have a full-stop on the end. (This actually happened).
 
-Worse than all of this is the talking-shop retrospective where everyone wastes an hour moaning about all the crazy bobbins that's happened in the last two weeks, without committing to anything that would make the world a better place. I'm all for continous improvement - it's one of the two bedrocks of small-a-agility after all - but you do *have to*, you know, **improve, continously**. If you don't, then you're just holding retrospectives because *Scrum says you have to*.
+Worse than all of this is the talking-shop retrospective where everyone wastes an hour moaning about all the crazy bobbins that's happened in the last two weeks, without committing to anything that would make the world a better place. I'm all for continuous improvement - it's one of the two bedrocks of small-a-agility after all - but you do *have to*, you know, **improve, continuously**. If you don't, then you're just holding retrospectives because *Scrum says you have to*.
 
 ## Being told what to do, how, and by when
 

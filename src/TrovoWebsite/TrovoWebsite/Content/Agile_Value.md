@@ -34,7 +34,7 @@ I'm not sure the concept can be attributed to one person but [Marc Andreessen](h
 
 This for me highlights something important - product / market fit is usually defined as the Holy Grail *of startups*, but the reality is that its like nailing jelly to a wall, you might get it balanced in place for a while, but this is the Digital Realm we're in; it's fluid and frictionless, and in the unlikely event that you ever achieve a perfect fit, you won't keep it for long without constant change.
 
-The canonical book about Product / Market fit is Eric Reis's [The Lean Startup](https://www.waterstones.com/book/the-lean-startup/eric-ries/9780670921607), which (clue in the title), firmly roots the concept of Product / Market fit in startup culture. One risk of Product / Market fit in an investment-heavy world is that "proof of fit" can become an end in itself, can get substituted for *actual value*, the result is "jam tomorrow", and [bright young things of the Forbes 30 under 30 ending up in prison](https://www.waterstones.com/book/the-lean-startup/eric-ries/9780670921607).
+The canonical book about finding Product / Market fit is Eric Reis's [The Lean Startup](https://www.waterstones.com/book/the-lean-startup/eric-ries/9780670921607), which (clue in the title), firmly roots it all in startup culture. IIRC it's also where the benighted term "Minimum Viable Product" comes from (much more about that below). One risk of Product / Market fit in an investment-heavy world is that "proof of fit" can become an end in itself, can get substituted for *actual value*, the result is "jam tomorrow", and [bright young things of the Forbes 30 under 30 ending up in prison](https://www.waterstones.com/book/the-lean-startup/eric-ries/9780670921607).
 
 But another thing I've personally lived through a couple of times is when companies find great Product / Market fit *by accident*. This isn't as unlikely as it sounds in the Digital Realm - a great technology just finds a market "organically" and delights everyone by affording opportunities they never had before. Companies like, I don't know, Nokia, for example, or Research In Motion. Or Sun Microsystems.
 
@@ -166,17 +166,33 @@ But, as with everything I've put in these three articles, the Digital Realm help
 
 Double-check from EDGE on this one
 
-### The Dreaded MVP
-
-### Hypotheses and Experimentation
-
-Confidence levels (ICE).
-
-Assumption mapping.
+## Hypotheses and Experimentation
 
 Caveat of this bit: to experiment properly you *have to be good at experimenting*. I.e.: you should have at least an affinity with scientific methods. It's quite easy to conduct "experiments" that simply exist to confirm your biases, so an inability to at least try and remain objective about results, and failure to acknowledge that experiments that turn out exactly as expected are as rare as hens' teeth, put all the good intentions behind experimentation at risk.
 
-Never forget: a *successful* experiment is one that turns out unexpectedly.
+Never forget: a *successful* experiment is one that turns out unexpectedly. To know this is to work in the mode of "Falsifiability" - that the odds your idea is right are pretty-much always outweighed by the chance it's wrong, so it's much less effort to go looking for proof it ain't going to work. Don't blame me, blame [Sir Karl Popper](https://en.wikipedia.org/wiki/Falsifiability) - this is the kind of stuff you learn at PhD school. His simple example involved the hypothesis "all swans are white" - which to verify would involve checking *all* the swans. At which point, it's much easier just to find a black one and disprove the statement.
+
+### The Dreaded MVP
+
+I scratched the surface of the Digital Realm's most poorly-understood-concept in [article 2](./Agile_AntiPatterns.md). To sum-up, I described them as Maximally-Non-Viable-Projects, which is what they usually revert to in the hands of people that don't get the point of them (i.e. practically everyone).
+
+My suggestion is to actually think of them as "Unit Tests of Value" (not my idea, wish I could find the person who said it first)... I.e. the (genuine) minimum amount of work you need to do to *disprove* something is going to work. The "MVP" equivalent of this is to look at your grand product idea, hypothesise a market segment that will have issues your product is going to solve, then try and list 20 people or organisations that are strong candidates for having that problem. If you get stuck around ten, your idea might not be as great as you thought. If you do this work *with an Engineer and a Designer* present, they'll be able to get creative with the new information you've gained from this market research and suggest ways of tweaking the idea (call this "pivoting" if you like) until you do have 20. (The engineer might want to call it "changing the first Unit Test of Value until it passes", if they know what they're doing.)
+
+That's MVP one done, by lunchtime on the first day. It's also the first bad idea of the nine-out-of-ten bad ones put to bed, too. Well done! Have a guess what MVP two might be? That's right - coming up with an elevator-pitch-sized description of the *problem* you think your tweaked idea is going to solve, then calling the 20 people / companies you identified in test 1. Can't find six that are interested? (Or indeed, can't find one in the first three that doesn't immediately tell you to clear off?) Guess what - your idea still isn't right - *pivot again*.
+
+Remember to ask the question right, though... So it's not: "...what do you think of this great idea of ours?" It's "...we think we've found a solution for this terrible problem. Is that a problem you struggle with? If so, could you spare some time to walk us through the last time it happened?" If you get outright "no it's never happened to me and I don't care" from more than three quarters of the people you speak to - probably best to consider canning the idea outright.
+
+Anyway - that's two MVPs done by the end of day one, and a whole combo of Product Manager, Designer and Engineer that understand the customers' struggles about 5000% better than they did at the start of the day. If the idea's got legs then you should have also booked-in time with 6 people / organisations that struggle with the problem you think you can solve badly enough to be willing to talk to you about it. Walk through a timeline of the problem with these people - no solutions, just take them back to the time they last struggled and step through it.
+
+MVP #3 should emerge from the first three sessions of doing this. If you're doing it right, it'll be a product that frames the struggle in customers'language, not yours. But you should still only be talking to potential customers about *the problem* at this stage. Use the next three sessions you booked to validate the language you've reframed things in.
+
+If you've hit a really good idea then you ought to get through six sessions in a couple of weeks, and still have half-a-dozen people who are willing, nay eager, to see what you come up with in terms of a solution. Of course, it's unlikely to go this smoothly, and you'll have tweaked and pivoted a good few more times, or more likely you'll have disproved that your idea is going to work by now. But if its still got legs, and you've got "the struggle" mapped out and timelined in the customers' language, then you can start thinking about prototyping a solution (the designer and engineer will probably not have been able to stop themselves from doing this by now, anyway, if you really have landed on a genuine problem to solve).
+
+Then MVPs 10 - 30 are a case of taking the solutions back to the market again, once again walking through the timeline of the struggle, and testing how the solutions line up with it. In Dave Thomas's terms - these are the smallest steps you can take with an idea before you get feedback - and (important point), small-a-agility can simply mean "backing-up to the previous step if you find out you've done the last bit wrong". If you're ever doing so much work that you'd be upset to can it when it's wrong, then your steps are too big, and you've fallen too in love with a particular idea.
+
+### Confidence levels (ICE)
+
+### Assumption mapping
 
 ## Team Autonomy
 
