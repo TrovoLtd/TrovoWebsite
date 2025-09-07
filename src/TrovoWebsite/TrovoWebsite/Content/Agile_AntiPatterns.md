@@ -168,7 +168,14 @@ All this look marvellous *in theory*, but it practice slicing your business func
 
 So, while lots of people have tried it and it's still got legs within the engineering fraternity, I'd love to see a proper piece of research into how effective DDD really is. I've found this [Literature Review](https://www.sciencedirect.com/science/article/pii/S0164121225002055) about it which is certainly rigorous and methodical, but feels like it's got a fundamental issue of bias behind it - i.e. hardly anyone within the software engineering business is going to waste time publishing papers about how badly wrong their initiative went.
 
-There's a [good looking set of articles about it here](https://no-kill-switch.ghost.io/the-failed-promise-of-domain-driven-design-part-1/) - but I need to read them all really. But maybe a lot of this should go in Article 2 anyway.
+There's a [good set of articles about it here](https://no-kill-switch.ghost.io/the-failed-promise-of-domain-driven-design-part-1/) by Sebastian Gebski. I landed on the third one, because he too has struggled to find decent evidence of it working, but it's worth reading all four. Incidentally its interesting how Sebastian and I seem to violently agree on the core issue of the Digital Realm while taking what looks like polar-opposite stances on it. He states that "reality is infinite" because there are an infinite number of ways to model it - whereas I'm going to stick to my guns here and say "the models aren't real", and those models are part of the Digital Realm. And there *aren't* an infinite number of ways to build a house, or a real world product. But as I say, I feel violent agreement lurking here - it's "infinity" that causes all the angst.
+
+Sebastian proposes a good pair of concrete examples of DDD's failure to help with modelling around the ambiguities of reality in his [first article](https://no-kill-switch.ghost.io/the-failed-promise-of-domain-driven-design-part-1/). I'm going to quote them in full:
+
+* Should "discounts" be a part of "item pricing"? Depend on it? Or the other way around? And the "basket discounts"? And the "volume discounts"? And ...
+* What would be the best way to organise courier delivery? Around "courier availability", "routes", "scheduled deliveries", or "availability in the vicinity" (these are four different perspectives on the very same data)?
+
+As I say, these are *superb* examples of the sort of logical danse-macabre it's *so* easy to get into when you're working in the Digital Realm. If you think you can rely on business people to give coherent answers to these sorts of questions then steel yourself for disappointment, too. The way I'd suggest coping with either of these questions would be to refer to the Customer Relationship, Revenue Model and Channels sections of your Business Model Canvas and pick the options that most aligns with how you're planning to make money and do business with your customers. But that's a big spoiler for [article 3](./Agile_Value.md), where I'll come back to these specific examples.
 
 ## Too many meetings about nothing in particular
 
