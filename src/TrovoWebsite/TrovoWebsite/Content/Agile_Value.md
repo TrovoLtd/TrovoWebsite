@@ -110,11 +110,11 @@ In other words, we weren't using the fact we were working in the Digital Realm t
 
 The main force that holds management back from going all in on OKRs is fear of uncertainty. The artefact that most embodies that fear is *The Product Roadmap*. Our Marty Cagan *hates roadmaps*, because they're always wrong. Like all the other pickled-in-aspic, heavyweight, up-front artefacts (business cases, project plans etc), they provide a misguided sense of certainty, while going out-of-date before the ink is dry. The fundamental issue with roadmaps is: "... you can *never* know all there is to know when you write one".
 
-This is, of course, obvious to all and sundry, so barely a roadmap has been committed to without the caveat: "...it probably won't turn out like this, but..." However, all the caveats in the world never seem to register with the sales and marketing team, who go ahead and promise the customers this gizmo by that date. And in the meantime, finance are happy because uncertainty mucks up all their sums, so they will cling to a veneer of certainty like a sailor to a piece of slippery wreckage.
+This is, of course, obvious to all and sundry, so barely a roadmap has been committed to without the caveat: "...it probably won't turn out like this, but..." However, all the caveats in the world never seem to register with the Sales and Marketing teams, who go ahead and promise the customers that this gizmo will definitely cure all known diseases by that date. And in the meantime, Finance are happy because uncertainty mucks up all their sums, so they will cling to a veneer of certainty like a sailor to a piece of slippery wreckage.
 
 Enter a couple of lightweight alternatives (that are *very similar to each other*) - [Lean Value Trees](https://www.slideshare.net/slideshow/lean-value-tree-overview-82783795/82783795) - as described in Highsmith, Luu and Robinson's book [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) - and [Itamar Gilad's GIST Framework](https://itamargilad.com/gist-framework/). Both of these ideas offer methodical ways of *embracing* uncertainty, by at the very least acknowledging that we don't know what we don't know, factoring *the extent of uncertainty* into our decision-making, and centring all planning around efforts to lessen uncertainty (i.e. "to learn more about the problem") as we move towards our goals.
 
-Both of these approaches make a lot more sense than just bunging stuff in a roadmap that everyone knows at heart is wrong. Of the two, I think I prefer Itamar's one, because it's explicitly aligned with OKRs and is just a bit clearer. He has a couple of good suggestions about quantifying uncertainty (the Confidence Meter), and planning around it (Impact, Confidence and Ease, or ICE) - both of which I'll dip into later. The upshot of Itamar's approach is an *Outcome Roadmap*, a neat idea that re-works the roadmap approach: "...we'll deliver *this feature* on this date" - to "...by this point we'll have moved the needle on this metric to this point".
+Both of these approaches make a lot more sense than just bunging stuff in a roadmap that everyone knows at heart is wrong. Of the two, I think I prefer Itamar's one, because it's explicitly aligned with OKRs and is just a bit clearer. He has a couple of good suggestions about quantifying uncertainty (the Confidence Meter), and planning around it (Impact, Confidence and Ease, or ICE) - both of which I'll dip into later. The upshot of Itamar's approach is an *Outcome Roadmap*, a neat idea that re-works the roadmap approach from: "...we'll deliver *this feature* on this date" - to: "...by this point we'll have moved the needle on this metric to this point".
 
 He's not against putting actual feature delivery milestones on the map, either - but **only** when the confidence that the feature in question is going to produce the required outcome is *extremely high*. All the rest of the work that a Product Team conducts is in service to either increasing the confidence level of each idea until its delivered, or establishing that the idea ain't that great, and canning it quickly before you waste any more time on it. Like Marty, Itamar is behind the Engineer, Designer and Product Manager trio idea, too. Oh and one neat idea is that the point of delivery isn't actually "maximum confidence", either - that comes after you've been running the product in the wild for a while. Though IMHO it **never** comes, because frictionless Digital Realm etc etc. As soon as you think you know it all, something or someone will drive a coach and horses through your comfortable certainties.
 
@@ -151,6 +151,21 @@ Working out the value of your work methodically and scientifically is *not just 
 The thing that most annoys me about the Business Model Canvas is that it's not made clear enough that *you're supposed to run numbers through it*. The book Strategyzer wrote about it doesn't come out and say this outright - indeed you have to wait for Alex Osterwalder to get [twenty-five minutes into this key presentation about it](https://youtu.be/8GIbCg8NpBw?t=1510) before he reveals this vital point. I put this down to the barrier between business people and software engineers that I describe [in the first article](Agile_WhatsThePoint.md) - neither group understands how little the other group knows about what they do, and people with a foot in both camps are rare.
 
 For clarity's sake: **you're supposed to run numbers through it**. Most people from Osterwalder's side of the fence know this, because it's clear from the name - it's a *Business Model* Canvas. So the two boxes at the foot of the canvas - the Cost Model and the Revenue Model, form the Cost / Benefit Analysis you'd find in a more traditional model. Indeed, you'd probably want to start building out a more traditional model you can plug *real* numbers into once your Product takes off - but the key is to *not waste time at the start over-modelling things based on really wild assumptions*. Instead, you can explore costs, benefits and the other key parts of your model *within about an hour of starting to get your idea off the ground*, instead of, er... **never** (which is the approach taken by [95% of benighted attempts at getting profitable software into the world](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)).
+
+### How the Business Model Canvas can provide focus and direction
+
+If you've waded through [article 2](./Agile_AntiPatterns.md) then you might have found some links to [Sebastian Gebski's critique of Domain Driven Design](https://no-kill-switch.ghost.io/the-failed-promise-of-domain-driven-design-part-1/), where he provided these two typical examples of the sort of design trade-off that DDD provides very little help with solving:
+
+* Should "discounts" be a part of "item pricing"? Depend on it? Or the other way around? And the "basket discounts"? And the "volume discounts"? And ...
+* What would be the best way to organise courier delivery? Around "courier availability", "routes", "scheduled deliveries", or "availability in the vicinity" (these are four different perspectives on the very same data)?
+
+I added my weight to this by suggesting that it's *extremely unlikely* that any business person alive would be able to provide a sensible answer to either of these questions outright, but that this is precisely the sort of logical twister-game that software engineers often put them in. I also promised that I'd re-use these examples to explain how the Business Model Canvas might provide a useful point of reference to help answer them. So here goes.
+
+The answers to both questions depend on the right-hand side of the canvas, in particular "Customer Relationships", "Customer Segments" and "Channels", and also the "Revenue Model" at the bottom. In the case of "how do we model discounts?", the bulk of the answer is covered by "Customer Segments" and "Customer Relationships". If you're working in a niche, business-to-consumer segment with an intermittent relationship with the customer, and your revenue model involves trying to get rid of stock quickly (most do), then you'd tend towards modelling discounts at the item level. If you're stocking items with the intention of cross-selling them, and you also want to make the customer feel more valued, and that they're being canny and getting a bargain, perhaps you'd go for discounts at the bargain level. Whereas if you're selling wholesale to tradespeople in more of a B2C model, you'd go for volume discounts.
+
+The second question brings "Channels" more into the picture, as its specifically concerned with how your product is going to make its way into customers' hands. But it also has its foot in the Revenue Model, too: if you're selling lots of small widgets to thousands of customers and they're all putting in multiple orders a week, courier availability sounds like a better option, whereas if you're delivering pre-built sheds that need craning over peoples' houses, the route takes on a lot more importance.
+
+The way the Business Model Canvas works, here, is that it gives both the business people and the engineers a point of reference to answer these questions, one that's based on *working with the customer* and *delivering value*, rather than just insisting that abstract logical questions get answered on the spot. There's more about how aligning with value delivery provides a much better footing for isolating team work than DDD ever could below.
 
 ### Uncontrolled costs
 
@@ -200,10 +215,6 @@ Who do you think you are, Sham 69? (Yes, probably).
 
 But, as with everything I've put in these three articles, the Digital Realm helps you "disrupt" things (should you wish), because of the whole "infinite possibilities" and "lack of friction" schtick. Problems occur when the numbers on the screen that are supposed to represent how people live and behave actually replace the people themselves. At this point, your OKR about reducing the average delivery time becomes a herd of people on e-bikes weaving in and out of pedestrians at (literal) breakneck speeds. I guess what I'm saying is that there's no substitute for *actual field work* - digging into what's going on behind the numbers. In other words - NIHITO / Get Out Of The Building! But this bit would be better off coming at the conclusion?
 
-## Products Not Projects
-
-Double-check from EDGE on this one
-
 ## Hypotheses and Experimentation
 
 As mentioned in the section about alternatives to roadmaps - if we want to start using the frictionless, infinite possibilities of the Digital Realm to our advantage, or in other words, if we want to be genuinely small-a-agile, we need to *embrace uncertainty*. And that means *getting all scientific* - not "delivering outputs" but "testing hypotheses of value" to see which ones move the needle on our Key Results the most.
@@ -248,15 +259,26 @@ I've been lucky to have been mentored by two people who *really knew what they w
 
 One of them went on holiday for a week (against his will), leaving us with a set of objectives. When he came back we'd achieved precisely zero of them. Putting on his best "I'm not angry, just disappointed" face, he gave us a choice. Option A - act like adults and work out how to get stuff done on our own - but **get it done**. Option B - give up all responsibility for progress and let him micro-manage us / treat us like children.
 
-We were never going to choose Option B, of course, so from that point we got more productive. But the cost of being given the responsibility of solving people's problems is that you *do have to solve them*.
+We were never going to choose Option B, of course, so from that point we got more productive. But this was where I learned that the cost of being given the responsibility of solving people's problems is that you *do actually have to solve them*.
 
-My other mentor watched me walk into a trap. I was a Lead Engineer at the time, so thought this gave me authority to tell people what to do. I insisted that my whole team drop what they were in the middle of and come to some *terribly important meeting or other*. To a woman / man they all told me to get stuffed. My mentor stood to one side and found the whole thing terribly amusing.
+My other mentor watched me walk into a trap. I was a Lead Engineer at the time, so thought this gave me authority to tell people what to do. LoL. I insisted that my whole team drop what they were in the middle of doing and come to some *terribly important meeting or other*. To a woman / man they all told me to get stuffed. My mentor stood to one side and found the whole thing terribly amusing.
 
-Basically, if you're hiring people who *can even cope with* being micro-managed, then your hiring policy is off. But to genuinely leave the solutions to talented people, you at least have to understand what it is they're doing, though not necessarily every detail of how they're doing it.
+This taught me that, basically, if you're hiring people who *can even cope with* being micro-managed, then your hiring policy is off. Or, as per the quote from Steve Jobs in [article 2](./Agile_AntiPatterns.md) - who on earth hires clever people and then orders them about? Marty Cagan wrote a whole other book about this - [Empowered](https://www.svpg.com/books/empowered-ordinary-people-extraordinary-products/), which makes the sensible point that running around looking for "10x" people is the wrong answer - instead give "ordinary" people the space to become "10x".
 
-### Types of Team
+One of the key pitfalls of gallivanting around looking for "10x" people is that, unless you're a bit "10x" yourself (or perhaps 9.47628x might do, if you can't get to the full 10), there's a good chance you'll end up working with a load of demented extroverts who *think* they're 10x, but who in fact haven't got a Scooby-Do what they're on with. These are *the least likely kind of people* to produce anything good.
 
-Team Topologies
+So, if you're genuinely going to be able to empower talented people to solve things, you at least have to understand what it is they're doing, though not necessarily every detail of how they're doing it. Marty Cagan also makes this point, stating that Product people should learn how to program a computer.
+
+The fact remains, however, that talented people work most productively if they're allowed the space in which to be talented. This leads to the topic of team "empowerment", or even "autonomy".
+
+### Self-Sufficiency
+
+
+
+
+### Types of Alignment
+
+Source versus consumer 
 
 ### Collaboration
 
@@ -264,9 +286,13 @@ Team Topologies
 
 ### Decisiveness
 
-### Product Alignment
+### Types of Team
 
-### Self-Sufficiency
+Team Topologies
+
+## Products Not Projects
+
+So the more pragmatic approach to team autonomy is to align the teams up with the value they're delivering, not the "sub-domains". Then those who work on internal systems have internal customers. Make the whole thing product and value based, not based on "ubiquitous language".
 
 ## Unfortunately, senior management need to understand all this...
 
