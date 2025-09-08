@@ -161,7 +161,7 @@ If you've waded through [article 2](./Agile_AntiPatterns.md) then you might have
 
 I added my weight to this by suggesting that it's *extremely unlikely* that any business person alive would be able to provide a sensible answer to either of these questions outright, but that this is precisely the sort of logical twister-game that software engineers often put them in. I also promised that I'd re-use these examples to explain how the Business Model Canvas might provide a useful point of reference to help answer them. So here goes.
 
-The answers to both questions depend on the right-hand side of the canvas, in particular "Customer Relationships", "Customer Segments" and "Channels", and also the "Revenue Model" at the bottom. In the case of "how do we model discounts?", the bulk of the answer is covered by "Customer Segments" and "Customer Relationships". If you're working in a niche, business-to-consumer segment with an intermittent relationship with the customer, and your revenue model involves trying to get rid of stock quickly (as a lot of them do), then you'd tend towards modelling discounts at the item level. If you're stocking items with the intention of cross-selling them, and you also want to build long-running customer relationships by making them feel more valued, and that they're being canny and getting a bargain, perhaps you'd go for discounts at the basket level. Whereas if you're selling wholesale to tradespeople in more of a B2C model, you'd go for volume discounts.
+The answers to both questions depend on the right-hand side of the canvas, in particular "Customer Relationships", "Customer Segments" and "Channels", and also the "Revenue Model" at the bottom. In the case of "how do we model discounts?", the bulk of the answer is covered by "Customer Segments" and "Customer Relationships". If you're working in a niche, business-to-consumer segment and only intend to have intermittent relationships with your customers, but your revenue model involves trying to get rid of stock quickly (as a lot of them do), then you'd tend towards modelling discounts at the item level. If you're stocking items with the intention of cross-selling them, and you also want to build long-running customer relationships by making them feel more valued, and that they're being canny and getting a bargain, perhaps you'd go for discounts at the basket level. Whereas if you're selling wholesale to tradespeople in more of a B2C model, you'd go for volume discounts.
 
 And as to which way around to model the dependency - that would depend on just how big a part of your relationship with the customer discounting is going to be: if you're after an exclusive-feeling relationship with a "high-end" segment, you ain't going to be discounting much, so you'd make the item the dominant class and have discounts depend on those, whereas if you're intending to pile any-old-stuff up high and sell it cheap, then it becomes all about the discount and the items themselves are secondary.
 
@@ -169,7 +169,7 @@ The second question brings "Channels" more into the picture, as its specifically
 
 The way the Business Model Canvas works, here, is that it gives both the business people *and* the engineers a point of reference to answer these sort of abstract questions; one that's based on *working with the customer* and *delivering value*, rather than just insisting that abstract logical questions get answered on the spot devoid of any context. The engineers need answers to questions like these (honestly, they really do), but often lack a framework to help business / product people answer them. The Business Model Canvas provides that sort of framework.
 
-There's more about how aligning with value delivery provides a much better footing for isolating team work than DDD ever could below.
+There's more below about how aligning with value delivery provides a much better footing for isolating team work than DDD ever could.
 
 ### Uncontrolled costs
 
@@ -275,28 +275,45 @@ So, if you're genuinely going to be able to empower talented people to solve thi
 
 The fact remains, however, that talented people work most productively if they're allowed the space in which to be talented. This leads to the topic of team "empowerment", or even "autonomy".
 
+### Alignment with value
+
+In [article 2](./Agile_AntiPatterns.md) I expressed some dissatisfaction with Domain-Driven Design as a candidate for enabling teams to stop treading on each-other's toes and blocking each other. A more effective approach to team autonomy, at least if you understand your business model and know your customers thoroughly, is to align the teams up with the value they're delivering, and not DDD's "sub-domains" (which are very hard to work out).
+
+But what of the people who manage the network? Or the people who maintain the order-fulfilment systems? They don't go anywhere near *customers*. How can they deliver value? But if you did cry this, you're a little off the mark. Those who work on "internal", non-"customer-facing" systems still have customers, it's just that their customers are *internal-to-the-business*, they're made up of colleagues.
+
+It's pretty simple, really - so simple that it was quite hard for everyone to spot for 15 years. You can't "deliver *valuable* software" (as per Manifesto Principle No. 1) unless you have *customers*. It has to be valuable to *someone*. So you can't *ever* be small-a-agile if you don't have a customer. Organise your "domains" around value delivered and you at least have a chance of getting some sort of agility together. This is easier if you just call your "domains" *products*, because the easiest way to define a "product" is *something with a customer*, that *delivers value to them*.
+
 ### Self-Sufficiency
 
+Stuff about good engineering, proper encapsulation, and code quality being measured in terms of ease-of-change can go here.
 
-
-
-### Types of Alignment
-
-Source versus consumer 
-
-### Collaboration
-
-"Shared OKRs"
+Each team should have at least one Business Model Canvas, perhaps a few, though if they do have more than one, their Customer Segments and Customer Relationships sections, and hence the customers in the middle of their Value Propositions should be pretty similar. Define the team in terms of "who they deliver value to" and you won't go far wrong.
 
 ### Decisiveness
+
+Refer back to "confidence levels" above here.
 
 ### Types of Team
 
 Team Topologies
 
-## Products Not Projects
+### Collaboration
 
-So the more pragmatic approach to team autonomy is to align the teams up with the value they're delivering, not the "sub-domains". Then those who work on internal systems have internal customers. Make the whole thing product and value based, not based on "ubiquitous language".
+So here's the bad news - complete autonomy is a pipe-dream, really. Even if you've got your engineering teams nicely aligned with the value they're delivering, and they've properly-isolated the work they do, and the data they manage, etc, you're still going to need to orchestrate their work and allow them to collaborate with each other. This is where Objectives and Key Results really come into their own, or at least if senior management understand them properly. (If they do, they should be called "leadership", really, not "management").
+
+If you're "doing OKRs" effectively, the head honchos should have clearly-articulated the top level objectives for *the whole organisation*, and lined everybody up to focus on them. This is what then allows teams to collaborate better - if we *all* know that the focus of our work for the next year is to increase company earnings from 22% to 27%, then that's the lever we can pull when we need another team to schedule in some changes to the API that provides access to the extra data we require to make our impact, but which they own.
+
+Itamar Gilad calls this approach "sharing OKRs". If increased earnings are the objective, and the "downstream" team that needs a change have convincing evidence that the change they need the "upstream" team to make has high-enough Impact, and will move the earnings needle significantly, then it helps the upstream team prioritise a lot easier. But they can't really do that if they don't have the overarching "earnings" objective to focus on. A common phrase for this objective is the "North Star", that everyone can see and align towards.
+
+It then becomes the job of senior and upper-middle ~~management~~ leadership to review the estimates people are making, check their evidence and confidence levels, and arbitrate between teams where necessary. Organisations that have got these sorts of processes working properly seem to have settled on a quarterly cadence, re-evaluating objectives every three months or so. They also manage "trees" of sub-Objectives that align with the North-Star one, too.
+
+It's all a bit easier to plan if "upstream" teams think of the "downstream" ones as "their customers", too.
+
+### Products Not Projects
+
+Absolutely none of the above is possible if you're still working on Projects. I discussed this in [article 2](./Agile_AntiPatterns.md) - "projects" just don't work in the Digital Realm, as they require so much up-front planning about things we know nothing about yet, and prevent any of the advantages of "frictionless-ness" and "infinite possibilities" from being realised.
+
+Align your teams with *products*, with the value they're delivering and the customers they're delivering it to, and it all gets a lot easier (provided you can work out how to budget for it all).
 
 ## Unfortunately, senior management need to understand all this...
 
