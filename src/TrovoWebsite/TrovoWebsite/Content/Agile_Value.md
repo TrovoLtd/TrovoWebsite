@@ -60,7 +60,7 @@ It doesn't have to be this way, because the cavalry arrived a good while ago, in
 
 ### Viability, Feasibility and Usability / Desirability
 
-Marty laid out his fundamental product development ideas in his first book, [Inspired](https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/), where he states that value delivery is the core factor upon which all products must be judged. However, he also suggests that delivery of value is the responsibility of the *whole team*, not just something that Product people tell the team how to deliver.
+Marty laid out his fundamental product development ideas in his first book, [Inspired](https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/), where he states that value delivery is the core factor upon which all products must be judged. (Plenty of other people have made this point, too, of course - Marty's book was just the first one I happened to read that said it). However, he also suggests that delivery of value is the responsibility of the *whole team*, not just something that Product people tell the team how to deliver.
 
 He also breaks value delivery down into three sub-concepts, none of which deliver value on their own, but all of which can *prevent* value from being delivered if they're not properly attended to. They are:
 
@@ -112,7 +112,7 @@ The main force that holds management back from going all in on OKRs is fear of u
 
 This is, of course, obvious to all and sundry, so barely a roadmap has been committed to without the caveat: "...it probably won't turn out like this, but..." However, all the caveats in the world never seem to register with the Sales and Marketing teams, who go ahead and promise the customers that this gizmo will definitely cure all known diseases by that date. And in the meantime, Finance are happy because uncertainty mucks up all their sums, so they will cling to a veneer of certainty like a sailor to a piece of slippery wreckage.
 
-Enter a couple of lightweight alternatives (that are *very similar to each other*) - [Lean Value Trees](https://www.slideshare.net/slideshow/lean-value-tree-overview-82783795/82783795) - as described in Highsmith, Luu and Robinson's book [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) - and [Itamar Gilad's GIST Framework](https://itamargilad.com/gist-framework/). Both of these ideas offer methodical ways of *embracing* uncertainty, by at the very least acknowledging that we don't know what we don't know, factoring *the extent of uncertainty* into our decision-making, and centring all planning around efforts to lessen uncertainty (i.e. "to learn more about the problem") as we move towards our goals.
+Enter a couple of more small-a-agile alternatives (that at first glance seem *very similar to each other*) - [Lean Value Trees](https://www.slideshare.net/slideshow/lean-value-tree-overview-82783795/82783795) - as described in Highsmith, Luu and Robinson's book [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) - and [Itamar Gilad's GIST Framework](https://itamargilad.com/gist-framework/). Both of these ideas offer methodical ways of *embracing* uncertainty, by at the very least acknowledging that we don't know what we don't know, factoring *the extent of uncertainty* into our decision-making, and centring all planning around efforts to lessen uncertainty (i.e. "to learn more about the problem") as we move towards our goals.
 
 Both of these approaches make a lot more sense than just bunging stuff in a roadmap that everyone knows at heart is wrong. Of the two, I think I prefer Itamar's one, because it's explicitly aligned with OKRs and is just a bit clearer. He has a couple of good suggestions about quantifying uncertainty (the Confidence Meter), and planning around it (Impact, Confidence and Ease, or ICE) - both of which I'll dip into later. The upshot of Itamar's approach is an *Outcome Roadmap*, a neat idea that re-works the roadmap approach from: "...we'll deliver *this feature* on this date" - to: "...by this point we'll have moved the needle on this metric to this point".
 
@@ -253,7 +253,25 @@ You'll note that this is all very "start-uppy" so far - but this approach can (a
 
 If you *don't* have a well-understood set of market segments your Products are designed for, and no intimate understanding of the jobs your products support, and the struggles your customers suffer, then get those in place **NOW**, as your *business is a risk until you do*. Any changes you put in without that understanding are 90% likely to be bad ones, that'll disturb the delicate balance of the value your products are somehow delivering by accident.
 
-### Confidence levels (ICE)
+### Uncertainty and confidence
+
+There's a recurring theme in modern software production that is fundamentally linked to the core Digital Realm concepts of infinite possibilities and lack of friction. The theme concerns the level of confidence we have in our ideas, which can also be thought of as the degree of uncertainty surrounding them.
+
+Obviously, how sure we are about things is not a particularly *digital* idea - it's more fundamental and abstract than that. The digital bit is that, because of the lack of friction in particular, we can potentially *do more with* our lack of certainty: we can acknowledge it more fully and explore "what we don't know" more comprehensively. This is the concept of "discovery", referred to in a few places above: Marty Cagan's *Product Discovery*, and Steve Blank's *Customer Discovery*, for instance. This is a big topic, so below is just a brief overview comparing three approaches from three different sources already mentioned above:
+
+1. Itamar Gilad's GIST Framework
+2. Lean Value Trees (LVTs) and Measures of Success (MoSes), as described in Highsmith, Luu and Robinson's book Edge: Value-Driven Digital Transformation
+3. What Bob Moesta describes as: *The 5 bedrock skills of innovators and entrepreneurs*, in his book [Learning To Build](https://www.learningtobuildbook.com).
+
+The first two are on the surface at least pretty similar as they both rely on "trees" - i.e. ways of arranging strategy, tactics and tasks hierarchically to plan and manage discovery and delivery concurrently, in small-a-agile ways. Bob's approach is quite different as it takes more of a "big picture", systemic approach to exploring "what we don't know" in one hit. So on paper it's a little bit more heavyweight and "up-front", but if used in the correct context *could* potentially be more efficient.
+
+GIST maps out the route from strategy, via tactics, to solutions in a four-level deep hierarchy tree of Goals, Initiatives, Steps and Tasks. As mentioned above, it is explicitly related to Objectives and Key Results (OKRs), so the Goals are in the form of "key result needles you have to move in an explicit time frame", e.g.: "in Q3 of this year we've got to reduce the average checkout time on our e-commerce site from eight minutes to four minutes". All organisations should manage a hierarchy of these, that align to particular "top-level" metrics (i.e. the overall ones for the company). Itamar suggests having two of these:
+
+1. A "North Star Metric", which is explicitly the most-simply expressed (but accurate) measure of the overall value you're delivering to the market (he suggests "items consumed" as an example for a grocery supermarket, for example).
+2. A "Top Business Metric", which is intended to keep all the work everyone does viable and aligned with the business. This is usually something like "increase revenue from £1M to £1.1M" or "increase earnings from 22% to 23%".
+
+Highsmith et al take a very similar view but there's is not aligned to OKRs as explicitly. Their idea of a North Star Metric is described in terms of an organisations "fitness function", i.e. how capable it is of delivering core value to customers, and suggest that this provides more scope for including intangible factors such as "inspirational quality of leadership" into the mix. So while they also suggest a four-level hierarchy from strategy, via tactics, to actual work, their "root" concept is "vision", rather than goals. "Vision", for them, is a "guiding direction towards which all investments should contribute", and goals come in at the next, main branch level. More fundamentally, while Itamar bundles the framework for organising strategy, tactics and work, and the processes of measuring success and progress, into one, Highsmith and co keep them separate.
+
 
 ### Assumption mapping
 
