@@ -277,6 +277,8 @@ Obviously, how sure we are about things is not a particularly *digital* idea - i
 
 How the first two help planning and management by arranging strategy, tactics and tasks hierarchically was introduced above. We also met Bob earlier, too, in the sections about Customer Discovery and Jobs To Be Done, where he introduced the idea of "Struggling Moments". But Bob's got more in his locker than just that.
 
+### Goals and Ideas
+
 Itamar's approach to uncertainty is all about "confidence levels". Once we're decided upon the Goal we're trying to reach, defined in terms of the value we're trying to deliver to the market, and quantified in the Key Results we think represent those Goals, we can start to consider the *Ideas* we're going to launch to get to the Goal. There are three important aspects of all ideas (not just Itamar's Capital-I-Ideas) that we should always remember:
 
 1. *Most of them aren't any good*.
@@ -293,7 +295,25 @@ Impact and Ease map nicely onto Marty Cagan's ideas:
 
 As for Confidence, Itamar's built a thing called "the Confidence Meter", which is a tool for assessing whereabouts each Idea stands currently on a spectrum of "we know *nothing*" to "we're so all-over this problem that we've built a solution to it that we're virtually certain is going to work". Every step on the road between both ends of this spectrum represents some form of testing that can be performed with your market, with things like "we've come up with a pitch deck that a Sales Person thinks might resonate with customers" at the "we know nothing" end, and "we've got two versions of the UI deployed in an A/B experiment and are monitoring how well each moves the metrics we know matter most" at the "we're pretty confident" end. As mentioned, we never really get to "supremely confident", though, because the market is a slippery old thing in the Digital Realm.
 
-Introduce the gambling metaphor here when talking about LVTs and MoSes.
+### Making Bets
+
+Highsmith et al's framework of Lean Value Trees appears to be very similar to GIST, but there are some fundamental differences. One of those is that the two hierarchies don't map exactly onto each other. GIST's hierarchy supports the entire process of taking strategy into a working product: Goals relate to the very highest, "North Star Metric" level, and Tasks correspond to actual work items in a backlog for a delivery team to chew through. In Highsmith's model, "Vision" sits at the very top, and the "leaves" of the Lean Value Tree are "Initiatives", which are still one level away from any actual work that a delivery team might do.
+
+One benefit of the slightly "higher" level of abstraction of the Lean Value Tree over GIST is that it sits it closer to the process of funding initiatives. I strongly suspect that Highsmith et al have spent more time closer to "the C Suite" than Itamar, and conversely he's spent more time nearer the coal-face. So I'm not really knocking what they're saying too much: we're all still capitalists (for now), so working out where the budget for all those expensive engineers, and designers (and Data Centres) is *very* important.
+
+Highsmith et al model uncertainty in terms of "Bets". They define a "Bet" as "hypotheses of value that the organisation believes will help it realise a goal".
+
+So already I don't like this. "Hypothesis" is a scientific term that's not about "belief", per-se. It's an acknowledgment that there's *something we don't understand*. This in turn comes with a degree to which you don't understand it, and that degree determines the type of experiment you need to do next.
+
+I understand *why* Highsmith and co have taken this approach - it's a perfectly healthy understanding that we don't know the future, and that the lack of friction in the Digital Realm helps us discover it methodically as we go. Highsmith himself sums this up wonderfully: "following a plan produces the product you intended, just not the product that you need". Your original intention was wrong, because you didn't know enough.
+
+Highsmith et al suggest a template for a "hypothesis": "We believe that by *doing this thing* we will *cause this valuable outcome*. We will validate this idea by *performing this action*." An example they give relates to the Goal of "being the market leader of retirement solutions", where the Bet is defined as: "We believe that *by providing low-cost advice to people prior to retirement*, we can *help customers better achieve their retirement goals*. We will validate this idea by *introducing a specialist advisor*..."
+
+For my money this concept of "Bets" is a broken metaphor. It's clunky, and it doesn't really represent the real nature of a "bet". You bet on something when you're presented the odds of something happening and you reckon they've been worked out wrong. At this point, you are *certain* that you understand the probabilities better that the person presenting the odds, and you're prepared to risk your money on the fact the chance is greater than your opponent believes them to be. It's got nothing to do with hypothesising, really, which is about learning more about things that are only partially understood. Being humble, in other words, and admitting that you don't know everything. When gambling, both protagonists each think they already know more about a given situation than the other. GIST's "Confidence Levels" encapsulate this situation a lot better than "betting", for me.
+
+When it comes to measuring whether or not a "Bet" is paying off, though, Highsmith et al get back onto slightly less shakey ground, with their concept of "Measures of Success". Again, fundamental difference with GIST, here - in Highsmith et al's world, measurement is kept separate from the organisational structure, while it GIST it's a fundamental part of it. There's some good stuff in the Measures of Success framework about Leading and Lagging Indicators: Goals (at the higher level) tend to be measured by Lagging ones: metrics that take a while to pay off, such as "losing weight" or "increasing earnings", while Leading indicators (things you can measure immediately, such as "amount you'r eating" or "revenue you're bringing in") are better measures at the lower "Initiative" level. The idea is, of course, that you want changes in the lower level to impact those higher up in a good way.
+
+### Prototyping to Learn
 
 Bob Moesta has an entirely different approach to uncertainty, though it starts from the same position of "we need to deliver outcomes not outputs", and that the outcome should be value to customers in the market. In Bob's world, that value relates explicitly to "struggling moments", i.e. the points at which (in JTBD parlance), potential customers are most likely to want to hire your solution. However, this is only one of five "bedrock skills of an entrepreneur" (I've highlighted the two that most relate to uncertainty):
 
