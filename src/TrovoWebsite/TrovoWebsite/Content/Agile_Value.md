@@ -367,7 +367,38 @@ In [article 2](./Agile_AntiPatterns.md) I expressed some dissatisfaction with Do
 
 But what of the people who manage the network? Or the people who maintain the order-fulfilment systems? They don't go anywhere near *customers*. How can they deliver value? But if you did cry this, you're a little off the mark. Those who work on "internal", non-"customer-facing" systems still have customers, it's just that their customers are *internal-to-the-business*, they're made up of colleagues.
 
-It's pretty simple, really - so simple that it was quite hard for everyone to spot for 15 years. You can't "deliver *valuable* software" (as per Manifesto Principle No. 1) unless you have *customers*. It has to be valuable to *someone*. So you can't *ever* be small-a-agile if you don't have a customer. Organise your "domains" around value delivered and you at least have a chance of getting some sort of agility together. This is easier if you just call your "domains" *products*, because the easiest way to define a "product" is *something with a customer*, that *delivers value to them*.
+It's pretty simple, really - so simple that it was quite hard for everyone to spot for 15 years. You can't "deliver *valuable* software" (as per Manifesto Principle No. 1) unless you have *customers*. It has to be valuable *to someone*. So you can't *ever* be small-a-agile if you don't have a customer. Organise your "domains" around value delivered and you at least have a chance of getting some sort of agility together. This is easier if you just call your "domains" *products*, because the easiest way to define a "product" is *something with a customer*, that *delivers value to them*.
+
+### Types of Team
+
+Another dimension that affects teams' productivity is the type of work they're doing, of course. This is obviously not something that there's a cookie-cutter solution form, obviously, but a few people have made some potentially useful generalisations about it\*.
+
+\* Not least Marty Cagan, in his book [Empowered](https://www.svpg.com/books/empowered-ordinary-people-extraordinary-products/), though there's also a whole chapter about it in [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) and a whole book about it called [Team Topologies](https://teamtopologies.com/).
+
+The Team Topologies book recommends a fairly narrow set of team categories:
+
+1. *Stream-aligned*: who are explicitly aligned with "parts of the business domain".
+2. *Enabling teams*: who exist to help the stream-aligned ones "overcome obstacles".
+3. *Complicated sub-system teams*: who are the in-house experts in the most weird and wonderful pieces of tech that your organisation has to deal with, i.e. the bits that most of the engineering team find it difficult to work with.
+4. *Platform teams*: the teams that understand and manage the kit that everything else depends upon, e.g. databases, streaming data systems, or containerisation.
+
+I think this is a very *engineer-led* method of categorisation: we can tell this from the way some Domain-Driven Design terminology has started to creep in. But at least some of the "nine principles" of Team Topologies align well with small-a-agility (most obviously: "make changes small and safe", and "foster continuous discovery"), so generally its heart is in the right place. If it took the one major step of re-aligning itself with the *delivery of value to customers* rather than *parts of the business domain* then it would be bob-on.
+
+This is where Marty Cagan's interpretation helps. He suggests three "optimisations for empowerment" to consider when organising teams:
+
+1. *Ownership*: giving each team a set of obvious, meaningful responsibilities that they can feel motivated and enthusiastic about.
+2. *Autonomy*: actually giving the team the agency to make meaningful changes. He suggests this can often get confused with "isolating the team", but admits this isn't ever fully possible. So instead what it *should* mean is "trusting the decisions that the team makes to deliver on the required outcomes".
+3. *Alignment*: which he considers has two sub-dimensions - alignment with architecture (i.e. "technical alignment") and "alignment with the business"; with different business units, customer segments, value propositions, etc.
+
+It would be the job of the chiefs of Product, Engineering, and Design to get into the weeds of organising teams in alignment with these three dimensions.
+
+Marty further suggests a broader categorisation of team types: *Platform Teams* and *Experience Teams*. There are some similarities with the "platform" and "stream-aligned" teams from Team Topologies (which he references), but when it comes to "experience", there's a much more explicit alignment with *value delivery*. Again, he sub-divides the experience category into *customer-facing* and *customer-enabling*, but states that each of these team types is responsible for "solutions and journeys" that deliver value. By his own token, each team of this type should be considering the three constituent parts of value delivery: feasibility, usability / desirability and viability - at all times. The core difference is that "enabling" teams have internal customers.
+
+As small-a-agility is impossible without customers (you have to deliver value to someone), I'd tend to go a step further here, and include Platform teams in the mix of needing to be aligned with the delivery of value to customers. In their case, those customers are the organisations' "other engineers" and "technical operations", but they're *still customers*. There's a whole field of "DevEx" (Developer Experience) touted by the likes of Atlassian, AWS and Microsoft, that backs me up here. So in other words, if your platform team doesn't have the same "three-amigos" structure of Product, Engineering and Design as all the other teams, your productivity is going to suffer.
+
+Edge suggests yet another organisational model for team empowerment, suggesting that "portfolio teams" align themselves with the organisation's Lean Value Tree. If this can be achieved, then you ought to end up with a set of teams that are very well aligned with organisational goals. Highsmith et al suggest a "fractal" approach, with autonomous teams aligned with each part of the tree hierarchy; hence the executive team aligns with goals and vision, something like the "chief level" described by Marty Cagan would align with "Bets" (i.e., aligning the delivery teams with streams of value that are in service to the goals), and then the delivery teams themselves would align with initiatives at the coal-face.
+
+Edge also suggests that the shift in perspective from "command and control" to "consultation and empowerment" can be supported by shifting the Project or Portfolio Management Office to become a "Value Realisation Team", that coaches, mentors and offers a sounding-board for decisions all the way up and down the Lean Value Tree hierarchy. One of the key activities of this team would be to help teams assess whether their Bets are coming off or not - i.e. should work continue on a particular approach to delivering a goal, or is it time to admit that it ain't going to work?
 
 ### Self-Sufficiency
 
@@ -379,13 +410,10 @@ Each team should have at least one Business Model Canvas, perhaps a few, though 
 
 Refer back to "confidence levels" above here.
 
-### Types of Team
-
-Team Topologies
 
 ### Collaboration
 
-So here's the bad news - complete autonomy is a pipe-dream, really. Even if you've got your engineering teams nicely aligned with the value they're delivering, and they've properly-isolated the work they do, and the data they manage, etc, you're still going to need to orchestrate their work and allow them to collaborate with each other. This is where Objectives and Key Results really come into their own, or at least if senior management understand them properly. (If they do, they should be called "leadership", really, not "management").
+So here's the bad news - complete autonomy is a pipe-dream, really. Even if you've got your delivery teams nicely aligned with the value they're delivering, and they've properly-isolated the work they do, and the data they manage, etc, you're still going to need to orchestrate their work and allow them to collaborate with each other. This is where Objectives and Key Results really come into their own, or at least if senior management understand them properly. (If they do, they should be called "leadership", really, not "management").
 
 If you're "doing OKRs" effectively, the head honchos should have clearly-articulated the top level objectives for *the whole organisation*, and lined everybody up to focus on them. This is what then allows teams to collaborate better - if we *all* know that the focus of our work for the next year is to increase company earnings from 22% to 27%, then that's the lever we can pull when we need another team to schedule in some changes to the API that provides access to the extra data we require to make our impact, but which they own.
 
