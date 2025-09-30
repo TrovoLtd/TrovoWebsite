@@ -293,7 +293,7 @@ Impact and Ease map nicely onto Marty Cagan's ideas:
 * Usability / Desirability kind of fits between Impact and Ease... How well is this Idea going to resonate with the market? Does it map clearly onto the problems we're trying to solve? Does it all flow nicely from our organisation into the minds of customers and / or users?
 * Feasibility maps directly onto Ease - how much work are we going to have to do to deliver it? How closely does it align with technologies we're already masters of?
 
-As for Confidence, Itamar's built a thing called "the Confidence Meter", which is a tool for assessing whereabouts each Idea stands currently on a spectrum of "we know *nothing*" to "we're so all-over this problem that we've built a solution to it that we're virtually certain is going to work". Every step on the road between both ends of this spectrum represents some form of testing that can be performed with your market, with things like "we've come up with a pitch deck that a Sales Person thinks might resonate with customers" at the "we know nothing" end, and "we've got two versions of the UI deployed in an A/B experiment and are monitoring how well each moves the metrics we know matter most" at the "we're pretty confident" end. As mentioned, we never really get to "supremely confident", though, because the market is a slippery old thing in the Digital Realm.
+As for Confidence, Itamar's built a thing called "the Confidence Meter", which is a tool for assessing whereabouts each Idea stands currently on a spectrum of "we know *nothing*" to "we're so all-over this problem that we've built a solution to it that we're virtually certain is going to work". Every step on the road between both ends of this spectrum represents some form of testing that can be performed with your market, with things like "we've come up with a pitch deck that a Sales Person thinks might resonate with customers" at the "we know nothing" end, and "we've got two versions of the UI deployed in an A/B experiment and are monitoring how well each affects these Key Results" at the "we're pretty confident" end. As mentioned, we never really get to "supremely confident", though, because the market is a slippery old thing in the Digital Realm.
 
 ### Making Bets
 
@@ -347,17 +347,17 @@ Bob's *actual* gamble is on whether the model of the system that's being used to
 
 I've been lucky to have been mentored by two people who *really knew what they were doing*, so here's a couple of stories about them.
 
-One of them went on holiday for a week (against his will), leaving us with a set of objectives. When he came back we'd achieved precisely zero of them. Putting on his best "I'm not angry, just disappointed" face, he gave us a choice. Option A - act like adults and work out how to get stuff done on our own - but **get it done**. Option B - give up all responsibility for progress and let him micro-manage us / treat us like children.
+One of them went on holiday for a week - against his will - he's a "live to work" kind of guy. He left us with a pretty clear set of objectives, but when he came back we'd achieved precisely zero of them. Putting on his best "I'm not angry, just disappointed" face, he gave us a choice. Option A - act like adults and work out how to get stuff done on our own - but **get it done**. Option B - give up all responsibility for progress and let him micro-manage us / treat us like children.
 
 We were never going to choose Option B, of course, so from that point we got more productive. But this was where I learned that the cost of being given the responsibility of solving people's problems is that you *do actually have to solve them*.
 
-My other mentor watched me walk into a trap. I was a Lead Engineer at the time, so thought this gave me authority to tell people what to do. LoL. I insisted that my whole team drop what they were in the middle of doing and come to some *terribly important meeting or other*. To a woman / man they all told me to get stuffed. My mentor stood to one side and found the whole thing terribly amusing.
+My other mentor watched me walk into a trap. I was a Lead Engineer at the time, so thought this gave me authority to *tell people what to do*. LoL. I insisted that my whole team drop what they were in the middle of doing and come to some *terribly important meeting or other*. To a woman / man they all told me to get stuffed, while my mentor stood to one side and found the whole thing terribly amusing.
 
-This taught me that, basically, if you're hiring people who *can even cope with* being micro-managed, then your hiring policy is off. Or, as per the quote from Steve Jobs in [article 2](./Agile_AntiPatterns.md) - who on earth hires clever people and then orders them about? Marty Cagan wrote a whole other book about this - [Empowered](https://www.svpg.com/books/empowered-ordinary-people-extraordinary-products/), which makes the sensible point that running around looking for "10x" people is the wrong answer - instead give "ordinary" people the space to become "10x".
+This taught me that, basically, if you're hiring people who *can even cope with* being micro-managed, then your hiring policy is off. Or, as per the quote from Steve Jobs in [article 2](./Agile_AntiPatterns.md) - who on earth hires clever people and then orders them about? Marty Cagan wrote a whole other book about this - [Empowered](https://www.svpg.com/books/empowered-ordinary-people-extraordinary-products/), which makes the sensible point that running around looking for "10x" people is the wrong answer - instead give "ordinary" people the space to become "10x". Or, in a nutshell - there are no "ordinary people" - everyone's got "it" if you give them the space to work it out.
 
 One of the key pitfalls of gallivanting around looking for "10x" people is that, unless you're a bit "10x" yourself (or perhaps 9.47628x might do, if you can't get to the full 10), there's a good chance you'll end up working with a load of demented extroverts who *think* they're 10x, but who in fact haven't got a Scooby-Do what they're on with. These are *the least likely kind of people* to produce anything good.
 
-So, if you're genuinely going to be able to empower talented people to solve things, you at least have to understand what it is they're doing, though not necessarily every detail of how they're doing it. Marty Cagan also makes this point, stating that Product people should learn how to program a computer.
+So, if you're genuinely going to be able to empower talented people to solve things, you at least have to understand what it is they're doing, though not necessarily every detail of how they're doing it. Marty Cagan also makes this point, by stating, bluntly, that *Product people should learn how to program computers*.
 
 The fact remains, however, that talented people work most productively if they're allowed the space in which to be talented. This leads to the topic of team "empowerment", or even "autonomy".
 
@@ -365,21 +365,23 @@ The fact remains, however, that talented people work most productively if they'r
 
 In [article 2](./Agile_AntiPatterns.md) I expressed some dissatisfaction with Domain-Driven Design as a candidate for enabling teams to stop treading on each-other's toes and blocking each other. A more effective approach to team autonomy, at least if you understand your business model and know your customers thoroughly, is to align the teams up with the value they're delivering, and not DDD's "sub-domains" (which are very hard to work out).
 
-But what of the people who manage the network? Or the people who maintain the order-fulfilment systems? They don't go anywhere near *customers*. How can they deliver value? But if you did cry this, you're a little off the mark. Those who work on "internal", non-"customer-facing" systems still have customers, it's just that their customers are *internal-to-the-business*, they're made up of colleagues.
+But what of the people who manage the network, I hear you cry? Or the people who manage and maintain the supply chain? They don't go anywhere near *customers*, so how can they deliver value? If you did cry this, you're a little off the mark. Those who work on "internal", non-"customer-facing" systems still have customers, it's just that their customers are *internal-to-the-business*, their "markets" consist of their colleagues.
 
-It's pretty simple, really - so simple that it was quite hard for everyone to spot for 15 years. You can't "deliver *valuable* software" (as per Manifesto Principle No. 1) unless you have *customers*. It has to be valuable *to someone*. So you can't *ever* be small-a-agile if you don't have a customer. Organise your "domains" around value delivered and you at least have a chance of getting some sort of agility together. This is easier if you just call your "domains" *products*, because the easiest way to define a "product" is *something with a customer*, that *delivers value to them*.
+It's pretty simple, really - so simple that it was quite hard for everyone to spot for 15 years. You can't "deliver *valuable* software" (as per Manifesto Principle No. 1) unless you have *customers*. It has to be valuable *to someone*. So you can't *ever* be small-a-agile *if you don't have a customer*. Organise your "domains" around value delivered, even if it's "internal value" and you at least have a chance of getting some sort of agility together. This is easier if you just call your "domains" *products*, because the easiest way to define a "product" is *something with a customer*, that's *a mechanism for delivering value to them*.
+
+So to tie all this in with concepts introduced earlier, I'd suggest that each team should have at least one Business Model Canvas that they own and maintain. They could perhaps even have a few, though if they do have more than one, their Customer Segments and Customer Relationships sections, and hence the customers in the middle of their Value Propositions, should be pretty similar. Basically, if you define the team in terms of "who they deliver value to" then you won't go far wrong.
 
 ### Types of Team
 
-Another dimension that affects teams' productivity is the type of work they're doing, of course. This is obviously not something that there's a cookie-cutter solution form, obviously, but a few people have made some potentially useful generalisations about it\*.
+Another dimension that affects teams' productivity is the type of work they're doing, of course. This is obviously not something that there's a cookie-cutter solution for, obviously, but a few people have made some potentially useful generalisations about it\*.
 
 \* Not least Marty Cagan, in his book [Empowered](https://www.svpg.com/books/empowered-ordinary-people-extraordinary-products/), though there's also a whole chapter about it in [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) and a whole book about it called [Team Topologies](https://teamtopologies.com/).
 
 The Team Topologies book recommends a fairly narrow set of team categories:
 
-1. *Stream-aligned*: who are explicitly aligned with "parts of the business domain".
-2. *Enabling teams*: who exist to help the stream-aligned ones "overcome obstacles".
-3. *Complicated sub-system teams*: who are the in-house experts in the most weird and wonderful pieces of tech that your organisation has to deal with, i.e. the bits that most of the engineering team find it difficult to work with.
+1. *Stream-aligned teams*: who are explicitly aligned with "parts of the business domain".
+2. *Enabling teams*: who exist to help the stream-aligned ones "overcome obstacles". (So a good mapping to the "teams with internal customers" idea).
+3. *Complicated sub-system teams*: who are the in-house experts in the most weird and wonderful pieces of tech that your organisation has to deal with, i.e. the bits that the other engineering teams don't have the specialist skills to work with.
 4. *Platform teams*: the teams that understand and manage the kit that everything else depends upon, e.g. databases, streaming data systems, or containerisation.
 
 I think this is a very *engineer-led* method of categorisation: we can tell this from the way some Domain-Driven Design terminology has started to creep in. But at least some of the "nine principles" of Team Topologies align well with small-a-agility (most obviously: "make changes small and safe", and "foster continuous discovery"), so generally its heart is in the right place. If it took the one major step of re-aligning itself with the *delivery of value to customers* rather than *parts of the business domain* then it would be bob-on.
@@ -394,22 +396,31 @@ It would be the job of the chiefs of Product, Engineering, and Design to get int
 
 Marty further suggests a broader categorisation of team types: *Platform Teams* and *Experience Teams*. There are some similarities with the "platform" and "stream-aligned" teams from Team Topologies (which he references), but when it comes to "experience", there's a much more explicit alignment with *value delivery*. Again, he sub-divides the experience category into *customer-facing* and *customer-enabling*, but states that each of these team types is responsible for "solutions and journeys" that deliver value. By his own token, each team of this type should be considering the three constituent parts of value delivery: feasibility, usability / desirability and viability - at all times. The core difference is that "enabling" teams have internal customers.
 
-As small-a-agility is impossible without customers (you have to deliver value to someone), I'd tend to go a step further here, and include Platform teams in the mix of needing to be aligned with the delivery of value to customers. In their case, those customers are the organisations' "other engineers" and "technical operations", but they're *still customers*. There's a whole field of "DevEx" (Developer Experience) touted by the likes of Atlassian, AWS and Microsoft, that backs me up here. So in other words, if your platform team doesn't have the same "three-amigos" structure of Product, Engineering and Design as all the other teams, your productivity is going to suffer.
+As small-a-agility is impossible without customers (you have to deliver value to someone), I'd tend to go a step further here, and include Platform teams in the mix of needing to be aligned with the delivery of value to customers. In their case, those customers are the organisations' "other engineers" and "technical operations", but they're *still customers*. There's a whole field of "DevEx" (Developer Experience) touted by the likes of Atlassian, AWS and Microsoft, that backs me up here. So in other words, if your platform team doesn't have the same "three-amigos" structure of Product, Engineering and Design as all the other teams, your productivity is going to suffer. In this case, it'll suffer a lot, too, as a platform that's hard to use reduces the productivity of all the other teams, too.
 
 Edge suggests yet another organisational model for team empowerment, suggesting that "portfolio teams" align themselves with the organisation's Lean Value Tree. If this can be achieved, then you ought to end up with a set of teams that are very well aligned with organisational goals. Highsmith et al suggest a "fractal" approach, with autonomous teams aligned with each part of the tree hierarchy; hence the executive team aligns with goals and vision, something like the "chief level" described by Marty Cagan would align with "Bets" (i.e., aligning the delivery teams with streams of value that are in service to the goals), and then the delivery teams themselves would align with initiatives at the coal-face.
 
-Edge also suggests that the shift in perspective from "command and control" to "consultation and empowerment" can be supported by shifting the Project or Portfolio Management Office to become a "Value Realisation Team", that coaches, mentors and offers a sounding-board for decisions all the way up and down the Lean Value Tree hierarchy. One of the key activities of this team would be to help teams assess whether their Bets are coming off or not - i.e. should work continue on a particular approach to delivering a goal, or is it time to admit that it ain't going to work?
+Edge also suggests that the shift in perspective from "command and control" to "consultation and empowerment" can be supported by shifting the Project or Portfolio Management Office to become a "Value Realisation Team", that coaches, mentors and offers a sounding-board for decisions all the way up and down the Lean Value Tree hierarchy. One of the key activities of this team would be to help teams assess whether their "Bets" are coming off or not - i.e. should work continue on a particular approach to delivering a goal, or is it time to admit that it ain't going to work?
 
 ### Self-Sufficiency
 
-Stuff about good engineering, proper encapsulation, and code quality being measured in terms of ease-of-change can go here.
+I may have mentioned that to be small-a-agile requires "doing all the things" a few times. Team self-sufficiency is another place where the importance of that is evident. The issue here hangs on this one of the [12 Angry Snakes](https://agilemanifesto.org/principles.html):
 
-Each team should have at least one Business Model Canvas, perhaps a few, though if they do have more than one, their Customer Segments and Customer Relationships sections, and hence the customers in the middle of their Value Propositions should be pretty similar. Define the team in terms of "who they deliver value to" and you won't go far wrong.
+* Continuous attention to technical excellence and good design enhances agility.
 
-### Decisiveness
+Making your software engineering teams autonomous is all well and good, but there a few things that those teams need to do to preserve their autonomy properly, and by doing so, provide everyone with software that not only works, but is *easy and quick to change*.This doesn't just mean "quick to deploy thanks to some hifalutin' Continuous Delivery build pipeline", it also means genuinely easy to change without breaking everything else around it. Software that can't be changed independently of all the other teams is one of the biggest spanners in the works you'll find.  
 
-Refer back to "confidence levels" above here.
+Key to this are five interlinked concepts that, really, not enough software engineers know enough about:
 
+1. Modularity.
+2. Cohesion.
+3. Separation of concerns.
+4. Encapsulation (or "information hiding").
+5. Loose coupling.
+
+These are five little angry snakelets that have hatched from the original 12, and if you're working with an engineering team that understands them, and (please dear lord) *architects* that understand them, there *might* be a cat-in-hell's chance that you'll get software delivered quickly.
+
+All of this is described much better than I ever could in Dave Farley's [Modern Software Engineering](https://learning.oreilly.com/library/view/modern-software-engineering/9780137314942/), which I would encourage not only all software engineers to read (it should be compulsory for them to read it, tbh) - but anyone else who has to work with the blighters, too. As a basic test, if your "10x" chief engineers look at you blankly when you mention "separation of concerns" to them, then that's a good clue that they might not be as "10x" as they think. Indeed they might not even be 0.1x at that point.
 
 ### Collaboration
 
@@ -421,15 +432,15 @@ Itamar Gilad calls this approach "sharing OKRs". If increased earnings are the o
 
 It then becomes the job of senior and upper-middle ~~management~~ leadership to review the estimates people are making, check their evidence and confidence levels, and arbitrate between teams where necessary. Organisations that have got these sorts of processes working properly seem to have settled on a quarterly cadence, re-evaluating objectives every three months or so. They also manage "trees" of sub-Objectives that align with the North-Star one, too.
 
-It's all a bit easier to plan if "upstream" teams think of the "downstream" ones as "their customers", too.
+As mentioned, planning is easier if "upstream" teams think of the "downstream" ones as "their customers", too.
 
-### Products Not Projects
+## Products Not Projects
 
 Absolutely none of the above is possible if you're still working on Projects. I discussed this in [article 2](./Agile_AntiPatterns.md) - "projects" just don't work in the Digital Realm, as they require so much up-front planning about things we know nothing about yet, and prevent any of the advantages of "frictionless-ness" and "infinite possibilities" from being realised.
 
-Align your teams with *products*, with the value they're delivering and the customers they're delivering it to, and it all gets a lot easier (provided you can work out how to budget for it all).
+Align your teams with *products*, with the value they're delivering and the customers they're delivering it to, and it all gets a lot easier, provided you can work out how to budget for it all. Aligning small-a-agility with corporate budgeting, auditing etc is where the [Edge book](https://www.thoughtworks.com/en-gb/insights/books/edge) really comes into its own.
 
-## Unfortunately, senior management need to understand all this...
+### Unfortunately, senior management need to understand all this...
 
 There's a major change in thinking required for senior execs to let go - to become inspiring leaders instead of managerial plan-deliverers. There are engineering / CTO-Level individuals who have understood small-a-agile for long enough to represent these ideas in the boardroom, but those who represent the rest of the business are lagging behind. Hence the difficulty in adopting OKRs in a lot of companies. "I get paid my large salary to tell people what to do - if I leave it to them to decide, what am I needed for?"
 
