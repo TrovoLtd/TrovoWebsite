@@ -10,11 +10,11 @@ This is the Mind Map of the "forgotten the point" article.
 2. **"[Agile" Anti-Patterns](./Agile_AntiPatterns.md):** when software engineers, product people and designers all work at loggerheads to each other, it all goes belly up. And even more so when the ways we strategise and plan *aren't* agile.
 3. **[Valuable agility](./Agile_Value.md):** conversely, when software, product and design collaborate properly, it's possible to navigate the Digital Realm* not only safely, but in ways that put you way ahead of the competition.
 
-\* The Digital Realm is like the Quantum Realm from Ant-Man but with *a lot more meetings*.
+\* Think of the Digital Realm as being like the Quantum Realm from Ant-Man but with *a lot more meetings*.
 
 ## Upon whose bandwagon am I jumping?
 
-Why - Dave Thomas's of course... He famously\* declared "[Agile is dead](https://youtu.be/a-BOSpxYJ9M?si=m5g_B7sa9_wK06cp)" in 2015, and that opened a door that a great many others have jumped through. A large cohort of these folks seem to be computer programmers who don't like meetings (more in the [next one](./Agile_AntiPatterns.md)), but it also stirred up a good few of Dave's fellow manifesto signatories and fellow travellers.
+Why - Dave Thomas's of course... He famously\* declared "[Agile is dead](https://youtu.be/a-BOSpxYJ9M?si=m5g_B7sa9_wK06cp)" in 2015, and that opened a door that a great many others have jumped through. A large cohort of these folks seem to be computer programmers who don't like meetings (more in the [next one](./Agile_AntiPatterns.md)), but it also stirred up a good few of the other "Agile Manifesto" signatories and fellow travellers.
 
 \* Famously *for a computer programmer* - Dave's not Taylor Swift, exactly. Indeed he's not even Sue Pollard. But his talk has had 1.4 million views.
 
@@ -27,13 +27,13 @@ I like this distinction so I'm going to steal it for these essays. I'm also goin
 
 ## Does *anyone* remember the point?
 
-The OG agilistas Allen Holub and Dave Farley\* [get not quite but near to the point](https://youtu.be/hxXmTnb3mFU?t=665) - Dave F talks about small-a-agility "opening up infinite possibilities" as opposed to being "fundamentally constrained" by big-design-up-front. But that's not quite it: it's not the *agility* that opens-up infinite possibilities, and "waterfall approaches" can't and don't ever *actually* constrain you.
+The OG agilistas Allen Holub and Dave Farley\* [get not quite but near to the point in this podcast](https://youtu.be/hxXmTnb3mFU?t=665) - Dave F talks about small-a-agility "opening up infinite possibilities" as opposed to being "fundamentally constrained" by big-design-up-front. But that's not quite it: it's not the *agility* that opens-up infinite possibilities, and "waterfall approaches" can't and don't ever *actually* constrain you. (Note - Dave hits the nail right on the head in the first chapter or two of his [Modern Software Engineering](https://www.davefarley.net/?p=352) book, which if you haven't read, you must do so NOW).
 
 Working in the Digital Realm *causes* these endless, frictionless possibilities, which no amount of up-front-design can cope with. Designs and concepts in the Digital Realm refuse to remain fixed. Even the clearest design drawing will get diddled with as soon as you try and implement it, and even assuming you get close, it won't be long before you've tweaked the implementation out of step with the design; *because you can*. **There's absolutely nothing stopping you**. Also, the act of coding itself mediates your interpretation, so there will always been at least some variation from the intention.
 
 Small-a-agility was originally conceived as a *defence mechanism to cope with all this*. This is what we have lost sight of, because once you *can* defend yourself against the chaos of infinite possibilities, you also gain loads of advantages from being able to ride it out. People focus on those advantages because it's where the promise of money sits - but understanding how a small-a-agile approach helps with the pitfalls is an easier first step to take.
 
-\* I'll probably refer to Dave Farley a lot in these articles. Just in case you don't know, Dave co-wrote [Continuous Delivery](https://martinfowler.com/books/continuousDelivery.html); a strong candidate for being **the** Bible of small-a-agile software engineering.
+\* I'll refer to Dave Farley a lot in these articles. Just in case you don't know, Dave co-wrote [Continuous Delivery](https://martinfowler.com/books/continuousDelivery.html); a strong candidate for being **the** Bible of small-a-agile software engineering.
 
 ### Agile beginnings
 
@@ -41,21 +41,21 @@ James Shore and Shane Warden include a great potted-history of both Agile and ag
 
 Less than one-in-six succeeded, according to the spectacularly-titled "[CHAOS Report](https://www.csus.edu/indiv/v/velianitis/161/chaosreport.pdf)" of 1995. Interestingly, that report begins by contrasting software engineering with bridge-building, though without actually getting to the bottom of it. They cite "we have 3000 years of bridge-building experience" as the main difference, but I'd also suggest "being constrained by the laws of physics and only four dimensions within which to work" as being extra advantages that bridge-builders have over software engineers. Provided, of course, one measures success as per the report: "...having all the features as initially specified", which has a bridge-buildy ring to it, too.
 
-It's much easier to specify a bridge, in other words, and much harder to start building a serious one without a design, budget, team and plan in place. Shore and Warden suggest that it *might be* possible to apply all that up-front planning to software engineering, too, "... if you keep them slim and operate in a well-understood domain". This goes against my personal experience.
+It's much easier to specify a bridge, in other words, and much harder to start building a serious one without a design, budget, team and plan in place. Shore and Warden suggest that it *might be* possible to apply all that up-front planning to software engineering, too, "... if you keep them slim and operate in a well-understood domain". This goes against my personal experience, where "keeping things slim and well-understood" are things that just don't happen, ever.
 
 ### Univeral Machines and infinite spaces
 
-I've been extremely lucky to be coached by two different software engineers\* who really got small-a-agility. One of them told me a story about helping his dad, a Quantity Surveyor in the Real World, select some software to use. After he'd helped pick the best system for his dad to buy, he told him how lucky he was to know, up front, how big a space there would be to build in, and to have the laws of physics constrain everything.
+I've been extremely lucky to be coached by two different *Software Engineers*\* who really got small-a-agility. One of them told me a story about helping his dad, a Quantity Surveyor in the Real World, select some software to use. After he'd helped pick the best system for his dad to buy, he told him how lucky he was to know, up front, how big a space there would be to build in, and to have the laws of physics constrain everything.
 
 We don't have these luxuries in the Digital Realm - if your client decides that they would like a submarine dock in the basement of the hospital you've spent the last three years building them, and a space-port on the roof, and that they'd like you to put the ceilings in before you've built the walls, then there's no practical reason why you can't. We work with "Universal Turing Machines" in a slippery, frictionless world of (very nearly) pure information and imagination: there are zero physical constraints and an infinite number of dimensions within which to work. Who knew?
 
-First and foremost we have to defend against this, and "you're driving me nuts" doesn't cut it as a defence, unfortunately - they'll just find someone else to burn out instead of you, at least until their money runs out. "You're the boss" and "I was only following orders" can help a certain caste of *programmer* on the sanity front, but it doesn't cut it for proper engineers, as it'll only ever result in something good by the flukiest of accidents.
+First and foremost we have to defend against this, and "you're driving me nuts" doesn't cut it as a defence, unfortunately - they'll just find someone else to burn out instead of you, at least until their money runs out. "You're the boss" and "I was only following orders" can help a certain caste of *Programmer* on the sanity front, but it doesn't cut it for proper engineers, as it'll only ever result in something good by the flukiest of accidents.
 
 \* More Dave Farley here, on [the difference between Programmers, Developers and Engineers](https://www.youtube.com/watch?v=fcjBfSiyI0k&t=2s).
 
 ### Lack of friction
 
-So the infinity and lack of friction results in constant uncertainty about what we do. It also means that everything we *do* achieve is much more vulnerable to disruption than Real World endeavours. The Digital Realm has an extremely low barrier to entry - case in point: how two broke students [completely turned the world of travel accommodation upside down](https://knowledge.wharton.upenn.edu/podcast/knowledge-at-wharton-podcast/the-inside-story-behind-the-unlikely-rise-of-airbnb/). You're only ever two clever nurks away from your beautifully-established business having the rug pulled out from underneath it.
+So the infinity and lack of friction results in constant uncertainty about what we do. It also means that everything we *do* achieve is much more vulnerable to disruption than Real World endeavours. The Digital Realm has an extremely low barrier to entry - case in point: how two broke students [completely turned the world of travel accommodation upside down](https://knowledge.wharton.upenn.edu/podcast/knowledge-at-wharton-podcast/the-inside-story-behind-the-unlikely-rise-of-airbnb/). You're only ever two clever nerks away from your beautifully-established business having the rug pulled out from underneath it.
 
 If our laurels are in the Digital Realm then we can never rest on them. Even if we are hugely successful, we have to be able to re-invent everything over and over again. Take Microsoft Office as an example of that - it's been rebuilt from the ground up four or five times over the years - the only constant is the brand. The same old boss of mine used to describe this as "re-building the engine of a sports car while it's doing 170 mph in the fast lane".
 
@@ -97,12 +97,14 @@ Turns out we were just asking the wrong questions, of course, but more of that l
 
 ### Your spec will *never* be fixed
 
-If I had a shiny pound coin for every time I've heard someone say: "where's the specification?", "have you captured all the requirements?" or "have you got a picture of what you want?" then, well I'd at least have a free holiday.
+If I had a shiny pound coin for every time I've heard someone say: "where's the specification?", "have you captured all the requirements?" or "have you got a picture of what you want?" then, well, I'd have a free holiday at least.
 
 That's not to say *pictures* in particular aren't useful, they really can be (until they get too busy - like [this one](https://framework.scaledagile.com/#largesolution)), but even the clearest picture in the world...:
 
-* Won't stay clear and current for very long - sometimes for less than an hour after any clarity was achieved. If you get a good one then you *will* have to keep shoving it under everyone's noses over and over again, though the prime value of a great picture is to refocus everyone on the *problem*.
+* Won't stay clear and current for very long - sometimes for less than an hour after any clarity was achieved. 
 * Won't transfer exactly to a code implementation - any two programmers *will* interpret it in a **minimum** of two different ways.
+
+The prime value of a great picture is to refocus everyone on the *problem*. If you get a good one then you *will* have to keep shoving it under everyone's noses over and over again, and you *will* have to tweak it each time.
 
 Clarity is fleeting and uncertainty is rife. The best pictures can give a sense of direction, but the only safe things to do are: 
 
@@ -137,7 +139,7 @@ Once you gain a few warts and a bit of career confidence, you learn that you rar
 
 ### You have to do **ALL** the things
 
-Hopefully you'll have noticed my reference to [The Manifesto for Agile Software Development](https://agilemanifesto.org/) above? Daves Thomas and Farley, and many other OG agilistas, take great pains to refer back to this holy artefact, which like most relics is both deeply instructional and just a little bit on the ambiguous side. One key piece of ambiguity is the instistence that "it's not a methodology", and damn right it isn't. That would be too helpful - but also, bad news alert, the perfect set of rules to follow to produce a killer piece of software every time doesn't exist: it's different every time, and it's *complicated*. 
+Hopefully you'll have noticed my reference to [The Manifesto for Agile Software Development](https://agilemanifesto.org/) above? Daves Thomas and Farley, and many other OG agilistas, take great pains to refer back to this holy artefact, which like most relics is both deeply instructional and just a little bit on the ambiguous side. One key piece of ambiguity is the instistence that "it's not a methodology", and damn right it isn't. That would be too helpful - but also, bad news alert, the perfect set of rules to follow to produce a killer piece of software every time doesn't exist: it's different every time, and it's *complicated*.
 
 So you're just going to have to suck it up and *learn* what all the bits *really mean*. And I do mean *all the bits*. Despite what many may tell you - *you have to attend to all of it* - all five statements, all 12 principles. Sorry.
 
@@ -157,9 +159,7 @@ Actually, no, it's a matched set of principles that **act as checks and balances
 * Because you may need to change direction at any time to realise the benefits of some great new opportunity as they arise, you need to design your system well, and make sure you can spot the side-effects of any changes before your customers do (preferably, before they get anywhere near your customers). Well-designed software is *easy to change* - how easy exactly is the only valid measure of the quality of it. Knowing how to write easy-to-change software is *the* trick - I've personally messed up a couple of interviews in my time because I talked a good game but didn't *know* [how to do it](https://en.wikipedia.org/wiki/SOLID). I could also point at a fair few very-highly-paid computer programmers who still don't know, too.
 * Because you're always *listening* to your customers, you know where the value is. But note, you're always *listening* to your customers, but you're not always *doing what they tell you* - if they really knew what they wanted, why would they need you? The route to value lies in the mastery of the technology, which is why you read all those damn books.
 
-Pull any one of these principles out, and at least one, usually two or three of the others, start going wrong (that's what the [next article](./Agile_AntiPatterns.md), the fun one, is about). The same old boss of mine referred to earlier called this: "The Twelve Angry Snakes"\* - like the repeating celtic pattern of snakes biting each others' tails. While each has got a grip on another, you're safe, but pull one snake out, the whole thing collapses and you've got 11 angry snakes wrapped around you and biting you in the face.
-
-\* This is sounding more and more like an episode of Monkey or Kung Fu, tbh.
+Pull any one of these principles out, and at least one, usually two or three of the others, start going wrong (that's what the [next article](./Agile_AntiPatterns.md), the fun one, is about). The same old boss of mine referred to earlier called this: "The Twelve Angry Snakes"\* - like the repeating Celtic pattern of snakes biting each others' tails. While each has got a grip on another, you're safe, but pull one snake out, the whole thing collapses and you've got 11 angry snakes wrapped around you and biting you in the face.
 
 ### There are two fundamentals
 
@@ -168,7 +168,7 @@ Two of the Twelve Snakes are more fundamental than the others, though:
 1. Deliver value *constantly*.
 2. Get better at doing it (also *constantly*).
 
-Delivering what you're told to is **not it**. Prentending you're getting better because you get together once a week and list all the things you could have done to make things better, then *not actually doing any of those things*, is also **not it**. See [the fun article](./Agile_AntiPatterns.md) for more of this joy.
+Delivering what you're told to is **not it**. Prentending you're getting better because you get together once a week and list all the things you could have done to make things better, then *not actually doing any of those things*, is also **not it**. See [the fun essay](./Agile_AntiPatterns.md) for more of this joy.
 
 The second of these fundamentals is mentioned explicitly in one of the principles: *At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly*.
 
@@ -182,7 +182,7 @@ In 2012 I ~~committed career suicide~~\* paused my industrial career to go and d
 
 \*\* Heaven forbid I ever get confused for a real doctor - though that's highly unlikely.
 
-I spent about three months researching alternative ways of thinking about "value" rather than just counting shekels. I conducted this research in the museums, libraries and archives sector *specifically because* there's (supposedly) less of a focus on cash money in that sector. I did all this just after a decade or more of New Labour pretending (barely / badly) that there might be more to life than money (while also [totally contradicting themselves](https://independentblogposts.wordpress.com/2018/01/21/intensely-relaxed-about-people-getting-filthy-rich/)), and engaging various consultants and spads to find out what such magic ingredients might be.
+I spent about three months researching alternative ways of thinking about "value" rather than just counting shekels. I conducted this research in the Museums, Libraries and Archives sector *specifically because* there's (supposedly) less of a focus on cash money in that sector. I did all this just after a decade or more of New Labour pretending (barely / badly) that there might be more to life than money (while also [totally contradicting themselves](https://independentblogposts.wordpress.com/2018/01/21/intensely-relaxed-about-people-getting-filthy-rich/)), and engaging various consultants and spads to find out what such magic ingredients might be.
 
 Obviously there *is* more in this life than filthy lucre, but in a capitalist society, pounds, shillings and pence\* are *the SI unit of value*, to which all endeavours must be converted so we can make apples-to-apples comparisons. After all the reading I did about this, the only paper I can ever recall is [this one](https://ideas.repec.org/p/pra/mprapa/14902.html), which states (and I paraphrase greatly here): "... many people in the cultural sector insist that 'value' isn't all about money, until the yearly budget cycle comes around again, when all of a sudden they can magically put a price on *everything*". To be honest I didn't really learn this lesson properly until the first job I did *after* getting my doctorate, when another patient individual took the time to explain business modelling to me once and for all. This happy tale is told in [essay three](./Agile_Value.md).
 
@@ -196,7 +196,7 @@ I'm afraid Dave Thomas can come across as a prime example of this - see the part
 
 Absolving ourselves of the responsibility for defining value just doesn't cut it - for small-a-agility to work, we all have to be on the same team, and we're *all* on the hook for working out the right things to do, always. Engineers, especially, are on the hook for working out *the costs* of both delivering *and running / maintaining* the software...
 
-... because *value* = "benefits **MINUS** costs". It's what's left over after you've paid Bezos your compute bill, and the first and second-line support crew have claimed overtime for the incident where they all had to get out of bed at 2am because your thing didn't work, and you didn't give them any clues to find out what was wrong with it.
+... because *Value* = "Benefits **MINUS** Costs", in our Capitalist world. It's what's left over after you've paid Bezos your compute bill, and the first and second-line support crew have claimed overtime for the incident where they all had to get out of bed at 2am because your thing didn't work, and you didn't give them any clues to find out what was wrong with it.
 
 Apples-to-apples comparisons of value are fundamental to small-a-agility - they're the basis of the prioritisation constraint. You can't "do the most valuable thing first" if you don't have a method for *comparing the different values of things*. Spoiler alert for the [third article](./Agile_Value.md) - there's usually only one or two genuinely valuable things to do, anyway - so do those. The rest is probably just bloat on your simple, elegant product.
 
@@ -205,4 +205,4 @@ All software engineers should learn the basics of business modelling. Also (as [
 Capital-A-Agile be damned, the biggest cause of "The Death of Agile" is the angry, unyielding wedge that's driven between software engineers and business people. Both sides don't realise how little the other side know about what they do, when there shouldn't even be "sides" in the first place.
 
 * The [next essay](./Agile_AntiPatterns.md) explores the implications of this in more depth. (As I say, it's the fun one).
-* The [essay after that](./Agile_Value.md) reviews some of the efforts that have been made to bridge the gap between software engineering and business in the Digital Realm. Skip ahead if you're only here for the answers but you'll miss out on a load of bitter snark.
+* The [essay after that](./Agile_Value.md) reviews some of the efforts that have been made to bridge the gap between software engineering and business in the Digital Realm. Skip ahead if you're only here for the answers but you'll miss out on a load of bitter (but entertaining) snark.
