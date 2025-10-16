@@ -11,26 +11,26 @@ This is the Mind Map of the "Agile anti-patterns" article.
 This is part two of a set of three essays where I jump on the "Agile Is Dead, Long Live Agility" bandwagon:
 
 1. [The first essay](./Agile_WhatsThePoint.md) suggests that we've forgotten that agility was originally a defence against the chaos of working in a frictionless Digital Realm of infinite possibilities (i.e.: "the Quantum Realm but with more meetings"). It also upbraids some of the computer programming fraternity (the "we hate meetings" ones, mostly) for asking to be "left alone to get on with it", while handing off the the responsibility for defining "the value of the work" to everyone else.
-2. This one is going to get really snarky as I go into detail about things that are wrong with Capital-A-Agile. It's the fun article, in other words.
+2. This one is going to get really snarky as I go into detail about things that are wrong with Capital-A-Agile. It's the fun essay, in other words.
 3. [The third essay](./Agile_Value.md) dives into the concept of value, reviews some of the approaches that attempt to square the circle of small-a-agility by defining value properly, and gets just a tiny bit political.
 
 If you're a bit confused by the Capital-A-Agile / small-a-agility distinction then it's covered [in the first one](./Agile_WhatsThePoint.md), where I also explain that I've [stolen it from Dave Thomas](https://youtu.be/a-BOSpxYJ9M?si=m5g_B7sa9_wK06cp).
 
 ## TLDR of this article
 
-Working in a frictionless universe of infinite possibilities means we can, and often do, just **make stuff up we go along**, while kidding ourselves that we're making progress towards some goal or other. Quite often we call doing this "being Agile", when in fact it's just pure chaos and time-wasting.
+Working in a frictionless universe of infinite possibilities means we can, and often do, just **make stuff up we go along**, while kidding ourselves that we're making progress towards some goal or other. Quite often we call doing this "being Agile", when it's often just pure chaos and time-wasting.
 
 We often like to justify our professional salaries while we're making stuff up, too, by card-carrying our expertise around (in the case of disfunctional programmers and designers), or waving Capital-A-Agile Scrum-Master / Product Owner certificates in people's faces and using big words from business school (in the case of disfunctional Business / Product people).
 
 None of this provides any lower-case-a-agility, because it's highly unlikely to deliver any value, unless we get at-best-once-in-a-career lucky.
 
-If you'd like to skip to some ways of using the frictionlessness of the Digital Realm to actually play the percentages of success better\*, check out [the next article](./Agile_Value.md). But you'll miss a lot of snarky fun if you do.
+If you'd like to skip to some ways of using the frictionlessness of the Digital Realm to actually play the percentages of success better\*, check out [the next essay](./Agile_Value.md). But you'll miss a lot of snarky fun if you do.
 
 \* Well, at least *in theory*, but some of the solutions have their own issues too.
 
 ## Making stuff up as we go and calling it "Agile"
 
-This is the predominant approach everywhere I've worked. Because there's no friction in the Digital Realm, the knee-jerk reaction is always to take the path of least resistance. One manifestation of this is for someone senior to say "yes" whenever presented with a bright idea / terrible problem, then drive-by some underling's desk and ruin their day with it. One way to measure how deeply into this culture you are is the length of the "equal first priority list" - wherever you are, there's usually at least a couple of GREAT-BIG-IMPORTANT-THINGS lurking about with the potential to distract you, but I've worked in places where the list has been in double figures, and: "...what will I be working on today?" has been a source of constant mystery.
+This is the predominant approach everywhere I've worked. Because there's no friction in the Digital Realm, the knee-jerk reaction is always to take the path of least resistance. One manifestation of this is for someone senior to say "yes" whenever presented with a bright idea / terrible problem, then drive-by some underling's desk and ruin their day with it. One way to measure how deeply into this culture you are is the length of the "equal first priority list" - wherever you are, there's usually at least a couple of GREAT-BIG-IMPORTANT-THINGS lurking about with the potential to distract you, but I've worked in places where the list has been in double figures, and: "...what will I be working on today?" has been a constant source of mystery.
 
 Most of the books on Agile (and small-a-agility, too, for that matter) seem to suggest the existence of organisations where these sorts of thing *never* happen. If so I imagine their corporate HQs are nestled in the foothills of the Big Rock Candy Mountain.
 
@@ -42,9 +42,9 @@ If you ever work somewhere that says its being ["Wagile"](https://cloudcoach.com
 
 ### Too much 'doing', not enough feedback
 
-When you end up planning, 'refining' and building 'stuff' without regular feedback from customers (both users and buyers), then its a sure sign you're in a Capital-A-Agile world and not a small-a-agility one. Customers and buyers are the only people who can confirm the value of what you're doing.
+When you end up planning, 'refining' and building 'stuff' without regular feedback from customers (both users and buyers), then its a sure sign you're in a Capital-A-Agile world and not a small-a-agility one. Users and buyers are the only people who can confirm the value of what you're doing, usually by voting with their feet, but not actually *telling you* why.
 
-Also, the only legitimate confirmation is in their *actions*, not what they actually say. Often they'll know just how much effort has been put into what you're showing them, and they'll hide their misgivings just to spare your feelings.
+The only legitimate confirmation is in their *actions*, not what they actually say. Often they'll know just how much effort has been put into what you're showing them, and they'll hide their misgivings just to spare your feelings.
 
 So take the smallest possible step each time, then deploy the change somewhere you can get meaningful, measurable feedback. Chuffing your work out into some sort of demo that customers / stakeholders are forced to attend at knifepoint doesn't count. (See 'unproductive cadence' below).
 
@@ -66,11 +66,15 @@ Confusing "Agile" vs "agility" alert. One of the 12 principles says:
 
 * Continuous attention to technical excellence and *good design* enhances agility.
 
-...but design is still-too-often thought of as "the thing you do at the start". This means the "continuous" part of the statement gets interpreted by programmers as "it's OK to dive right into things and see where I end up", because that's what a lot them would rather do - write code in a quiet corner somewhere and solve abstract problems that are only spuriously connected to reality. Finding out what the problem really is can be *hard* and involves actually interacting with people who probably won't react positively to your first few bright ideas.
+...but design is still-too-often thought of as "the thing you do at the start". This means the "continuous" part of the statement gets interpreted by programmers as "it's OK to dive right into things and see where I end up", because that's what a lot them would rather do - write code in a quiet corner somewhere and solve abstract problems that are only spuriously connected to reality. Finding out what the problem really is can be *hard* and involves actually interacting with people who probably won't react positively to your first few "bright" ideas.
 
-Taking chunks of [Uncle Bob Martin](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/) about writing code iteratively out of context can be used to justify this behaviour, though only by doing all of the "red" part of "red / green / refactor", with a little bit of "green" just to keep your manager off your back, and ignoring the "refactor" part completely because you don't know how to do it.
+Taking the bits from [Uncle Bob Martin](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/) about writing code iteratively, and arbitrarily quoting them out of context, can be used to justify this behaviour. This behaviour usually settles into a pattern of...:
 
-However - just launching into the solution without putting some concious effort into some sort of design, without applying a few decent design principles to the problem, is almost certainly going to end up in mess. Eric Evans in his [Blue Book](https://learning.oreilly.com/library/view/domain-driven-design-tackling/0321125215/) even recommends brainstorming design ideas for your solution until there's nothing left but stupid suggestions, though Mr Evans generally doesn't seem to worry unduly about delay.
+* Doing the "red" part of "red / green / refactor".
+* Sprinkling in a big of "green" just to keep your manager off your back.
+* Ignoring the "refactor" part completely because hey it's the hard bit and you never worked out how to do it properly.
+
+However - just launching into the solution without putting some concious effort into some sort of design, without applying a few decent design principles to the problem, is almost certainly going to end up in mess. Eric Evans in his [Blue Book](https://learning.oreilly.com/library/view/domain-driven-design-tackling/0321125215/) even recommends brainstorming design ideas for your solution until there's nothing left but stupid suggestions, though Mr Evans generally doesn't seem to worry about delay that much.
 
 Hey - whether you do it conciously or not, there *will be a design*, but if you haven't worked on it explicitly, it'll be a bad one. The only person who will understand and be able to change it will be you, most likely by breaking other bits of it when you do. And you'll then have to wait for customers to tell you what you broke, as well. Which brings us to...:
 
@@ -82,9 +86,9 @@ Do you know anyone who:
 * Bases these solutions on a few half-muttered sentences from one customer that started: "We want a..."?
 * Ties themselves up in knots, but keeps going anyway because they don't want to admit they were wrong and throw their valueless work away?
 
-You've got a hero programmer on your hands. I.e. someone who makes a load of trouble for themselves (and everyone else), but then swoops in to "rescue" the situation, often at 2am in response to some crisis or other. The propensity to rise up on command whatever the hour to stamp out fires means that the CEO loves this dude (it's nearly always a dude). They know how to fix *everything* (because they broke it all in the first place). They know where all the bodies are buried (because they buried them).
+You've got a hero programmer on your hands. I.e. someone who makes a load of trouble for themselves (and everyone else), but then swoops in to "rescue" the situation, often at 2am in response to some crisis or other. The propensity to rise up on command whatever the hour to stamp out fires means that the CEO loves this dude (it's nearly always a dude). They know how to fix *everything* (because they broke it all in the first place). They know where all the bodies are buried (because they did all the bad murders in the first place).
 
-There's another form of the species - heroic designers. These are people who dive straight into user journeys, colour theory, mood-boards, grids, typeface choices etc - also without *really* finding out what the problems they're solving are - because (just like coding) "design is special and you need to be talented to do it" . In design terms, they [live in the second diamond](https://www.designcouncil.org.uk/our-resources/the-double-diamond/).
+There's another form of the species - heroic designers. These are people who dive straight into user journeys, colour theory, mood-boards, grids, typeface choices etc - also without *really* finding out what the problems they're solving are - because (just like coding) "design is special and you need to be talented to do it" . In design terms, they [live entirely in the second diamond](https://www.designcouncil.org.uk/our-resources/the-double-diamond/).
 
 I'm **not** saying that complex, technical endeavours don't benefit from knowledge and talent. I **am** saying that all the talent in the world won't help if you don't attempt to understand the problems you're trying to solve. Indeed - amazing skill and talent makes things worse if you deploy it too early as it:
 
@@ -108,9 +112,9 @@ Full disclosure - I am of course at least as guilty of committing the crimes lis
 * Who act heroically (see above).
 * Who simply don't know how to build code-bases that are easy to change in future (I've lost count of the numbers of highly-paid engineers I've worked with who *don't know what interfaces are for*).
 
-Such ne'er-do-wells will most likely march you away from anything good at a rapid pace. Knowledge about the things you would have been better off doing in the first place will emerge eventually though, at which point they won't want to re-do all the stuff they've built so far. So they'll try and bend / break what they've done up to that point to better fit reality. This [causes more Technical Debt](https://youtu.be/d2Ddo8OV7ig?si=mp9oGFX-sCv4nwQ6) than any other factor.
-
 \* There's nothing wrong per-se about either of these concepts but there's a time and a place, you know?
+
+Such ne'er-do-wells will most likely march you away from anything good, at a rapid pace that's easy to confuse with "progress". Knowledge about the things you would have been better off doing in the first place will emerge eventually though, at which point they won't want to re-do all the stuff they've built so far. So they'll try and bend / break what they've done up to that point to better fit reality. This [causes more Technical Debt](https://youtu.be/d2Ddo8OV7ig?si=mp9oGFX-sCv4nwQ6) than any other factor.
 
 ### Designers
 
@@ -131,7 +135,7 @@ I guess it's the same as computer programmers that don't really understand patte
 * ... and *should* they ever go and see a customer, go by themselves, and then return with a gift-wrapped "solution" for designers and engineers to "just build".
 * Who ask the customer "what they want" and take orders like waiters. This is where the [mis-attributed Henry Ford quote](https://medium.com/@adrianh/faster-horses-50ff8bb1bb62) about Faster Horses gets rolled out. Ask [the right question](./Agile_Value.md)!
 * Who lack technical confidence, and so further seek to justify their existences by placing themselves between the customers and people who can solve their problems. Bring the technical / clever people to problem first, then at least have a vague idea what the solutions they're proposing are.
-* Who cling faithfully to **"their vision"**, ignoring the industry-wide odds that one-in-three to one-in-ten "great" ideas actually make no positive difference.
+* Who cling faithfully to **"their vision"**, ignoring the industry-wide odds that only one-in-three to one-in-ten "great" ideas actually make a positive difference.
 * Who believe that it's possible to write a "detailed Road Map for the next 12 months". Sorry to burst your bubble but it's more than likely going to get blown out of the water by reality after about six weeks, max (though it can often only take days).
 
 These herberts are the worst of the lot. (I have done all of these things and occasionally still do when I let my guard down).
