@@ -28,19 +28,19 @@ If you'd like to skip to some ways of using the frictionlessness of the Digital 
 
 \* Well, at least *in theory*, but some of the solutions have their own issues too.
 
-## Making stuff up as we go and calling it "Agile"
+## Making stuff up as we go. Calling doing so "Agile".
 
 This is the predominant approach everywhere I've worked. Because there's no friction in the Digital Realm, the knee-jerk reaction is always to take the path of least resistance. One manifestation of this is for someone senior to say "yes" whenever presented with a bright idea / terrible problem, then drive-by some underling's desk and ruin their day with it. One way to measure how deeply into this culture you are is the length of the "equal first priority list" - wherever you are, there's usually at least a couple of GREAT-BIG-IMPORTANT-THINGS lurking about with the potential to distract you, but I've worked in places where the list has been in double figures, and: "...what will I be working on today?" has been a constant source of mystery.
 
 Most of the books on Agile (and small-a-agility, too, for that matter) seem to suggest the existence of organisations where these sorts of thing *never* happen. If so I imagine their corporate HQs are nestled in the foothills of the Big Rock Candy Mountain.
 
-### Not doing all the things
+### Not doing "all the things"
 
 If you've read about the Twelve Angry Snakes in [article one](./Agile_WhatsThePoint.md) then you already know my views on this. Cherry picking "the bits of Agile that suit us" is a terrible thing to do because each bit of the puzzle is a check and balance on at least one of the other bits. Pull any piece out and they all collapse around you.
 
 If you ever work somewhere that says its being ["Wagile"](https://cloudcoach.com/blog/what-is-wagile-project-management/) then you might want to reflect upon your life choices. That said - a lot of places do "Agile engineering with Waterfall strategy and tactics", which is a great way of wasting time and money, and only delivering good things by accident. Lots more about that below with [some antidotes in article three](./Agile_Value.md).
 
-### Too much 'doing', not enough feedback
+### Too much doing with not enough feedback
 
 When you end up planning, 'refining' and building 'stuff' without regular feedback from customers (both users and buyers), then its a sure sign you're in a Capital-A-Agile world and not a small-a-agility one. Users and buyers are the only people who can confirm the value of what you're doing, usually by voting with their feet, but not actually *telling you* why.
 
@@ -58,7 +58,7 @@ That's obviously **not** what's meant by "minimal": at which point no finer exam
 
 I wish I could find the place I saw MVPs described as "Unit Tests for Value" - because that's a much healthier description, particularly if you're trying to clarify the concept with Software Engineers. If they're any good then they'll get that "Unit Test" means "the minimum amount of work to discover whether or not something works". (Hey kids, write that failing test first, then get it to pass).
 
-Much more about this in [article 3](./Agile_Value.md).
+Much more about this in [article 3](./Agile_Value.md). Also - the anti-pattern version emphasises *projects* over *products* (much more ad nauseam).
 
 ### Working "without a design"
 
@@ -125,7 +125,7 @@ Such ne'er-do-wells will most likely march you away from anything good, at a rap
 
 Actually, while I'm ranting - modern JavaScript is what happens when Graphic Designers kidnap a programming language. It was actually the first language I ever learned, but these days using it to learn programming would be like learning about human anatomy by staring at a Picasso. If you ever see any code that ends in a brutal diagonal line of 25 closing braces, I advocate running screaming from the building. It's become this twisted, weird, semi-functional thing, so much so that people are having to resort to TypeScript to make any sense of it. (Hey, why "transpile" something once when you can do it twice?)
 
-Also, a rabbit hole of design systems / "languages" seems to have opened up, so now designers take massive steps *away* from problems into an abstract world of components and widgets, that are intended to be all things to all UIs. They're kind of like nuclear physicists trying to come up with a Unified Theory of Everything, only *slower*. I was once told that I'd have to wait *three months* before the code to *render a table* was ready. A **table**; something that was in  HTML v0.0.1. I thought someone had spiked my drink.
+Also, a rabbit hole of design systems / "languages" seems to have opened up, so now designers take massive steps *away* from problems into an abstract world of components and widgets, that are intended to be all things to all UIs. They're kind of like theoretical physicists trying to come up with a Unified Theory of Everything, only *slower*. I was once told that I'd have to wait *three months* before the code to *render a table* was ready. A **table**; something that was in  HTML v0.0.1. I thought someone had spiked my drink.
 
 I guess it's the same as computer programmers that don't really understand patterns but try and apply them everywhere regardless - we're diving into abstractions without bothering to understand the problems. It always comes back to that.
 
@@ -138,7 +138,7 @@ I guess it's the same as computer programmers that don't really understand patte
 * Who cling faithfully to **"their vision"**, ignoring the industry-wide odds that only one-in-three to one-in-ten "great" ideas actually make a positive difference.
 * Who believe that it's possible to write a "detailed Road Map for the next 12 months". Sorry to burst your bubble but it's more than likely going to get blown out of the water by reality after about six weeks, max (though it can often only take days).
 
-These herberts are the worst of the lot. (I have done all of these things and occasionally still do when I let my guard down).
+These Herberts are the worst of the lot. (I have done all of these things and still do when I let my guard down).
 
 More than anything else, it's the Product person's job to bring the problem solvers to the problem, and help them understand it. When they interject themselves *between* problem and solvers, they do more damage than everyone else put together.
 
@@ -148,7 +148,7 @@ More than anything else, it's the Product person's job to bring the problem solv
 
 ... which brings me to:
 
-## Projects not Products
+## Projects instead of Products
 
 Producing software with a *project* is a hold-over from the bridge-building days - it just doesn't work in the Digital Realm. Did I mention that [it's infinite](Agile_WhatsThePoint.md)? This obviously means that *you can go on forever*, which I certainly wouldn't advocate. What I would suggest, however, is *not stopping while there's still money on the table*. Getting product / market fit and some momentum towards enthusiastic users / customers is *hard* - if you do everything well, you're still only increasing the odds of success from 1 in 10 to 1 in 3.
 
@@ -209,6 +209,8 @@ When you don't have measures of:
 ... then you'll never know whether any of the best-practices everyone encourages each other to adopt at your Sprint retrospective are *actually* helping.
 
 Quality can be hard to measure but "number of bugs you released" and "length of time taken to change direction" might be good starters? How about "average number of pull-request comments"? Though this can be skewed by the fella on the team who complains because Git-Commit messages don't have a full-stop on the end. (This actually happened).
+
+Note: [Dora](https://dora.dev/) have emerged as the keepers of good software engineering quality metrics - bit of a moving target though.
 
 Worse than all of this is the talking-shop retrospective where everyone wastes an hour moaning about all the crazy bobbins that's happened in the last two weeks, without committing to anything that would make the world a better place. I'm all for continuous improvement - it's one of the two bedrocks of small-a-agility after all - but you do *have to*, you know, **improve, continuously**. If you don't, then you're just holding retrospectives because *Scrum says you have to*.
 
