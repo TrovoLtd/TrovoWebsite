@@ -30,15 +30,15 @@ If you'd like to skip to some ways of using the frictionlessness of the Digital 
 
 ## Making stuff up as we go. Calling doing so "Agile".
 
-This is the predominant approach everywhere I've worked. Because there's no friction in the Digital Realm, the knee-jerk reaction is always to take the path of least resistance. One manifestation of this is for someone senior to say "yes" whenever presented with a bright idea / terrible problem, then drive-by some underling's desk and ruin their day with it. One way to measure how deeply into this culture you are is the length of the "equal first priority list" - wherever you are, there's usually at least a couple of GREAT-BIG-IMPORTANT-THINGS lurking about with the potential to distract you, but I've worked in places where the list has been in double figures, and: "...what will I be working on today?" has been a constant source of mystery.
+This is the predominant approach everywhere I've worked. Because there's no friction in the Digital Realm, the knee-jerk reaction is always to take the path of least resistance. One manifestation of this is for someone senior to say "yes" whenever presented with a bright idea / terrible problem, then drive-by some underling's desk and ruin their day with it. One way to measure how deeply into this culture you are is the length of the "equally-top-priority list" - wherever you are, there's usually at least a couple of GREAT-BIG-IMPORTANT-THINGS lurking about with the potential to distract you, but I've worked in places where the list has been in double figures, and: "...what will I be working on today?" has been a constant source of mystery.
 
-Most of the books on Agile (and small-a-agility, too, for that matter) seem to suggest the existence of organisations where these sorts of thing *never* happen. If so I imagine their corporate HQs are nestled in the foothills of the Big Rock Candy Mountain.
+Most of the books on Agile (and small-a-agility, too, for that matter) seem to suggest the existence of organisations where this sort of thing *never* happens. If so I imagine their corporate HQs are nestled in the foothills of the Big Rock Candy Mountain.
 
 ### Not doing "all the things"
 
 If you've read about the Twelve Angry Snakes in [article one](./Agile_WhatsThePoint.md) then you already know my views on this. Cherry picking "the bits of Agile that suit us" is a terrible thing to do because each bit of the puzzle is a check and balance on at least one of the other bits. Pull any piece out and they all collapse around you.
 
-If you ever work somewhere that says its being ["Wagile"](https://cloudcoach.com/blog/what-is-wagile-project-management/) then you might want to reflect upon your life choices. That said - a lot of places do "Agile engineering with Waterfall strategy and tactics", which is a great way of wasting time and money, and only delivering good things by accident. Lots more about that below with [some antidotes in article three](./Agile_Value.md).
+If you ever work somewhere that says it's being ["Wagile"](https://cloudcoach.com/blog/what-is-wagile-project-management/) then you might want to reflect upon your life choices. That said - a lot of places do "Agile engineering with Waterfall strategy and tactics", which is a great way of wasting time and money, and only delivering good things by accident. Lots more about that below with [some antidotes in article three](./Agile_Value.md).
 
 ### Too much doing with not enough feedback
 
