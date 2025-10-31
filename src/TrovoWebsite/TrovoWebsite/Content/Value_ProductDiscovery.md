@@ -1,0 +1,51 @@
+# Product Discovery
+
+Product Discovery is the overarching concept that ties everything to do with delivering value together, and while a lot of people seem to want to separate it from "agility", for me it's absolutely part of it. To be small-a-agile you *have* to deliver value - it's in the first of the [12 manifesto principles](https://agilemanifesto.org/principles.html):
+
+* Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+
+But as far as The Manifesto goes, the definition of value is up to you, my friend. And as I've covered in [article 2](./Agile_AntiPatterns.md), as The Manifesto was written by *software engineers*, it can often be the case that responsibility for defining value is left entirely to business people. They tell the engineers "what's valuable" (sort of, rarely in a very coherent way), the engineers deliver *something* (sort of - though because the value hasn't been properly defined, its rarely anything good, and it always takes ages, and who knows how much any of it costs, really?)... And then there's a lot of passive-aggressive resentment as the wheels fall off and everyone realises it's all been a waste of time, effort and money.
+
+It doesn't have to be this way, because the cavalry arrived a good while ago, in the form of [Marty Cagan](https://www.svpg.com/team/marty-cagan/). Marty is rightly held up one of the good Silicon Valley gurus, and his greatest contribution is to provide a snappy, workable definition of value, at long last. Hurrah for Marty!
+
+## Viability, Feasibility and Usability / Desirability
+
+Marty laid out his fundamental product development ideas in his first book, [Inspired](https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/), where he states that value delivery is the core factor upon which all products must be judged. (Plenty of other people have made this point, too, of course - Marty's book was just the first one I happened to read that articulated it in nice simple words I could understand). However, he also suggests that delivery of value is the responsibility of the *whole team*, not just something that Product people tell the team how to deliver.
+
+He also breaks value delivery down into three sub-concepts, none of which deliver value on their own, but all of which can *prevent* value from being delivered if they're not properly attended to. They are:
+
+* **Feasibility** - the technical possibility of delivering a solution in a realistic time-frame, and defining the delivery costs.
+* **Usability** - whether the intended users are able to understand the product and use it easily-enough to solve their problems. This also gets styled as "desirability", too, as like it or not, there's an emotional aspect to people's decisions to use a product, though this *always* gets outweighed by how well the product eases their struggles, eventually.
+* **Viability** - how well the product aligns itself with the business that's delivering it. The obvious key one of these is "how much profit is there in it?", but there are other factors, too (e.g. "is the product actually *legal*, or will company Directors end up in court if we sell it?").
+
+These three factors can also be thought of in terms of "alignment with technology", "alignment with the market", and "alignment with the business". But the bottom-line is that all good products need to be well aligned in all three directions, all the time, and their natural tendency is to go out of whack, no matter how long they've been out in the big wide world for, and how successful they may have been in the past. The frictionless Digital Realm makes the process of coming unhinged a lot easier, too, of course.
+
+Sharp-eyed readers will have already noticed that the three sub-concepts also align to three key roles in a Product Team: the Software Engineer, the Product Designer and the Product Manager, and Marty suggests that all such teams should be led by these three amigos - with the set of three having shared responsibility for delivering value, by balancing all three things. He further suggests that these three people should be *the only* team members to begin with, until there's enough evidence of Product / Market Fit being established to warrant increasing headcount.
+
+He also hammers home the point that all three amigos should share a deep and meaningful understanding of *the problem the product is solving* - of which a lot more below. Indeed - pretty much everything in the rest of this article is covered by Marty Cagan somewhere or other, because he really does know his onions. However, he's not the only person playing this game.
+
+## The Business Model Canvas
+
+The Business Model Canvas is provided by a consultancy firm called [Strategyzer](https://www.strategyzer.com/) and at least in part came about as a result of PhD research by a chap called [Alex Osterwalder](https://alexosterwalder.com/). I landed on it after finishing my work at Cambridge, while I was searching for a small-a-agility business modelling method, and in that respect it really fits the bill. You can, and should, get a Business Model Canvas together within hours, or minutes, of working up your next brilliant new idea that's going to bring the Digital Realm to its knees.
+
+Or, if, by some *miracle*, you've got twenty years into a successful product suite, without ever working up a business model of any kind, you should immediately drop whatever nonsense you're up to and start drawing one up. (Remember from [article one](Agile_WhatsThePoint.md), everything has a business model in the same way everything has a design - if you haven't thought about it explicitly, it'll almost certainly be a bad one).
+
+Rather than go into massive detail about it, I'd just recommend buying [the book about it](https://www.strategyzer.com/library/business-model-generation), as well as the two follow-up ones about Value Propositions and Testing Business Ideas, too (more about those later).
+
+The Business Model Canvas seems to be heavily associated with startup companies, though as I say, in IMHO there's no *real* reason why, the most likely is that a detailed method for using it in full start-up mode was published by [Steve Blank](https://steveblank.com/) in his book [The Startup Owner's Manual](https://steveblank.com/startup-owners-manual-1in/). This goes full-gas about how to use it to find product market fit and work the odds of success in your favour, and as such I think it can usefully be applied whenever you feel you need to change a product at any stage of their lifecycle. Should no business modelling work have been done on your products already, then following these processes to put one in after the fact is really going to help you manage the rest of its lifecycle, and get your products under control.
+
+Working out the value of your work methodically and scientifically is *not just for start-ups*, which is a good job, given how many serious problems there are with start-up culture (more later).
+
+The thing that most annoys me about the Business Model Canvas is that it's not made clear enough that *you're supposed to run numbers through it*. The book Strategyzer wrote about it doesn't come out and say this outright - indeed you have to wait for Alex Osterwalder to get [twenty-five minutes into this key presentation about it](https://youtu.be/8GIbCg8NpBw?t=1510) before he reveals this vital point. I put this down to the barrier between business people and software engineers that I describe [in the first article](Agile_WhatsThePoint.md) - neither group understands how little the other group knows about what they do, and people with a foot in both camps are rare.
+
+For clarity's sake: **you're supposed to run numbers through it**. Most people from Osterwalder's side of the fence know this, because it's clear from the name - it's a *Business Model* Canvas. So the two boxes at the foot of the canvas - the Cost Model and the Revenue Model, form the Cost / Benefit Analysis you'd find in a more traditional model. Indeed, you'd probably want to start building out a more traditional model you can plug *real* numbers into once your Product takes off - but the key is to *not waste time at the start over-modelling things based on really wild assumptions*. Instead, you can explore costs, benefits and the other key parts of your model *within about an hour of starting to get your idea off the ground*, instead of, er... **never** (which is the approach taken by [95% of benighted attempts at getting profitable software into the world](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)).
+
+## Deliver Value Not Features
+
+I've built so many things throughout my engineering career that just didn't get used much, if at all. Honestly: it's been enough to make me question why I bothered in the first place. Quick answer - the salary: my house has a nice new roof despite me delivering little of value over the years. For the people that *paid* my salary, though - this hasn't worked out quite so well.
+
+(Hey, at least I've bothered to learn how to do it better. A lot of people don't).
+
+This glorious situation is endemic within software engineering, and there's a whole cabal of gurus trying to stop it. "Deliver value, not features" is the cry, a concept which obviously ties in nicely with the [toppermost of the Agile Manifesto Principles](https://agilemanifesto.org/principles.html). These days, you may also hear the same concept described as "delivering outcomes not outputs".
+
+Whichever way it gets styled, though, I feel this concept gets a little confusing for the average software engineer, whose job is to *build things*. And you can't really *build an outcome*, can you? You have to build *the thing that causes the outcome to occur*. I'm splitting hairs a bit here, it's not *that* complicated a concept, but nevertheless the trap of defining the problem in terms of the solution we want to build is, as ever, an easy one to fall into.
