@@ -38,26 +38,75 @@ If you've been brave and read the other two essays, you'll probably be amazed at
 
 I've done very little else up to now other than bang on about how **you have to do all 12 things**. So please take note, if you only focus on these four and don't do the others, **you will fail**. And not in the good "it's OK because we've learned" way - I mean fail in the "lose all the money and end up out of a job" way.
 
-### The Cast of Characters
-
-There are lots of moving parts to the concept of value, and it can be sliced and diced in a lot of ways. I've not actually *invented* any of this myself, though, of course. So here's a dramatis personae of the key people I've cribbed from.
-
-**Marty Cagan and the Silicon Valley Group**. Marty is pretty much the uber-guru of all this stuff, and has provided a great underlying definition of "value". This forms the basis of the concept of *Product Discovery*, which holds the whole shebang together. So we'll deal with that first. Also fundamental to Product Discovery are **Strategyzer and Alex Osterwalder**, who in turn have a deep and meaningful relationship with **Steve Blank**.
-
-
+There are lots of moving parts to the concept of value, and it can be sliced and diced in a lot of ways. I've not actually *invented* any of this myself, though, of course. So in the whistle-stop tour of value that follows, there will also be a dramatis personae of the key people I've cribbed from, and the sources they've provided.
 
 ## Product Discovery
 
+This is the overarching (or is it underpinning?) concept of value delivery that pulls everything together. The key Product Discovery dude is Marty Cagan, who has done as good a job as anyone of trying to pin down what *value* means. Marty is a Digital Realm guy, starting off at Hewlett Packard and then really earning his chops at Ebay, so his approaches properly address all the "infinite possibilities making life a nightmare if you're not careful" stuff.
 
-### Viability, Feasibility and Usability / Desirability
+So as this is the overpinning concept, we'll introduce some core bits now that'll get referred back to throughout the rest of the essay.
 
+### The three linked concepts that define value
+
+Marty suggests that "value" has three moving parts:
+
+* **Feasibility** - the technical possibility of delivering a solution in a realistic time-frame, and defining the delivery costs.
+* **Usability** - whether the intended users are able to understand the product and use it easily-enough to solve their problems. This also gets styled as "desirability", too, as like it or not, there's an emotional aspect to people's decisions to use a product, though this *always* gets outweighed by how well the product eases their struggles, eventually.
+* **Viability** - how well the product aligns itself with the business that's delivering it. The obvious key one of these is "how much profit is there in it?", but there are other factors, too (e.g. "is the product actually *legal*, or will company Directors end up in court if we sell it?").
+
+None of these deliver value on their own; indeed it's more the case that each of them can *block* the delivery of value if not properly attended to. To that end, they match with three core roles:
+
+* **Software Engineers** are responsible for Feasibility and own all the "how do we deliver it?"... bits.
+* **Product Designers** own all the "can our customers and / or end-users work out what it does? And does it rock their world to the necessary degree?... bits.
+* **Product Managers** own all the "does it align with the business? Is it a good strategic play? Will it deliver the outcomes our leadership want? Or will it put them in court / jail?"... type questions. (Note, the answer to the latter question should *usually* be 'no' if possible).
+
+Bring these three dudettes together and answer all these questions properly, and you'll tilt the odds of delivering something valuable from 1 in 10 to about 1 in 3 or better.
 
 ### The Business Model Canvas
 
+Key to managing all the above in a lightweight and small-a-agile way is the Business Model Canvas, an approach invented by Alex Osterwalder and packaged up by his consultancy firm Strategyzer. I first stumbled upon this after completing a two-year research project at Cambridge University, where one of the key deliverables was an enormous and unwieldy Business Case that took about six-months to write.
+
+Cambridge is an 800-year-old institution, so six months to deliver one document *is* agile, in that world. But pretty much everywhere else (apart from Oxford), it's not.
+
+However, a lovely chap called [Chris Macleod](https://www.linkedin.com/in/cmacl/) had the patience to explain Business Modelling to me, at least. Which for the software engineer I was at that stage was a bit of a revelation. As a dyed-in-the-wool *small-a-agile* software engineer, I was really in the market for something, you know, quicker, though.
+
+So that's where the Business Model Canvas comes in. It lets you discover your product *quickly*, and fundamentally acknowledges that you're almost certainly going to have to change it, a lot, before it takes off. So rather than the six months it took to write our Business Case (or more accurately, *pickle it*), we could have been acknowledging and testing core assumptions about the market, customers, value propositions, technical activities, partners, costs and benefits within a couple of hours of starting, and then we could have reacted to this information as we went along.
+
+I've heard people say that "the Business Model Canvas is really for start-ups". Well, yes, it certainly would help if you're starting from scratch, but if you haven't got a proper Business Model in place for your product then, if you *are* making money with it, it's probably by accident. So at that point, do a canvas, eh? (More about that later on).
+
 ### Deliver Value Not Features
+
+There's been a realisation over the last 15 years or so that if you only focus on the Agile Principles that relate to software quality and delivery, you'll end up with tightly-run, well-drilled engineering machine that delivers easily maintainable, relatively bug-free software to a regular and predictable schedule. Efficient though this process will be, it'll cost a lot.
+
+Even worse, though, there's a strong likelihood (10-1 on) that it'll deliver useless crap that nobody wants or uses.
+
+So [do all the things](./Agile_WhatsThePoint.md).
+
+I have lived this life as a software engineer, usually in response to customers who absolutely, definitely need some chocolate teapot or other. If there's one reason I switched to Product Management, it's that I didn't want to waste any more of my precious time delivering crap people were so sure they wanted, until they weren't.
+
+So here's another fundamental of Marty Cagan's approach - stop delivering "stuff" and start delivering *measurable benefits* to your customers. *Value*, in another word. It's not as if Marty invented this concept, of course, but in all the (software engineer-led) kerfuffle of Capital-A-Agile taking over the world, we'd kind of lost sight of it. He helped bring our attention back to it.
+
+If the main goal you set your team is "deliver me the thing" then (if you've hired a good one), they'll pull out all the stops to deliver that thing, and gladly receive some nice pats on the head for doing so. Even if / when it becomes obvious after about a third of the way through that the thing isn't going to have the impact people wanted it to have. It's what you said you wanted, so here it is. Now you're the idiot for not wanting it any more.
 
 ### Products Not Projects
 
+Related to the concept of delivering value rather than "stuff" is the idea that work should be focused on Products - you know: "systems for delivering value to customers". Rather than "Projects", which are about delivering *things*.
+
+Imagine if you will that the "thing" your team built did actually deliver *some* impact. OK, if they've just ploughed ahead and delivered the thing your project dictated was the end goal, without actually checking that it was going to work as they went, then it would be unlikely to have *all* the impact you were hoping for, but it'll probably have *some*. But you've got to the end of your *project* now, so tough. You'll have to leave all the rest of the value that you *could* capture on the table. Sorry.
+
+Or you could align the team with a *product*, and give them the chance to explore the value it has in the market, to its customers. And let them hone its value-delivery potential. Let them build up a bit of empathy with the customers and users, and really get under the skin of their troubles and tribulations.
+
+That might be a better idea, mightn't it?
+
+### Key Product Discovery people and texts
+
+**Marty Cagan and the Silicon Valley Group** published the go-to text about Product Discovery: [Inspired: How to Create Tech Products Customers Love](https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/). Definitely start there.
+
+Also fundamental to Product Discovery are **Strategyzer and Alex Osterwalder**, who literally wrote the book on the [Business Model Canvas](https://www.strategyzer.com/library/business-model-generation). They in turn have a deep and meaningful relationship with **Steve Blank**, who with Bob Dorf wrote the [most in-depth book about how to use it](https://steveblank.com/startup-owners-manual-1in/).
+
+An alternate, slightly more "corporate C-Suite friendly" perspective that's aligned with the Digital Realm is provided by [Edge: Value-driven digital transformation](https://www.thoughtworks.com/en-gb/insights/books/edge), from (original Manifesto signatory) **Jim Highsmith, Linda Luu and David Robinson**.
+
+And then for a completely different but certainly knowledgeable and accessible perspective, I'd heartily recommend [Learning to Build](https://therewiredgroup.com/learn/learning-to-build/) by **Bob Moesta**. This isn't restricted to the Digital Realm, as Bob's built all sorts of real-world products in his time, but it still applies. And one of his related books about Customer Discovery will feature heavily later.
 
 ## Product / Market Fit
 
