@@ -86,7 +86,7 @@ I have lived this life as a software engineer, usually in response to customers 
 
 So here's another fundamental of Marty Cagan's approach - stop delivering "stuff" and start delivering *measurable benefits* to your customers. *Value*, in another word. It's not as if Marty invented this concept, of course, but in all the (software engineer-led) kerfuffle of Capital-A-Agile taking over the world, we'd kind of lost sight of it. He helped bring our attention back to it.
 
-If the main goal you set your team is "deliver me the thing" then (if you've hired a good one), they'll pull out all the stops to deliver that thing, and gladly receive some nice pats on the head for doing so. Even if / when it becomes obvious after about a third of the way through that the thing isn't going to have the impact people wanted it to have. It's what you said you wanted, so here it is. Now you're the idiot for not wanting it any more.
+If the main goal you set your team is "deliver me the thing" then (if you've hired a good one), they'll pull out all the stops to deliver that thing, and gladly receive some nice pats on the head for doing so. Even if / when it becomes obvious after about a third of the way through that the thing isn't going to have the impact people wanted it to have. It's what you said you wanted, so here it is. Now you're the idiot for not wanting it any more, and we're definitely not idiots, even though we just went ahead and built the thing you said you wanted, without finding out what your actual problems were.
 
 ### Products Not Projects
 
@@ -161,15 +161,68 @@ And then for a completely different but certainly knowledgeable and accessible p
 
 ## Team Autonomy
 
+As far as software engineering goes, if you're hiring people who *can even cope with* being micro-managed, then your hiring policy is off. Or, as per the quote from Steve Jobs in [essay 2](./Agile_AntiPatterns.md) - who on earth hires clever people and then orders them about?
 
+On the flip-side, running around looking for "10x" people is the wrong answer, too, as there's a good chance you'll end up working with a load of demented extroverts who are merely convinced they're 10x. These are *the least likely kind of people* to produce anything good.
+
+So the trick is to give "ordinary" people the space to become "10x". Or, in a nutshell - there are no "ordinary people" - everyone's got "it" if you give them the space to let it come out.
 
 ### Align Teams With The Value They Deliver
 
+In [essay 2](./Agile_AntiPatterns.md) I expressed dissatisfaction with Domain-Driven Design as a candidate for enabling teams to stop treading on each-other's toes and blocking each other. A more effective approach to team autonomy, at least if you understand your business model and know your customers thoroughly, is to align the teams up with the value they're delivering, and not DDD's "sub-domains", which can be hard to define.
+
+It's pretty simple, really - so simple that it was quite hard for everyone to spot for 15 years. You can't "deliver *valuable* software (as per Manifesto Principle No. 1) unless you have *customers*. Software has to be valuable *to someone*. So you can't *ever* be small-a-agile *if you don't have a customer*. Organise your "domains" around value delivered, even if it's to "internal customers" (i.e. "colleagues"), and you at least have a chance of getting some sort of agility together. 
+
+This is easier if you just call your "domains" *products*, because the easiest way to define a "product" is *something with a customer*, that's *a mechanism for delivering value to them*. So to tie all this in with concepts introduced earlier, I'd suggest that each team should have at least one Business Model Canvas, and related set of Value Propositions that they own and maintain.
+
 ### Types of Team
+
+There are plenty of theories and an awful lot's been written about types of software engineering team and how to organise them. They all seem to settle upon the distinction between:
+
+* Teams that face customers and deliver the actual value that exists in the market and hence pays the bills.
+* Teams that deliver value to internal customers, either by owning shared pieces of platform, or by understanding particularly complicated, gribbly bits of the software estate (embedded systems are a good candidate - they can get quite weird).
+
+It's worth diving quite deep into all this stuff for some good ideas, but I'd add the strong caveat that *exactly how to organise teams* is extremely company-specific; it's strongly-linked to corporate culture. So there are hierarchical models, if you're a bit top-down, or flatter ones. But they all seem to have the "internal or external-facing" categorisation going on.
 
 ### Team Self-Sufficiency
 
+To be honest, you're not going to get too far with team autonomy unless the software engineers you're working with really get how to design digital systems properly. They also need to be able to write code that's easy to change without causing a heap of obscure side-effects that ruin everyone else's day.
+
+I moaned at length about how hard good software engineers are to find in [the second essay](./Agile_AntiPatterns.md), as I think the emphasis on what makes a "good" software engineer has shifted into the wrong spaces.
+
+I may have mentioned that to be small-a-agile requires "doing all the things" a few times. Team self-sufficiency is another place where the importance of that is evident. The issue here hangs on this one of the [12 Angry Snakes](https://agilemanifesto.org/principles.html):
+
+* Continuous attention to technical excellence and good design enhances agility.
+
+A genuinely autonomous team makes their software *easy and quick to change* without breaking everything else around it. Key to this are five interlinked concepts that, really, not enough software engineers know enough about:
+
+1. Modularity.
+2. Cohesion.
+3. Separation of concerns.
+4. Encapsulation (or "information hiding").
+5. Loose coupling.
+
+These are five little angry snakelets that have hatched from the original 12, and if you're working with an engineering team that understands them, and (please dear lord) *architects* that understand them, there *might* be a cat-in-hell's chance that you'll get good software delivered quickly.
+
 ### Collaboration
+
+So here's the bad news - complete autonomy is a pipe-dream, really. Even if you've got your teams nicely aligned with the value they're delivering, and they've properly-isolated the work they do, and the data they manage, etc, they're still going to need to orchestrate their work and collaborate.
+
+So we need to refer back to goal-setting and leadership at this point. Autonomy is key to productivity, but autonomy without a shared sense of purpose and direction is chaos, basically.
+
+If you're "doing OKRs" (or similar) effectively, the head honchos should have clearly-articulated the top level objectives for *the whole organisation*, and lined everybody up to focus on them. This is what then allows teams to collaborate better - if we *all* know that the focus of our work for the next year is to increase company earnings from 22% to 27%, then that's the lever we can pull when we need the team who's products we depend upon to schedule the changes we need them to make.
+
+And if the team we depend upon thinks of us as *their customers* then it all just helps.
+
+### Key people and texts about autonomy and empowerment
+
+I really think the most important point about team autonomy is good software design and production. This makes Dave Farley's [Modern Software Engineering](https://learning.oreilly.com/library/view/modern-software-engineering/9780137314942/) a must-read. Even if you're not a coder, the first few chapters are worth diving into, because they explain the problems that small-a-agility was intended to address, and make a good case for quality incremental design that's not too technical at all.
+
+Also, our Marty Cagan quite wisely points out that Product peeps really should try and learn how to code, at least a bit, too. While he's there, he also wrote a really good book about the whole subject of team autonomy and empowerment, called, er: [Empowered](https://www.svpg.com/books/empowered-ordinary-people-extraordinary-products/). It's key to getting the "alignment with value" bits clear.
+
+Empowered in turn cites [Team Topologies](https://teamtopologies.com/) by Matthew Skelton and Manuel Pais very heavily. This is pretty much the canonical text about autonomous teams, and as such it's definitely worth a read, despite being slightly too skewed towards the engineering side of the triangle for my liking. It's more aligned with the slightly nebulous concept of Domains and DDD than with value, so I'd suggest it's important to consider Marty Cagan's adjustments to it rather than just read it in isolation.
+
+And I would also recommend turning to Highsmith et al's [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) again as that has several useful chapters about team autonomy, collaboration and governance: it's more at the hierarchical, corporate end of things. Actually, [Evidence Guided](https://itamargilad.com/book-evidence-guided/) has a good bit about it, too, that would work nicely in a "flatter" organisation. There's a lot of overlap between autonomy and goal setting.
 
 ## Conclusion
 
