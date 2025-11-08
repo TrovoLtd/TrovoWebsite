@@ -114,13 +114,55 @@ And then for a completely different but certainly knowledgeable and accessible p
 
 ## Customer Discovery
 
+As discussed in [essay two](Agile_AntiPatterns.md): the biggest, stupidest anti-pattern in the whole of Product is people sitting around pretending they know what their customers / user base are like, or what they do, without ever spending any time at all anywhere near them. This still seems to go on all over the place and it's the absolute dark-heart of everything that's still wrong with the whole IT business. Just **STOP IT**!
 
+Instead, remember this key phrase: "Get Out Of The Building!" Or if you can't get your head around that, the [Pragmatic Institute](https://www.pragmaticinstitute.com/) have a mnemonic for you: NIHITO, or "Nothing Interesting Happens In The Office". Uncle Marty Cagan also weighs in here, too - you should spend *at least* one hour per week shooting the breeze with at least one customer: buy them a nice big coffee and find out how their week is going.
+
+Indeed - there's a *very specific question* you should ask them...
+
+### Asking the right question
+
+The second-most stupid anti-pattern is *asking people the wrong question* if / when you do go to see them. And that wrong question is: *"...what do you want?"*
+
+This question is a lot worse than useless, because 99 times out of 100 the person you're asking is crazy / misguided enough to think they know the answer. Indeed one of the main reasons people don't actually go out and see customers / users in the wild is because one of them has come into the office with "what they want" on the tip of their tongue. They're desperate to waste your time and money, and their own, too.
+
+Incidentally, the companion *what do you need?* is just as bad: which is a shame, because there's a whole template for documenting Agile User Stories that goes: "as a so and so *I need* a something..." This is for *documenting the solution*, but you should studiously avoid asking people what they think the solution to their problems are, when you haven't asked them about the problem yet.
+
+So what's the correct question? It's:
+
+* **What did you do?**
+
+*Everyone* can tell you *exactly* what they were going through when they suffered the problem you think you might be able to solve. They can tell you in extreme detail, and you should ask for it. Take them back to the last time they experienced the problem, and ask questions that help them replay the experience. Even "what did you have for breakfast that day?" Or "how was the commute that day? Were you on time for work?" Anything to put them back there, and then they can walk you through the whole timeline of **the problem** from start to finish. (Note, it quite often starts before they think it did, too).
+
+Just ask the question people can answer easily, and truthfully. And then ask them to replay further scenarios where the problem might have happened slightly differently. And then ask three or four more people. Not only will you then have a good handle on the problem to solve, but you'll have also heard your market describe it *in their words*, too.
 
 ### Jobs To Be Done
 
+Another helpful approach is to analyse the *jobs people are trying to do*, or *the struggles they are having*, and not *the people themselves*. Putting people at the middle of the analysis is the more traditional approach from marketing, and is enshrined in things like Personas etc, but it can mask the problem if your not careful. So put people's jobs, or their *struggles*, front and centre - you'll still learn everything you need to know about the person when you do.
+
+This readjustment has a name: the *Jobs To Be Done* framework (JTBD). There's a lot of overlap between JTBD and Product / Market Fit. Part of JTBD is to think in terms of customers "hiring" or "renting" your product to solve a problem, rather than buying it outright. This really helps in the Digital Realm, where the barriers to competitors building the app that's going to disrupt your long-standing products into oblivion are low. Your current customers are only "hiring" your product for as long as it's the best solution, and when a brighter young thing comes along, they'll fire it. Life can be so cruel.
 
 ### The Value Proposition Canvas
 
+Another way of thinking about "struggles" is in terms of "pains", and modelling the problems people have in terms of pain is a core part of The Value Proposition Canvas. This is an addition to the Business Model Canvas, and was designed because, if you're doing it properly, the BMC's middle "value proposition" box can get rather too full.
+
+The Value Proposition Canvas also provides an opportunity to start think about solutions, too. So when you've defined the job your customers are struggling with, and the pains these struggles cause, you're also encouraged to think about new opportunities that might emerge as your solution is applied - i.e. the extra "gains" they might get from your solution that take it above and beyond merely easing their current struggles.
+
+This is all very Digital-Realm-friendly, because it encourages thinking about "new affordances", i.e.: what does this new technology allow the customer to do that they've never been able to do before?
+
+One note of caution, though: "what's your job?"... is another weird, tricky-to-answer question that'll take you all down the wrong path. The Value Proposition Canvas kind of encourages you to ask it, though, if you just take it at face value. Remember,  "tell me what you were doing..." is the trick to unlocking problem scenarios.
+
+### Key people and texts about Customer Discovery
+
+My favourite Customer Discovery person is Bob Moesta, who wrote a great book about it: [Demand Side Sales 101](https://www.demandsidesales.com/). This gets completely under the skin of the "what were you doing?" question, with some brilliant real-world examples of how to use it. Bob also tweaks the idea of "jobs" to the more emotive "struggles". Doing this helps better align Customer Discovery with *Sales* (as per the title); a group of people that are obviously completely crucial to any business, but who can make life utterly miserable for everyone by changing products on the fly to get customers on board. Bob tells the story of when he did that, and why, and how he worked out how not to.
+
+One of Bob's mentors was Clayton Christensen and they worked on the Jobs To Be Done framework together. [More about that here](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done). I believe Clay Christensen also came up with the term "disruption", too, which starts to overlap with the fundamental concept of "affordances", e.g. the (potentially new) opportunities "afforded" by the way people and technology interact. That all comes from Donald Norman's [The Design of Everyday Things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things), which in turn gets into [Design Thinking](https://www.designcouncil.org.uk/our-resources/the-double-diamond/), and the concept of getting the problem defined before solving it.
+
+The phrase "Get Out Of The Building" can be attributed to Steve Blank, and his and Bob Dorf's [Startup Owner's Manual](https://steveblank.com/startup-owners-manual-1in/) is particularly strong on this topic. Indeed I believe the phrase "Customer Discovery" itself also comes from Steve Blank. It's worth checking him out [on YouTube](https://www.youtube.com/watch?v=rqYmsrjJH3g&list=PLysM940HUUsAutvEcx9JdcejACk-Ia0b9&index=1) for some good examples of asking the "what were you doing?" question.
+
+As discussed, to capture JTBD information in quick but engaging ways, you can't beat Strategyzer's [Value Proposition Canvas](https://www.strategyzer.com/library/value-proposition-design-2), which goes hand-in-glove with the Business Model Canvas, and hence is key to the whole approach described here. They give due props to Bob Moesta, too. But, somewhat annoyingly to use OCD types who work in computing - they drew it *the opposite way around* to the double diamond, so the problem is on the right, and the solution is on the left! (They have their reasons, you're supposed to work around it clockwise from the jobs on the right and so end with the disruptive new "gain creators" most prominent in the top-right-hand corner).
+
+If you're more on the software engineering side of things, you might like Einar Høst's talk about how not asking the right question [causes Technical Debt to get into products](https://youtu.be/d2Ddo8OV7ig?si=aQmErwkglXuD-Qyx). And it's definitely worth checking out Alberto Brandolini's popular engineering technique of [Event Storming](https://www.eventstorming.com/) too. It doesn't mention "the question" explicitly, but it is all over working through scenarios in a timeline. So same difference, really.
 
 ## Value = Benefits MINUS Costs
 
@@ -216,13 +258,13 @@ And if the team we depend upon thinks of us as *their customers* then it all jus
 
 ### Key people and texts about autonomy and empowerment
 
-I really think the most important point about team autonomy is good software design and production. This makes Dave Farley's [Modern Software Engineering](https://learning.oreilly.com/library/view/modern-software-engineering/9780137314942/) a must-read. Even if you're not a coder, the first few chapters are worth diving into, because they explain the problems that small-a-agility was intended to address, and make a good case for quality incremental design that's not too technical at all.
+I really think the most important point about team autonomy is good software design and production. This makes Dave Farley's [Modern Software Engineering](https://learning.oreilly.com/library/view/modern-software-engineering/9780137314942/) a must-read. Even if you're not a coder, the first few chapters are worth diving into, because they explain the problems that small-a-agility was intended to address, and make a good case for quality incremental design. And it's not too technical, at all.
 
-Also, our Marty Cagan quite wisely points out that Product peeps really should try and learn how to code, at least a bit, too. While he's there, he also wrote a really good book about the whole subject of team autonomy and empowerment, called, er: [Empowered](https://www.svpg.com/books/empowered-ordinary-people-extraordinary-products/). It's key to getting the "alignment with value" bits clear.
+In contrast, our Marty Cagan wisely points out that Product peeps really should try and learn how to code, at least a bit, too. Plus he also wrote a really good book about the whole subject of team autonomy and empowerment, too. It's called, er: [Empowered](https://www.svpg.com/books/empowered-ordinary-people-extraordinary-products/). It's key to getting a rounded understanding of the "alignment with value" bits.
 
-Empowered in turn cites [Team Topologies](https://teamtopologies.com/) by Matthew Skelton and Manuel Pais very heavily. This is pretty much the canonical text about autonomous teams, and as such it's definitely worth a read, despite being slightly too skewed towards the engineering side of the triangle for my liking. It's more aligned with the slightly nebulous concept of Domains and DDD than with value, so I'd suggest it's important to consider Marty Cagan's adjustments to it rather than just read it in isolation.
+Empowered also cites Matthew Skelton's and Manuel Pais's [Team Topologies](https://teamtopologies.com/), heavily. Team Topologies is really the canonical text about autonomous teams, so it's definitely worth a read, despite being slightly too skewed towards the engineering side of the triangle for my liking. It's more aligned with the slightly nebulous concept of Domains and DDD than with value, so I'd suggest it's important to consider Marty Cagan's adjustments to it rather than just read it in isolation.
 
-And I would also recommend turning to Highsmith et al's [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) again as that has several useful chapters about team autonomy, collaboration and governance: it's more at the hierarchical, corporate end of things. Actually, [Evidence Guided](https://itamargilad.com/book-evidence-guided/) has a good bit about it, too, that would work nicely in a "flatter" organisation. There's a lot of overlap between autonomy and goal setting.
+And I would also recommend turning to Highsmith et al's [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) again as that has several useful chapters about team autonomy, collaboration and governance. It's more at the hierarchical, corporate end of things, though [Evidence Guided](https://itamargilad.com/book-evidence-guided/) has some goods bit about teamwork and collaboration, too, that ought to work nicely in "flatter" organisations. As mentioned, both these texts are heavily into goal setting, and there's a lot of overlap between that and team autonomy.
 
 ## Conclusion
 
