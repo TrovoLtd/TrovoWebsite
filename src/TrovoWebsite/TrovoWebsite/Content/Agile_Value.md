@@ -172,17 +172,70 @@ If you're more on the software engineering side of things, you might like Einar 
 
 ### Uncontrolled costs
 
-
-
 ## Focusing Effort Upon Value Delivery
 
-### Objectives and Key Results (OKRs)
+The frictionless nature of the Digital Realm means that it's very easy to change direction, which is, of course, why the term "agility" was used to describe it. More often than not, the lack of friction is a curse, because it's very hard to keep focused upon value and how to deliver it. Unless you really understand how to work with digital systems and content, it's far too easy to flip-flop from one "number-one priority" to another, without any *focus* upon delivering value.
+
+However, a small tweak to how work is conceived of and planned can turn the pitfalls of agility into a major advantage. That tweak is to change focus from delivering *outputs* to delivering *outcomes*. Or in other words, focus on delivering the *benefits* of the software you're building, *not the software itself*.
+
+Teams that really get how to work in the Digital Realm understand how to use the lack of friction and the ability to change direction to *pick the approach most likely to deliver the benefit*. Another good way of putting this is to *provide a strategic outcome* that success is measured by, but not prescribe the *tactics* required to achieve that outcome. Then teams can measure the extent to which their tactics might be working, and *change them if they're not* - in ways that are, you know, **agile**.
 
 ### No Roadmaps!
 
+One concept that really gets a beating when realigning to focus upon delivering outcomes is Ye-Olde-Roadmap. Marty Cagan in particular *hates product Roadmaps*, because they're inevitably based upon wild-arsed guesswork, but the sense of false certainty they impart nevertheless lines people up towards the wrong answer.
+
+The people in question aren't just the delivery teams, either. The main reason Roadmaps are still such a feature in software engineering are precisely because of the sense of "certainty" they provide the wider organisation. Note: this is just a roundabout way of saying that Roadmaps often get cited by sales and marketing people as a way of getting out of difficult: "... why doesn't the thing you've sold me do the stuff I think I need it to?"... type conversations with customers. "It's on the Roadmap and you'll *definitely* have it by April 1st" gets them out of the room with their softer parts still intact.
+
+Of course, the right answer to the "where's my thing?" question is something like: "... walk me through the last time you thought you needed it" - see Customer Discovery, above. But one piece of key information to take away from the answer should be "which of the customers needles do we need to move, on which dials?" Is it: "too many mistakes?..", for instance? Or maybe: "...not selling enough?" Etc...
+
+### Objectives and Key Results (OKRs)
+
+The most popular framework for defining problems in terms of measurable outcomes is Objectives and Key Results (OKRs), invented by Intel CEO Andy Grove in the 1980s and 90s.
+
+OKRs are a great *theory*, but they're a big cultural shift, so a few ingrained habits need to be broken to implement them. The main place I've worked that tried it didn't really get it: "we're doing OKRs now" was announced with a bit of a fanfare, but before we knew it we'd fallen back into old habits of slogging through set plans and implementing business cases that defined solutions for us to deliver. Old habits are like that.
+
+Such difficulties make sense when you think about it. Software engineering / product delivery teams *exist to build stuff*; they're all about the output. And along with salespeople, they're also happier when there's a bit of certainty, and tend to think that they've failed when work they've invested in isn't having the desired impact, and the time comes to try something else.
+
+One key is to not give people too much time to get invested: more about this below. Though at this point I'd also suggest that another reason for OKRs being a bit difficult is the interchangeability of the words "outcome" and "objective". "Objective" is vaguer - and the complete no-no "deliver an output" can also be an "objective". 
+
+Can't we just change OKRs to mean "outcomes and key results"? But actually, the "Key Results" part refers to the measurable outcomes of meeting your objective... What chance does anybody stand with all these "O" words?
+
+Focus on delivering the benefit, not the thing. That is the be-all and end-all.
+
 ### Goals, Ideas, Steps, Tasks
 
+The GIST framework is an approach for dealing with one of the big issues with OKRs: how to turn them into bits of executable work that people can actually do. GIST goes hand-in-glove with methods for testing hypotheses. There's a whole section about this coming next, so we'll just cover the "G" part for now.
+
+According to GIST, how OKRs transfer into work is by organising a hierarchy with the Objective from your OKRs at the top. It proposes that each organisation should have two over-arching Key Results:
+
+1. A "North Star Metric", which is the most-simply expressed (but accurate) measure of the overall value you're delivering to the market ("items consumed" is the example given, for a grocery supermarket).
+1. A "Top Business Metric", which is intended to keep all the work everyone does viable and aligned with the business. This is usually something like "increase revenue from £1M to £1.1M" or "increase earnings from 22% to 23%".
+
+Then its up to departments and the teams within them to come up with their own OKRs that align with those two. They can then set  Goals for the team that are based upon those.
+
+Typically, all this should slot into a quarterly cadence, so everyone gives themselves three working months to work out the best ways to move the needles defined by their KRs and achieve good outcomes. At which point, just to keep everyone happy, you can put the planned work on an *Outcome Roadmap*; so the same sort of "this will be done by then" type plan as an Olde-Worlde-Roadmap, but with "this needle will be moved to here by 1st April", not "you will have your flying teapot by then".
+
+The GIST hierarchy then tracks the teams' goals all the way down to sprint's worth of work for people to do.
+
 ### Lean Value Trees
+
+On the surface, LVTs seem a very similar concept, as they are also based upon a hierarchy for transforming strategic direction and vision into actually day-jobs for people to do. However, the difference is that the hierarchy is "shifted up" one level - where GIST tracks the process all the way down, LVTs start at the level of "Vision": a "guiding direction towards which all investments should contribute", and goals come in at the next, main branch level.
+
+So LVTs need to be implemented in cahoots with another approach to organising actual work, namely "Measures of Success", which we'll cover in more detail when we come to "Testing Hypotheses" in a bit.
+
+The other thing about LVTs is that they're not explicitly aligned with OKRs. But I'd suggest the concept is a bit stronger than GIST when describing  *what all the levels of middle management are for*, still, once teams are generating all the ideas. The LVT concept has a lot more detail about how to *govern* these team-centric approaches, and how the "upper-echelons" should manage the "visionary" bits at the root of the tree.
+
+Fundamentally, both approaches are about getting strategy into tactics and then on into work, though, which is quite the trick if you can pull it off. Exact levels of success will be completely affected by company culture, though, so it's worth considering both and thinking about which is more likely to fit where you are.
+
+Generally I think I prefer GIST, though, as it fits with things that might already be going on (e.g. Scrum backlogs), so feels like it would be easier to introduce by stealth, especially if your organisation thinks that it's doing OKRs already.
+
+### Key people and texts about focus
+
+GIST comes from Itamar Gilad's [Evidence Guided](https://itamargilad.com/book-evidence-guided/), which clearly describes how to line OKRs up with work. It's a cracker - I'd get it if I were you.
+
+There's a lot about Lean Value Trees in [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) and it's definitely worth diving into them for a comparison with GIST. It's similar, but perhaps more explicitly "big corporation friendly". If you haven't got time for a whole book then a) you should make some, but b) here's a [slide deck about LVTs](https://www.slideshare.net/slideshow/lean-value-tree-overview-82783795/82783795) instead.
+
+Christina Wodtke's [Radical Focus](https://www.goodreads.com/book/show/28951428-radical-focus) is a good introduction to OKRs and it's the book that really explained the "let people change their tactics" bit to me. However, if (like me) you also enjoy a bit of schadenfreude then Kevin Mackie's Medium Article provides many ways [to do OKRs wrong](https://medium.com/@kmackie4/why-most-okrs-fail-and-the-fix-that-actually-works-47c500c91a6f), most of which are addressed by GIST and / or LVTs.
 
 ## Hypotheses and Experimentation
 
@@ -190,16 +243,13 @@ If you're more on the software engineering side of things, you might like Einar 
 
 ### Discover and Deliver in the Same Process
 
-
 ### Confidence Levels
 
 ### Making "Bets"
 
 ### Prototyping to Learn
 
-
 ### Assumption Mapping
-
 
 ## Team Autonomy
 
