@@ -116,7 +116,7 @@ And then for a completely different but certainly knowledgeable and accessible p
 
 As discussed in [essay two](Agile_AntiPatterns.md): the biggest, stupidest anti-pattern in the whole of Product is people sitting around pretending they know what their customers / user base are like, or what they do, without ever spending any time at all anywhere near them. This still seems to go on all over the place and it's the absolute dark-heart of everything that's still wrong with the whole IT business. Just **STOP IT**!
 
-Instead, remember this key phrase: "Get Out Of The Building!" Or if you can't get your head around that, the [Pragmatic Institute](https://www.pragmaticinstitute.com/) have a mnemonic for you: NIHITO, or "Nothing Interesting Happens In The Office". Uncle Marty Cagan also weighs in here, too - you should spend *at least* one hour per week shooting the breeze with at least one customer: buy them a nice big coffee and find out how their week is going.
+Instead, remember this key phrase: "Get Out Of The Building!" Or if you can't get your head around that, the [Pragmatic Institute](https://www.pragmaticinstitute.com/) have a mnemonic for you: NIHITO, or "Nothing Important Happens In The Office". Uncle Marty Cagan also weighs in here, too - you should spend *at least* one hour per week shooting the breeze with at least one customer: buy them a nice big coffee and find out how their week is going.
 
 Indeed - there's a *very specific question* you should ask them...
 
@@ -166,11 +166,53 @@ If you're more on the software engineering side of things, you might like Einar 
 
 ## Value = Benefits MINUS Costs
 
+I mentioned at the start that "value" has this weird property of being both extremely subjective, and also *totally measurable* at the same time. So this is the point where we get into the process of measuring it.
+
+In [essay 1](./Agile_WhatsThePoint.md) I described how my PhD was in part a mini-crusade to find out what "value" actually means, and I concluded (eventually) that it all comes back to money as a method of enabling apples-to-apples comparisons between pieces of work that are inherently different. (Indeed if you believe [The Barter Story / Myth](https://www.cato.org/blog/myth-myth-barter), enshrining comparisons between completely different things into a common structure is what money is actually for).
+
+As one of the fundamentals of small-a-agile software development is to *prioritise delivering the most valuable things*, it seems clear that it's impossible to be agile without some methodical way to compare the values of said things. This is what Business Models enable, so how can you possibly be *agile* without a Business Model of some sort?
+
+The flip side of this (as mentioned earlier) is that Business Models can get *very convoluted, very quickly*, and collapse under their own weight into the realms of "big design up-front". This is avowedly **not agile**, at all, both because it takes a long time, but also because all the effort it took to build your lovely model will get you so invested that you won't want to change it.
+
+If only there was some sort of quick, flexible way to explore Business Models...
 
 ### How the Business Model Canvas adds a value dimension to your work
 
+At its heart, the Business Model Canvas is a rapid Cost / Benefit Analysis tool that allows for the sort of flexibility and change afforded by the Digital Realm. The part of the Canvas where costs and benefits are weighed-up is across the bottom of the whole shebang. Your "Revenue Model" sits on the right, and is where you *sum up* the estimated financial value of all the benefits you're going to deliver to your Customer Segments, via your Channels, and using the Relationships you build with your Customers. As it's a Revenue Model, you're also supposed to consider the flow, too - so are you taking money from everyone via a monthly subscription? Or do you want them all to pay for it up front?... Kind of thing.
+
+Sitting in the middle is the "Value Proposition" section, which defines the balance between both halves. You're supposed to create *one Value Proposition Canvas per Customer Segment*, and it's in those where you'll really get under the skin of the problems / struggles you're solving for your customers, the thing(s) you're going to build to provide that solution, and all the sexy new opportunities those things will provide to help customers do stuff they never even realised they were desperate to do.
+
+(Of course, you're also going to test all the assumptions you make when dreaming all of this stuff up, too, about which more below).
+
+Then the right hand side of the Business Model Canvas is where all the costs sit. And because costs tend to be *so poorly handled* in the Digital Realm, I've devoted a whole little subsection to them.
 
 ### Uncontrolled costs
+
+I feel a little uncanny at this point, because *surely, in a capitalist society*, everyone should be measuring the value of things, shouldn't they?
+
+Well, it really doesn't appear like that's the case, from where I'm sitting. Costs that are poorly-managed, indeed completely uncontrolled, seem to be a feature of the tech sector, ranging from companies that just haven't worked out a business model at all, to ones that seem to exist [in order to fleece money from investors](https://wlockett.medium.com/you-have-no-idea-how-screwed-openai-actually-is-8358dccfca1c) (or indeed, entire nations), because their balance sheets just don't add up.
+
+Avoiding such traps is what the top-left-hand-side of the Business Model Canvas is for. This is where the software engineer on the team steps up and defines the "Feasibility" parts of your value-delivery scheme:
+
+* **Key Activities:** the main things people are going to *do* in order to deliver your product.
+* **Key Resources:** not just the people doing the doing, but also the tools they'll use, the buildings they'll be doing it in, the amount of Jeff Bezos's compute power they'll be over-consuming when they write sub-optimal code, etc.
+* **Key Partners:** which other organisations are you going to rely upon to do the bits of value delivery you're not so good at, but it's not worth your time to learn, or invest in the infrastructure to deliver yourself?
+
+If you've done much "traditional" Business Modelling then those three categories will probably look quite a lot like lines on your cost sheet. That's because they are. Indeed, on the canvas, everything on the left-hand side should feed down into the "Cost Model" section.
+
+Which leads me to a final point here: much as I would see bits of half-arsed UML Sequence Diagram scribbled on a whiteboard during some technical brainstorm as being "a rapid step towards an architectural design", I also think of the Business Model Canvas as being a lo-fi step towards a "full", "proper" Business Model. Once you've achieved product / market fit for a scalable Business Model, you should really start putting proper, formal bones on *both* your software design *and* your Business Model. If you ever get that far.
+
+### Key people and texts about Business Models
+
+Of course the key tome I use when it comes to Business Modelling is [Business Model Generation](https://www.strategyzer.com/library/business-model-generation), though remember it goes hand-in-glove with [The Startup Owner's Manual](https://steveblank.com/startup-owners-manual-1in/).
+
+However, *the* main pitfall Business Model Generation is that it doesn't make the importance of *running the numbers through your model* clear enough. Indeed you have to wait for Alex Osterwalder to get [twenty-five minutes into this key presentation about it](https://youtu.be/8GIbCg8NpBw?t=1510) before he reveals this vital point. It's a big part of Blank and Dorf's book, but it could really be made more obvious in the original text.
+
+I put this down to the barrier between business people and software engineers that I describe [in the first article](Agile_WhatsThePoint.md). I think it's perhaps just so obvious to business people that a model should be based on numerical estimates that they don't feel they have to labour the point, while us software engineers remain none the wiser. Neither group understands how little the other group knows about what they do, and people with a foot in both camps are rare.
+
+Speaking of numerical estimates, though - I ought to recommend Douglas Hubbard's [How To Measure Anything](https://www.goodreads.com/book/show/444653.How_to_Measure_Anything), as it'll show you how to *really* run the numbers through your model.
+
+And because there's really no Revenue Model that hasn't been thought up before, I'd also suggest saving time by keeping a copy of [The Business Model Navigator](https://businessmodelnavigator.com/about) to hand, too.
 
 ## Focusing Effort Upon Value Delivery
 
@@ -206,7 +248,7 @@ Focus on delivering the benefit, not the thing. That is the be-all and end-all.
 
 The GIST framework is an approach for dealing with one of the big issues with OKRs: how to turn them into bits of executable work that people can actually do. GIST goes hand-in-glove with methods for testing hypotheses. There's a whole section about this coming next, so we'll just cover the "G" part for now.
 
-According to GIST, how OKRs transfer into work is by organising a hierarchy with the Objective from your OKRs at the top. It proposes that each organisation should have two over-arching Key Results:
+According to GIST, how OKRs transfer into work is by organising a hierarchy with a couple of overarching Objectives at the top, based on these Key Results:
 
 1. A "North Star Metric", which is the most-simply expressed (but accurate) measure of the overall value you're delivering to the market ("items consumed" is the example given, for a grocery supermarket).
 1. A "Top Business Metric", which is intended to keep all the work everyone does viable and aligned with the business. This is usually something like "increase revenue from £1M to £1.1M" or "increase earnings from 22% to 23%".
@@ -215,25 +257,25 @@ Then its up to departments and the teams within them to come up with their own O
 
 Typically, all this should slot into a quarterly cadence, so everyone gives themselves three working months to work out the best ways to move the needles defined by their KRs and achieve good outcomes. At which point, just to keep everyone happy, you can put the planned work on an *Outcome Roadmap*; so the same sort of "this will be done by then" type plan as an Olde-Worlde-Roadmap, but with "this needle will be moved to here by 1st April", not "you will have your flying teapot by then".
 
-The GIST hierarchy then tracks the teams' goals all the way down to sprint's worth of work for people to do.
+The GIST hierarchy then tracks the teams' goals all the way down to sprint's worth of work for people to do. More below in the Hypotheses section.
 
 ### Lean Value Trees
 
 On the surface, LVTs seem a very similar concept, as they are also based upon a hierarchy for transforming strategic direction and vision into actually day-jobs for people to do. However, the difference is that the hierarchy is "shifted up" one level - where GIST tracks the process all the way down, LVTs start at the level of "Vision": a "guiding direction towards which all investments should contribute", and goals come in at the next, main branch level.
 
-So LVTs need to be implemented in cahoots with another approach to organising actual work, namely "Measures of Success", which we'll cover in more detail when we come to "Testing Hypotheses" in a bit.
+So LVTs need to be implemented in cahoots with another approach to organising actual work, namely "Measures of Success", which we'll also cover in more detail when we come to the "Testing Hypotheses" bit.
 
 The other thing about LVTs is that they're not explicitly aligned with OKRs. But I'd suggest the concept is a bit stronger than GIST when describing  *what all the levels of middle management are for*, still, once teams are generating all the ideas. The LVT concept has a lot more detail about how to *govern* these team-centric approaches, and how the "upper-echelons" should manage the "visionary" bits at the root of the tree.
 
 Fundamentally, both approaches are about getting strategy into tactics and then on into work, though, which is quite the trick if you can pull it off. Exact levels of success will be completely affected by company culture, though, so it's worth considering both and thinking about which is more likely to fit where you are.
 
-Generally I think I prefer GIST, though, as it fits with things that might already be going on (e.g. Scrum backlogs), so feels like it would be easier to introduce by stealth, especially if your organisation thinks that it's doing OKRs already.
+Generally I think I prefer GIST, though, as it fits with things that might already be going on (e.g. Scrum backlogs), so it's easier to introduce by stealth, especially if your organisation thinks that it's doing OKRs already.
 
 ### Key people and texts about focus
 
 GIST comes from Itamar Gilad's [Evidence Guided](https://itamargilad.com/book-evidence-guided/), which clearly describes how to line OKRs up with work. It's a cracker - I'd get it if I were you.
 
-There's a lot about Lean Value Trees in [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) and it's definitely worth diving into them for a comparison with GIST. It's similar, but perhaps more explicitly "big corporation friendly". If you haven't got time for a whole book then a) you should make some, but b) here's a [slide deck about LVTs](https://www.slideshare.net/slideshow/lean-value-tree-overview-82783795/82783795) instead.
+There's a lot about Lean Value Trees in [Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) and it's definitely worth diving into them for a comparison with GIST. It's similar, but perhaps more explicitly "big corporation friendly". If you haven't got time for a whole book then a) you should make some, but b) here's a [slide deck about LVTs](https://www.slideshare.net/slideshow/lean-value-tree-overview-82783795/82783795) instead, though you might need to read 12 books about Lean first before you can understand it.
 
 Christina Wodtke's [Radical Focus](https://www.goodreads.com/book/show/28951428-radical-focus) is a good introduction to OKRs and it's the book that really explained the "let people change their tactics" bit to me. However, if (like me) you also enjoy a bit of schadenfreude then Kevin Mackie's Medium Article provides many ways [to do OKRs wrong](https://medium.com/@kmackie4/why-most-okrs-fail-and-the-fix-that-actually-works-47c500c91a6f), most of which are addressed by GIST and / or LVTs.
 
