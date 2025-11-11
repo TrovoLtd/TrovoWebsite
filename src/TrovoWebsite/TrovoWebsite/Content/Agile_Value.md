@@ -110,7 +110,55 @@ And then for a completely different but certainly knowledgeable and accessible p
 
 ## Product / Market Fit
 
+The concept of Product / Market Fit encapsulates the small-a-agile *startup's* equivalent of the Holy Grail - the point at which your Product has landed successfully upon an eager (and large-enough) cohort of users and customers.
 
+The value of using your Product is obvious to all and sundry. Growth is unstoppable and organic - the thing just sells itself. Once you find that fit, you can pull money down from the proverbial magic tree.
+
+Oh and with any luck it'll actually make more money than it costs, too. Are you reading, Mr. Altman? But I'm jumping ahead to  Cost / Benefit stuff that comes later. Let's focus on the "delighting the customer" bit first, shall we? Or at the very least: "easing their struggles".
+
+Because if your product doesn't do that, as a bare minimum, and at least a little bit better than all the others that are trying, it doesn't matter how snazzy the logo is, or how quickly each page loads, it'll die.
+
+### Desirability and the top-left-hand side of the Business Model Canvas
+
+Product / Market Fit lives in the top-left-hand-side of your Business Model Canvas, concerned as it is with:
+
+* **The Customer Segment(s) you're aiming your product at:** the more focused the better, not so much because you want to *exclude* types of customer, more that if you try to be all things to all people you'll end up being nothing to everybody.
+* **Customer Relationships:** how are you going to slide into people's lives? Are they just going to drop by occasionally when it's purely convenient, for example? Or maybe they'll establish a deep and meaningful rapport with your product and company, and never leave you be? So many choices here.
+* **Channels:** as products are a "delivery system for value", just how exactly is that value going to get delivered? Through the customers' smartphones, noisily, on a bus, during rush-hour, perhaps? Or maybe just in a big old cardboard box?
+
+We're firmly in the area of "Desirability" and the Product Designer when we're up in this corner, too, though remember, dimensions such as Usability / Desirability are as much about *removing barriers to value delivery* as they are defining the core value in the first place.
+
+Defining the actual value is the bit you address in the middle box (Value Propositions), which of course overlaps with all this Product / Market fit malarkey, but which is really addressed in the next section on  Customer Discovery.
+
+### Piling in features is not (usually) the right answer
+
+One common anti-pattern is to jump upon all engagement as a clear signal that "if we give (this) customer(s) exactly what they ask for, *everyone* will love it". This is rarely true - remember nine out of ten "good ideas" at best make no difference, and this applies just as much to the ideas that customers bring you as the ones you dream up yourself.
+
+Understand your customer relationships. Focus on their struggles and their pains (more later). Don't try and catch more market share by *doing more things*, unless you're sure that the "more things" you're doing have got a great chance of taking even more pain away for a key market segment.
+
+So take all such engagement as an opportunity to do more Customer Discovery (see below), but don't start implementing anything until you've got to the bottom of why the customer is asking and done plenty of testing within their segment to find out if they share their pain with others.
+
+### Is Product / Market Fit just a "startup thing"?
+
+I'd say that, in the Digital Realm in particular, where everything's all slippery and never stops changing, *keeping* good Product / Market fit is as much a thing as finding it in the first place, so I'm going to say "no" to the "but is it just for startups?..." question.
+
+I find it helps to think about the [Kano Model](https://en.wikipedia.org/wiki/Kano_model) here, which is a model of various forms and stages of product quality, and the properties of products that make them desirable. Early-stage products that afford new opportunities to an eager market can be categorised as "delighters" - things that really make customers feel like their struggles are being addressed in amazing new ways.
+
+However, in the Digital Realm, today's "delighter" is tomorrow's "meh". And you're only ever two clever, disruptive nerks away from oblivion in the Digital Realm, too. So resting on ones amazing Product Market Fit is always a mistake, particularly if you're not that sure how you got it in the first place... Lucking out on great Product / Market fit by accident is a phenomenon disruptive, digital products can be especially prone to. 
+
+The software and tech companies with longevity in the Digital Realm have all worked out how to re-invent themselves.
+
+### Key Product / Market Fit people and texts
+
+This is where Bob Moesta's [Demand-Side Sales 101](https://therewiredgroup.com/learn/demand-side-sales-101/) begins to step up - particularly wrt how to break down customer's struggles, and the tactics for positioning your solution correctly at every stage. But there's much more about Bob and this book in the next section on Customer Discovery.
+
+As we're deep into mapping the Business Model Canvas onto all your "Go To Market" work here, this is where it really pays to have a copy of [The Startup Owner's Manual](https://steveblank.com/startup-owners-manual-1in/) to refer to as you go along.
+
+Martina Lauchencgo's [Loved](https://www.svpg.com/books/loved-how-to-rethink-marketing-for-tech-products/) is from Marty Cagan's stable, the Silicon Valley Group, and thus focusses upon products in the Digital Realm. Loved is strong on how to align products with sales and marketing, at its heart from the same position of "delivering value not features" as underpins everything I'm on about here.
+
+Marc Andreessen’s [original blog post about Product / Market Fit](https://pmarchive.com/guide_to_startups_part4.html) is a good precis of all this, though perhaps only for the memorable, accurate and yet disturbingly icky phrase: "... the market *pulls* product out of the start-up". Ouch. Though he also gives due props to Andy Rachleff, who came up with the term "Product Market Fit" in the first place.
+
+I suppose I'd better mention Eric Ries's [The Lean Startup](https://www.goodreads.com/book/show/10127019-the-lean-startup) here, too, though I do so somewhat reluctantly because of the benighted term "Minimum Viable Product", which has probably done more to confuse a whole industry than any other. (More in the "Testing Hypotheses" section below).
 
 ## Customer Discovery
 
@@ -132,13 +180,13 @@ So what's the correct question? It's:
 
 * **What did you do?**
 
-*Everyone* can tell you *exactly* what they were going through when they suffered the problem you think you might be able to solve. They can tell you in extreme detail, and you should ask for it. Take them back to the last time they experienced the problem, and ask questions that help them replay the experience. Even "what did you have for breakfast that day?" Or "how was the commute that day? Were you on time for work?" Anything to put them back there, and then they can walk you through the whole timeline of **the problem** from start to finish. (Note, it quite often starts before they think it did, too).
+*Everyone* can tell you *exactly* what they were going through when they suffered the problem you think you might be able to solve. They can tell you in extreme detail, and you should ask for it. Take them back to the last time they experienced the problem, and ask questions that help them replay the experience. Even "what did you have for breakfast that day?" Or "how was the commute that day? Were you on time for work?" Anything to put them back there, and then they can walk you through the whole timeline of **the problem** from start to finish. (Note, said timeline often starts before everyone thinks it did, too, when you get into it).
 
 Just ask the question people can answer easily, and truthfully. And then ask them to replay further scenarios where the problem might have happened slightly differently. And then ask three or four more people. Not only will you then have a good handle on the problem to solve, but you'll have also heard your market describe it *in their words*, too.
 
 ### Jobs To Be Done
 
-Another helpful approach is to analyse the *jobs people are trying to do*, or *the struggles they are having*, and not *the people themselves*. Putting people at the middle of the analysis is the more traditional approach from marketing, and is enshrined in things like Personas etc, but it can mask the problem if your not careful. So put people's jobs, or their *struggles*, front and centre - you'll still learn everything you need to know about the person when you do.
+Another helpful approach is to analyse the *jobs people are trying to do*, or *the struggles they are having*, and not *the people themselves*. Putting people at the middle of the analysis is the more traditional approach from marketing, and is enshrined in things like Personas etc, but it can mask the problem if you're not careful. So put people's jobs, or their *struggles*, front and centre - you'll still learn everything you need to know about the person when you do.
 
 This readjustment has a name: the *Jobs To Be Done* framework (JTBD). There's a lot of overlap between JTBD and Product / Market Fit. Part of JTBD is to think in terms of customers "hiring" or "renting" your product to solve a problem, rather than buying it outright. This really helps in the Digital Realm, where the barriers to competitors building the app that's going to disrupt your long-standing products into oblivion are low. Your current customers are only "hiring" your product for as long as it's the best solution, and when a brighter young thing comes along, they'll fire it. Life can be so cruel.
 
@@ -188,13 +236,13 @@ Then the right hand side of the Business Model Canvas is where all the costs sit
 
 ### Uncontrolled costs
 
-I feel a little uncanny at this point, because *surely, in a capitalist society*, everyone should be measuring the value of things, shouldn't they?
+I feel a little uncanny at this point, because *surely, in a capitalist society*, everyone should be measuring how much it costs to produce and deliver "things", shouldn't they?
 
-Well, it really doesn't appear like that's the case, from where I'm sitting. Costs that are poorly-managed, indeed completely uncontrolled, seem to be a feature of the tech sector, ranging from companies that just haven't worked out a business model at all, to ones that seem to exist [in order to fleece money from investors](https://wlockett.medium.com/you-have-no-idea-how-screwed-openai-actually-is-8358dccfca1c) (or indeed, entire nations), because their balance sheets just don't add up.
+Well, it really doesn't appear like that's the case, from where I'm sitting. Costs that are poorly-managed, indeed completely uncontrolled, seem to be a feature of the tech sector, ranging from companies that just haven't worked out a business model at all, to ones that seem to exist [in order to fleece money from investors](https://wlockett.medium.com/you-have-no-idea-how-screwed-openai-actually-is-8358dccfca1c) (or indeed, entire nations).
 
 Avoiding such traps is what the top-left-hand-side of the Business Model Canvas is for. This is where the software engineer on the team steps up and defines the "Feasibility" parts of your value-delivery scheme:
 
-* **Key Activities:** the main things people are going to *do* in order to deliver your product.
+* **Key Activities:** the main things people are going to *do* in order to deliver your product. This includes "building it", of course, but one oft-made mistake is to *only* focus on the building part, and forget all the other parts of delivery, e.g. customer service and other after-market activities.
 * **Key Resources:** not just the people doing the doing, but also the tools they'll use, the buildings they'll be doing it in, the amount of Jeff Bezos's compute power they'll be over-consuming when they write sub-optimal code, etc.
 * **Key Partners:** which other organisations are you going to rely upon to do the bits of value delivery you're not so good at, but it's not worth your time to learn, or invest in the infrastructure to deliver yourself?
 
