@@ -329,7 +329,29 @@ Christina Wodtke's [Radical Focus](https://www.goodreads.com/book/show/28951428-
 
 ## Hypotheses and Experimentation
 
+So at long last, we reach the big payoff: the point at which being small-a-agile, i.e. bringing all 12 of the angry snakes together in perfect balance, starts to provide people that are building software with distinct advantages over those that are merely making stuff up as they go along.
+
+That said, what I'm about to describe could be described as "making stuff up as you go along". The difference is that doing it properly means "making stuff *methodically* and *scientifically*". This means, *experimenting*, *measuring the outcomes* of the experiments we conduct, with measurements defined in terms of value delivered. We started to introduce this in the previous section with the discussion of outcomes over outputs and key results. This is where we explore the practical application of this.
+
+There's a major caveat here: to experiment properly you *have to be good at experimenting*. I.e.: you should have at least an affinity with scientific methods. It's quite easy to conduct "experiments" that simply exist to confirm your biases, so an inability to at least try and remain objective about results, and failure to acknowledge that experiments that turn out exactly as expected are as rare as hens' teeth, put all the good intentions behind experimentation at risk.
+
+Never forget: a *successful* experiment is one that turns out unexpectedly.
+
 ### The Dreaded MVP
+
+The idea that software engineering teams should experiment with value isn't new. Unfortunately, though, historically it's been tied to a concept that's a strong contender for the most confusing and misunderstood in the whole Digital Realm: the *Minimum Viable Product*.
+
+I've lost count of how many meetings I've been in where some garbled, confused interpretation of "MVP" has been tossed across the table. What it's supposed to mean is "do the least amount of work possible to get your business idea into the market, get some feedback and test your wobbliest assumptions". So the "minimum" part is OK. It's the other two words that twist everyone's head.
+
+One big issue is that the word "viable" really confuses and stresses-out software engineers. In their world, this immediately translates into "not going to get hacked", and "able to scale to the five million concurrent customers we're going to need to pay for the 18 bedroom mansion in the Cotswolds that it is my destiny to own".
+
+The word "product" similarly confuses people on the business side, who tend to interpret it not so much as "a system for delivering *value to* customers" as "a system for *extracting payment from* customers".
+
+If these sorts of definitions are in people's heads, then *the word "minimal" no longer applies*. What you're thinking of is *an actual, box-fresh, fully functional product*. These take *months* or *years* to build, and that is, of course, a ridiculous amount of time to be waiting to test assumptions that are almost certainly wrong.
+
+So we've reached a stage where so many people have misinterpreted MVP and made a ruck of them that it's best not to mention them at all. Instead, encourage software engineers to focus on *feasibility*: i.e. "could this design scale"? "How easily hacked might it be"? And of course "how much is it likely to cost"?. Then focus product and product design on the "viability" bit... "Is the target Customer Segment big enough?" "Does the idea land well with them or are they confused by it?" "What kind of service delivery effort would be involved in maintaining the sort of Customer Relationships we're considering?" " And: "will the proposed revenue model generate enough cash flow to keep the whole lot upright?"
+
+Trying to answer these questions will generate whole heaps of assumptions, which it then becomes the job of the team to *test*.
 
 ### Discover and Deliver in the Same Process
 
