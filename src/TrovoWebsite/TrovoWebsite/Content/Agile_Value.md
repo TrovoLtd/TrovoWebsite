@@ -327,7 +327,7 @@ There's a lot about Lean Value Trees in [Edge](https://www.thoughtworks.com/en-g
 
 Christina Wodtke's [Radical Focus](https://www.goodreads.com/book/show/28951428-radical-focus) is a good introduction to OKRs and it's the book that really explained the "let people change their tactics" bit to me. However, if (like me) you also enjoy a bit of schadenfreude then Kevin Mackie's Medium Article provides many ways [to do OKRs wrong](https://medium.com/@kmackie4/why-most-okrs-fail-and-the-fix-that-actually-works-47c500c91a6f), most of which are addressed by GIST and / or LVTs.
 
-## Hypotheses and Experimentation
+## Testing Value Hypotheses
 
 So at long last, we reach the big payoff: the point at which being small-a-agile, i.e. bringing all 12 of the angry snakes together in perfect balance, starts to provide people that are building software with distinct advantages over those that are merely making stuff up as they go along.
 
@@ -335,7 +335,7 @@ That said, what I'm about to describe could be described as "making stuff up as 
 
 There's a major caveat here: to experiment properly you *have to be good at experimenting*. I.e.: you should have at least an affinity with scientific methods. It's quite easy to conduct "experiments" that simply exist to confirm your biases, so an inability to at least try and remain objective about results, and failure to acknowledge that experiments that turn out exactly as expected are as rare as hens' teeth, put all the good intentions behind experimentation at risk.
 
-Never forget: a *successful* experiment is one that turns out unexpectedly.
+Never forget: a *successful* experiment is one that turns out unexpectedly, because it teaches you something you didn't know about the value of your product, and hence either increases the chances of its success, or strengthens the case that you should stop throwing time and effort at it for no return. Either way, you'll end up richer.
 
 ### The Dreaded MVP
 
@@ -349,19 +349,65 @@ The word "product" similarly confuses people on the business side, who tend to i
 
 If these sorts of definitions are in people's heads, then *the word "minimal" no longer applies*. What you're thinking of is *an actual, box-fresh, fully functional product*. These take *months* or *years* to build, and that is, of course, a ridiculous amount of time to be waiting to test assumptions that are almost certainly wrong.
 
-So we've reached a stage where so many people have misinterpreted MVP and made a ruck of them that it's best not to mention them at all. Instead, encourage software engineers to focus on *feasibility*: i.e. "could this design scale"? "How easily hacked might it be"? And of course "how much is it likely to cost"?. Then focus product and product design on the "viability" bit... "Is the target Customer Segment big enough?" "Does the idea land well with them or are they confused by it?" "What kind of service delivery effort would be involved in maintaining the sort of Customer Relationships we're considering?" " And: "will the proposed revenue model generate enough cash flow to keep the whole lot upright?"
+So we've reached a stage where so many people have misinterpreted MVP and made a ruck of them that it's best not to mention them at all. Instead, encourage software engineers to focus on *feasibility*: i.e. "could this design scale"? "How easily hacked might it be"? And of course "how much is it likely to cost"?. Then focus product and product design on the "viability" and "usability / desirability" bits... "Is the target Customer Segment big enough?" "Does the idea land well with them or are they confused by it?" "What kind of service delivery effort would be involved in maintaining the sort of Customer Relationships we're considering?" " And: "will the proposed revenue model generate enough cash flow to keep the whole lot upright?"
 
-Trying to answer these questions will generate whole heaps of assumptions, which it then becomes the job of the team to *test*.
+Trying to answer these questions will generate whole heaps of *assumptions*, which it then becomes the job of the team to *test*.
 
-### Discover and Deliver in the Same Process
+### Assumption Mapping
 
-### Confidence Levels
+There's a pretty simple technique called Assumption Mapping, which fits in well with the Business Model Canvas. It's pretty much as described above: the team of three amigos uses their canvas to document important decisions and ideas about the key parts of the canvas, but they also slap notes about the assumptions they're making around the edge of the canvas.
+
+A core example of an assumption related to a value proposition would be: "customers in segment y experience pains and struggles that will make them desire this flying teapot", though there would also be ones such as "there are enough customers in that segment in the first place", "we'll be able to find the kind of partners we need to help us deliver the product at this sort of cost", etc.
+
+Then the Assumption Map is the standard 2 x 2 matrix that pops up everywhere - with "how much evidence do we have?" along the X axis (from high to low), and "how important they are" on the Y, from low to high bottom to top. This results in a top-right-hand quadrant full of the most important assumptions, based on the least amount of evidence, for the team to focus upon.
+
+Perhaps it goes without saying that this is an iterative technique, so as you learn more, you go through the process again, and fresh assumptions should bubble up into the "low evidence / high importance" quadrant. And as it's the Digital Realm and is all slippery, you should never stop until it's time to turn your product off. Assumption Mapping will help you decide when that is, of course.
+
+### GIST and Confidence Levels
+
+Structuring experimentation into actual bits of work for a team to do is the core of the GIST framework introduced in the previous section. The "I" stands for Ideas, which is, of course, something a lot of people have. They're usually not very good, so the key activity is weeding out the bad ones by testing, testing and testing again. Indeed, it's quicker if we think of all early-stage, "bright" ideas as being assumptions.
+
+A key tool for doing this is "the Confidence Meter", which provides a framework for assessing how confident the team are about an idea at any given stage. "Confidence" itself relates to two specific dimensions of a product's development: the Impact we feel it's going to have, and the Ease of delivering it. Which makes a simple if somewhat misleading mnemonic: ICE.
+
+Things which have traditionally provided great degrees of confidence in product ideas, such as "the Highest-Paid Person in the Organisation thinks it's bound to be easy to deliver", or "the sales team keep telling us that it'll *definitely* have huge impact", are given very short shrift on the Confidence Meter, but as merely ignoring such things can be very career-limiting when a competitor makes a glorious success of the Idea in question, they're not entirely off the table.
+
+Instead the trick is for the team to acknowledge such ideas, and then plan in the work to shuffle what we know about the potential Impact and Ease of delivery around the Meter until they're better understood. Doing so will likely confirm that the Idea is not going to fly in its current state (the odds against are alway high), but at least they might generate fresh Ideas to start on anew. But a few Ideas ought to get somewhere, at which point actual products start to emerge from the murk.
+
+Interestingly, the initial launch of a fully-fledged product Idea into the market doesn't correlate to the highest level of confidence, as the Meter acknowledges that there's still lots to learn about the product at this stage. So maximum confidence is only established once the product is going gang-busters in the market and killing all comers stone dead. At this point I'd add: "it's the Digital Realm, assume such a glorious state is only temporary, and keep assessing how confident you are on a regular basis".
 
 ### Making "Bets"
 
-### Prototyping to Learn
+Just as GIST has its own model for confidence and uncertainty, so does the Lean Value Trees / Measures of Success (LVT / MoS) approach. This is based upon a "Bets" metaphor.
 
-### Assumption Mapping
+For my money this is a broken metaphor. People *bet on something* adversarially, when they're presented the odds of something happening and reckon they've been worked out wrong. At this point, they are *certain* that they understand the situation and its probabilities better that the person presenting the odds, and are prepared to risk money on the *fact* the chance is greater than their opponent believes it to be.
+
+So it's got very little to do with hypothesising, which is about learning more about things that are only partially understood. Being humble, in other words, and admitting that you don't know everything. When gambling, both protagonists each think they already know more about a given situation than the other.
+
+That said, there's plenty in the LVT / MoS approach that recommends itself. For instance, there's a template for helping the team structure their tests, along the lines of: "...we believe that by *doing this thing* we will *cause this valuable outcome*. We will validate this idea by *performing this action*." Some teams might like this sort of structure.
+
+Also there's a good model for the types of indicator to measure: high-level concepts at the top of the "goal" hierarchy would typically be measured with "lagging" indicators, i.e. measures where it takes a while to move the needle, whereas the things we believe might cause us to reach a goal can be measured with leading ones, i.e. more immediately-measurable ones such as "how many widgets did we sell on Tuesday?" or "what's the average length to time it takes a customer to install this gizmo?"
+
+### A/B Testing is *the* Digital Realm technique
+
+Tying this all back into small-a-agility, we quickly reach the conclusion that the slippery old Digital Realm, where we need to move in baby steps to be sure we're moving forward on a firm footing, lends itself to a fundamental form of incremental "A / B" testing. Basically, "have the changes we've just made improved things or not?"
+
+This is what a good proportion of the 12 Angry Snakes relate to. Because product in the Digital Realm aren't real, and are essentially flows of data and information that are mediated and abstracted by code, they're just plain fragile and vulnerable to unexpected breakages. Change too much at once at your peril.
+
+Instead, know where your key indicators / needles are, then watch them like a hawk with every change. One common approach is to put the newer version in place alongside the old one, using the users of the old one as a control group to compare against how users of the new one are getting on. This has some scientific merit though I personally find it quite annoying when a product I'm using keeps flip-flopping between old and new versions, so I wouldn't make this the only tool in your box.
+
+### Key people and sources related to testing value hypotheses
+
+[Testing Business Ideas](https://www.strategyzer.com/library/testing-business-ideas-book) is the book about Assumption Mapping, and also lists various experiments you can do to test assumptions about Viability, Feasibility and Desirability / Usability. It's another Strategyzer / Osterwalder one, but this time with David J. Bland, who came up with the Assumption Mapping technique.
+
+[Evidence Guided](https://itamargilad.com/book-evidence-guided/) has the Confidence Meter in it, and explains in detail how to use it to nudge Ideas around the Meter and break your experiments down into Steps and Tasks for teams to actually *do*. I think it's my favourite, really.
+
+[Edge](https://www.thoughtworks.com/en-gb/insights/books/edge) is a good place to go for an in-depth discussion of LVT / MoS. As I say, I'm not on board with the core metaphor but it's still got some good ideas in it.
+
+Also, highly-recommended to those teams that would like to put rocket-fuel in their experimentation, and get *loads of it done in a week*, is [Sprint](https://www.thesprintbook.com/), which was a technique invented at Google (which is where Itamar Gilad earned his chops, too).
+
+Bob Moesta's [Learning To Build](https://www.learningtobuildbook.com/) describes an interesting approach to uncertainty in product development that he calls "Prototyping to Learn". This is a technique for exploring the whole solution space quickly and efficiently, rather than working incrementally . I'd certainly recommend checking it out, though remember that Bob hasn't just worked in the Digital Realm, so his book contains a real-world example of the process. Bob *dislikes A/B testing*, which he considers a very inefficient way of exploring a problem space. In the real world, he's right, but the real-world lends itself to models that are easier to define, constrained as they are by the laws of physics etc. "Prototyping To Learn" lives in this world, where we need to optimise a constrained model. 
+
+But in the Digital Realm, we don't really know *whether we've got the right model*, at least until we've reached a pretty high confidence level. Also, if the team is genuinely attending to all 12 of the small-a-agility snakes, we can iterate *very quickly*.
 
 ## Team Autonomy
 
