@@ -476,8 +476,50 @@ And I would also recommend turning to Highsmith et al's [Edge](https://www.thoug
 
 ## Conclusion
 
+So there's a lot of moving parts to properly delivering value in small-a-agile ways, in the Digital Realm, aren't there?
+
+To quote one of my magic old bosses again: "... agility isn't a magic bullet". It's bloody difficult. That's because *delivering good software is bloody difficult*. If is was easy, then (presumably) we'd be surrounded by utterly brilliant software, wouldn't we? Ahem.
+
+So I'm going to end with a few deeper and more meaningful points about weightier topics that underpin those explored above.
+
 ### Management vs Leadership
+
+Most of what I've detailed above requires a change it attitude from those "at the top of the tree", from having a managerial mindset to leading. There's a pretty profound difference, and in my experience it even takes a different sort of person to do each thing.
+
+Great managers, in my experience, have a very even temperament. They don't get angry, just disappointed. They meet with triumph and disaster, and treat those two impostors just the same.
+
+Great *leaders* tend to be a bit more dramatic - they fire everyone up. Their purpose is both to line everyone up towards a goal, and pep their staff up to achieve it. But, crucially, they don't *lie*, either. This is a pretty pejorative term, I know, but let's blame the process not the person. Usually when a leader lies, the first person they lie to is themselves. Nevertheless, if the goal is "get us out of the swamp before we drown", great leaders are truthful about it. They're as happy owning the bad as the good, making supporting them much easier.
+
+The sort of autonomy required to make those working in the Digital Realm productive requires *leadership* more than *management*. The whole "Agile is dead" backlash (which is [where we came in](./Agile_WhatsThePoint.md) of course) is a reaction to the latter, and something of a cris-de-coeur for the former. But switching from one mode to the other can be very difficult for business people to do, and that's at the root of a lot of the Agile vs agility angst.
 
 ### Finance And The Digital Realm
 
-### Is The Concept Of Value Changing
+The impact that the slippery, crazy old Digital Realm has had on the world of finance is one of those things that's *so massive* it's a bit like the sun: it does its mad old thing in the background, and it's generally a good idea not to stare right at it.
+
+But at the risk of burning our eyes / minds out of our heads, here's a few lowlights:
+
+* Wild speculation about the disruptive power of the internet caused one massive financial crash around the turn of the millenium. I remember it fondly: for some reason the bit that sticks most is a failed website called "ClickMango.com" that caused no lesser light that Patsy from Absolutely Fabulous to [lose lots of money](http://news.bbc.co.uk/1/hi/business/858200.stm). (I have no idea why I remember this).
+* That knotted bundle of angst was just a pre-cursor to the crisis that happened in 2008. Family of mine lost a house in that one, and have lived in penury since, so I was all up for a bit of what the good people of Iceland did; i.e. they put their greedy spivs in prison. Anyway, the nonsense that caused 2008's crash would have been impossible without being able to [diddle debt into twisted, abstract models with computers](https://en.wikipedia.org/wiki/Collateralized_debt_obligation). Another victory for IT right there.
+* Right now it feels like these two were just hors d'oeuvres to the one that's just around the corner, given the crazy behaviour of "tech-bros" in general and [Sam Altman in particular](https://albertoromgar.medium.com/you-have-no-idea-how-screwed-openai-is-9481fe33f1db). To quote Han Solo: "... I've got a very bad feeling about this".
+
+I mean, the Digital Realm has disrupted *everything* - with the invention of the smartphone being a key milestone on the route to driving *everyone* a bit nuts - and I don't think we've quite reached the bottom of the curve, yet, even. But I suspect it's already disrupted what's oft considered to be "capitalism" into *some sort of oblivion*, too.
+
+That said, we're still going to need money, though - as its original purpose was to prevent us all from having to come to market on the same day, and it *is* a great enabler to the process of comparing apples with oranges. Those will still be a thing, even when, one hopes, making a load of abstract wealth by doing utterly pointless bobbins becomes less of one.
+
+### Is The Concept Of Value Changing?
+
+Given the rant in the previous section, I'd say we're close to a big correction in what we consider valuable. 
+
+"The model replacing reality" is one of the big pitfalls what I've described above, which the Business Model Canvas can epitomise. I've obviously led quite a sheltered life away from the hotbeds of the Digital Realm, tapping away at my keyboard and tutting at the insanity of it all. But from my vantage point, it really does feel as if "the game" is to make as much money as possible regardless of adding any actual value. Investing early, then cashing-in ones chips based upon a great-seeming model, and solid forecasts, but *before* the actual return of real profits.
+
+This sort of behaviour makes one some sort of "winner", apparently. Or maybe it's completely nuts, and not sustainable. And when "unsustainable" means: "...comes crashing down in a avalanche of misery sooner rather than later", then there may be troubles ahead.
+
+Perhaps it's just that my YouTube algorithm insists on showing me videos about a pending financial crash, though, of course. Maybe if I'd made other viewing choices, I'd be sat in a comfortable bubble of "AI is blooming marvellous, innit?..." instead...
+
+I think / hope that the clever, younger people of this world are already coming to sensible conclusions about what value *really* means, though, given that they're being excluded from older-people's games, such as "owning property" or "having a stable career". If the sensible ones among them are also including "the pointless accumulation of cash without actually doing anything valuable" in the list of stupid old people's nonsense to avoid doing, then we might have a chance?
+
+Another (thank heavens, final) point: "...is the Digital Realm changing?" I'd suggest that it's certainly got its weird little fingers in more "real-world" things these days, when we consider phenomena like 3D printing, fast-fashion etc. Remember (from [essay 1](./Agile_WhatsThePoint.md)), small-a-agility isn't "to help you change direction", it's to stop you going completely insane *when there's nothing stopping you* from changing direction. And when the digitisation of everything has made it easier to get into that trap in the real world, too, then you'll need the tricks I've described here in your armoury.
+
+So perhaps the future is that we all have more "autonomy" in the real world, too? And that there will be fewer barriers to us using digital technology to help carve out some comfort for ourselves and our neighbours? Hopefully there's something at least vaguely "empowering" in that thought? 
+
+Hey, end on a song.
